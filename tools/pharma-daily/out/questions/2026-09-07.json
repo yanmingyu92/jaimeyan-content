@@ -1,0 +1,95 @@
+{
+  "date": "2026-09-07",
+  "questions": [
+    {
+      "id": "q1",
+      "question": "TAK-788 (mobocertinib) previously failed its first-line Phase 3 in EGFR exon 20 insertion NSCLC (EXCLAIM-2) and was withdrawn from the U.S. and EU in 2023-2024; what should we make of a new first-line Phase 3 readout window for the same compound?",
+      "category": "contradiction",
+      "trigger": "readouts[0] (NCT04129502, Takeda, TAK-788 first-line vs platinum chemo)",
+      "reader_value": "Decides whether this readout is a material catalyst or legacy pipeline residue.",
+      "answerable_from": "web",
+      "priority": 1
+    },
+    {
+      "id": "q2",
+      "question": "Capivasertib+fulvestrant is already approved in Western markets for HR+/HER2- breast cancer; what incremental commercial value does a China-only Phase 3 readout add for AstraZeneca?",
+      "category": "so-what",
+      "trigger": "readouts[1] (NCT06635447, AstraZeneca, Capivasertib+Fulvestrant in Chinese patients)",
+      "reader_value": "Shapes AZ China oncology revenue expectations and launch sequencing.",
+      "answerable_from": "web",
+      "priority": 2
+    },
+    {
+      "id": "q3",
+      "question": "Felzartamab entered Biogen's pipeline via the ~$1.8B Human Immunology Biosciences acquisition; what prior Phase 1/2 antibody-mediated rejection data support this Phase 3 readout in kidney transplant patients?",
+      "category": "background",
+      "trigger": "readouts[2] (NCT06685757, Biogen, felzartamab in kidney transplant AMR)",
+      "reader_value": "Calibrates the probability of success for Biogen's transplant immunology bet.",
+      "answerable_from": "deals-db",
+      "priority": 3
+    },
+    {
+      "id": "q4",
+      "question": "The pack flags zero FDA approvals in a weekday window as a possible precursor to a PDUFA catch-up batch; when was the last FDA approval action, and does the data actually support a 5-session catch-up pattern?",
+      "category": "challenge",
+      "trigger": "insights[0] (absence-as-signal, approvals: 0)",
+      "reader_value": "Determines whether the quiet window is a meaningful signal or seasonal noise.",
+      "answerable_from": "web",
+      "priority": 4
+    },
+    {
+      "id": "q5",
+      "question": "RGX-314 is being studied via both subretinal and suprachoroidal delivery; what does a 671-participant Phase 2 for subretinal administration alone tell us about AbbVie's preferred commercial route?",
+      "category": "so-what",
+      "trigger": "readouts[3] (NCT04704921, AbbVie/RGX-314, enrollment 671)",
+      "reader_value": "Signals which administration mode is likely to define the nAMD gene-therapy program.",
+      "answerable_from": "web",
+      "priority": 5
+    },
+    {
+      "id": "q6",
+      "question": "QLG1091 is described as a GLP-1 receptor agonist being compared head-to-head against Rybelsus in Chinese type 2 diabetes patients; is it positioned as an oral semaglutide biosimilar or as a differentiated oral GLP-1?",
+      "category": "background",
+      "trigger": "readouts[6] (NCT07487103, Qilu Pharmaceutical, QLG1091 vs Rybelsus)",
+      "reader_value": "Determines whether this is a price-compression story or a novel-asset China launch story.",
+      "answerable_from": "web",
+      "priority": 6
+    },
+    {
+      "id": "q7",
+      "question": "BL-M07D1 is an HER2 ADC competing head-to-head with T-DM1 in unresectable or metastatic HER2-positive breast cancer; what is its payload, linker, and DAR differentiation versus T-DM1 and Enhertu?",
+      "category": "background",
+      "trigger": "readouts[8] (NCT06316531, Sichuan Baili, BL-M07D1 vs T-DM1)",
+      "reader_value": "Sets expectations for whether a positive readout would alter the HER2+ breast cancer treatment hierarchy.",
+      "answerable_from": "web",
+      "priority": 7
+    },
+    {
+      "id": "q8",
+      "question": "HengRui's lutetium-177 oxodotreotide is the same peptide-radionuclide combination as Novartis's Lutathera; what would a positive China readout mean for Lutathera's exclusivity and local radioligand competition?",
+      "category": "so-what",
+      "trigger": "readouts[11] (NCT05884255, Jiangsu HengRui, 177Lu oxodotreotide in advanced GEP-NETs)",
+      "reader_value": "Tests whether Lutathera's China franchise is already facing erosion from domestic radioligand copies.",
+      "answerable_from": "web",
+      "priority": 8
+    },
+    {
+      "id": "q9",
+      "question": "The deal comps show a $666M median total consideration but only 2 historical transactions and are flagged thin_sample; can this median be used as a valuation anchor today, or should it be discarded?",
+      "category": "challenge",
+      "trigger": "comps (n_historical: 2, median_total_usd: 666200000.0, thin_sample: true)",
+      "reader_value": "Affects whether any deal valuation discussion today is grounded or spurious.",
+      "answerable_from": "unanswerable",
+      "priority": 9
+    },
+    {
+      "id": "q10",
+      "question": "Zibotentan/dapagliflozin already reported positive Phase 2b data in proteinuric CKD (ZENITH-CKD); what additional evidence does this Phase 2 readout provide beyond the published results?",
+      "category": "so-what",
+      "trigger": "readouts[10] (NCT06942910, AstraZeneca, Zibotentan/Dapagliflozin in CKD with high proteinuria)",
+      "reader_value": "Determines if the readout is confirmatory for AZ's CKD strategy or merely incremental.",
+      "answerable_from": "web",
+      "priority": 10
+    }
+  ]
+}

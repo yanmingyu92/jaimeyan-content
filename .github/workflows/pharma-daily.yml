@@ -1,0 +1,119 @@
+# Daily pharma brief: pipeline -> draft -> audio -> QC -> review PR.
+name: pharma-daily
+
+on:
+  schedule:
+    - cron: '7 13 * * *'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+  pull-requests: write
+
+concurrency:
+  group: pharma-daily
+  cancel-in-progress: false
+
+jobs:
+  brief:
+    runs-on: ubuntu-latest
+    timeout-minutes: 45
+    steps:
+      - uses: actions/checkout@v6
+
+      - name: Resolve run date (UTC)
+        run: echo "RUN_DATE=$(date -u +%F)" >> "$GITHUB_ENV"
+
+      - uses: actions/setup-node@v6
+        with:
+          node-version: 22
+          cache: npm
+
+      - name: Install content QC dependencies
+        run: npm ci
+
+      - uses: astral-sh/setup-uv@v8.3.2
+        with:
+          enable-cache: true
+
+      - name: Install pipeline dependencies
+        run: cd tools/pharma-daily && uv sync --locked
+
+      - name: Run pipeline (fetch -> DB -> analysis -> pack -> draft post)
+        run: cd tools/pharma-daily && uv run python daily.py --days 2 --filing-text
+
+      - name: Install Kimi Code CLI
+        if: ${{ vars.PHARMA_AGENT == '1' }}
+        run: npm install -g @moonshot-ai/kimi-code
+
+      - name: Generate questions from the evidence pack
+        if: ${{ vars.PHARMA_AGENT == '1' }}
+        env:
+          KIMI_API: ${{ secrets.KIMI_API }}
+          DEEPSEEK_KEY: ${{ secrets.DEEPSEEK_KEY }}
+        run: bash tools/pharma-daily/run-llm.sh kimi "Read tools/pharma-daily/prompts/grill.md and follow it exactly for the pack at tools/pharma-daily/out/pack/${RUN_DATE}.json. Write tools/pharma-daily/out/questions/${RUN_DATE}.json and nothing else."
+
+      - name: Retrieve evidence cards
+        if: ${{ vars.PHARMA_AGENT == '1' }}
+        env:
+          KIMI_API: ${{ secrets.KIMI_API }}
+          DEEPSEEK_KEY: ${{ secrets.DEEPSEEK_KEY }}
+        run: bash tools/pharma-daily/run-llm.sh kimi "Read tools/pharma-daily/prompts/retrieve.md and follow it exactly. Questions: tools/pharma-daily/out/questions/${RUN_DATE}.json; pack: tools/pharma-daily/out/pack/${RUN_DATE}.json. Kimi Datasource is not available in CI; use the deals DB and web search only. Write tools/pharma-daily/out/evidence/${RUN_DATE}.json and nothing else."
+
+      - name: Redraft with questions and evidence
+        if: ${{ vars.PHARMA_AGENT == '1' }}
+        env:
+          KIMI_API: ${{ secrets.KIMI_API }}
+          DEEPSEEK_KEY: ${{ secrets.DEEPSEEK_KEY }}
+        run: bash tools/pharma-daily/run-llm.sh kimi "Read .agents/skills/pharma-daily/SKILL.md and follow its steps 5-9 for the pack at tools/pharma-daily/out/pack/${RUN_DATE}.json, the questions at tools/pharma-daily/out/questions/${RUN_DATE}.json, and the evidence cards at tools/pharma-daily/out/evidence/${RUN_DATE}.json (if either file is missing, proceed from the pack alone). Redraft content/posts/pharma-daily-${RUN_DATE}.md from templates/daily-template.md under the rules in tools/pharma-daily/EDITORIAL.md. Run the fact-check pass against the pack and evidence cards. Stop before the human review gate: no video, no git."
+
+      - name: Run adversarial fact-check
+        if: ${{ vars.PHARMA_AGENT == '1' }}
+        env:
+          KIMI_API: ${{ secrets.KIMI_API }}
+          DEEPSEEK_KEY: ${{ secrets.DEEPSEEK_KEY }}
+        run: bash tools/pharma-daily/run-llm.sh deepseek "Read tools/pharma-daily/prompts/critique.md and follow it exactly for the draft at content/posts/pharma-daily-${RUN_DATE}.md. Fix violations in place and write the report to tools/pharma-daily/out/review/${RUN_DATE}.md. No git."
+
+      - name: Generate audio narration (best effort)
+        continue-on-error: true
+        run: cd tools/pharma-daily && uv run python make_audio.py "pharma-daily-${RUN_DATE}"
+
+      - name: QC content and assets
+        run: npm run qc:blog && npm run qc:assets
+
+      - name: Compose PR body from the pack
+        run: |
+          cd tools/pharma-daily && uv run python - <<EOF > "$GITHUB_WORKSPACE/pr_body.md"
+          import json, pathlib
+          p = json.loads(pathlib.Path("out/pack/${RUN_DATE}.json").read_text(encoding="utf-8"))
+          c = p["comps"]
+          print(f"## Pharma Daily - {p['date']}")
+          print()
+          print(f"- **{len(p['deals'])}** deals | **{len(p['approvals'])}** approvals | **{len(p['readouts'])}** readouts (90d)")
+          print(f"- comps: n={c['n_historical']} historical, thin_sample={c['thin_sample']}")
+          print(f"- sources ok: {', '.join(p['provenance']['sources_ok'])}")
+          if p["provenance"]["sources_failed"]:
+              print(f"- **FAILED SOURCES: {', '.join(p['provenance']['sources_failed'])}**")
+          print()
+          print("Review checklist: TL;DR accuracy vs pack | One Take is judgment not fact | undisclosed fields stay undisclosed | thin-sample caveats present.")
+          print()
+          print("Pack: `tools/pharma-daily/out/pack/" + p["date"] + ".json`")
+          EOF
+
+      - name: Open review PR
+        uses: peter-evans/create-pull-request@v8
+        with:
+          branch: pharma-daily/${{ env.RUN_DATE }}
+          delete-branch: true
+          commit-message: "feat(pharma-daily): daily brief ${{ env.RUN_DATE }}"
+          title: "Pharma Daily - ${{ env.RUN_DATE }}"
+          body-path: pr_body.md
+          add-paths: |
+            content/posts
+            public/figures
+            public/audio
+            tools/pharma-daily/data/pharma.db
+            tools/pharma-daily/out/pack
+            tools/pharma-daily/out/questions
+            tools/pharma-daily/out/evidence
+            tools/pharma-daily/out/review

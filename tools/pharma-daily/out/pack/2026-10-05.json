@@ -1,0 +1,315 @@
+{
+  "date": "2026-10-05",
+  "window": {
+    "start": "2026-10-04",
+    "end": "2026-10-05"
+  },
+  "deals": [
+    {
+      "company": "Sensible Bio",
+      "ticker": null,
+      "licensor": null,
+      "licensee": null,
+      "type": "financing",
+      "upfront_usd": null,
+      "total_usd": 47000000.0,
+      "therapeutic_area": null,
+      "modality": "RNA therapeutic",
+      "phase": null,
+      "target": null,
+      "percentile_total": null,
+      "source_url": "https://endpoints.news/sensible-bio-secures-47m-series-a-for-mrna-therapy-manufacturing-platform/",
+      "source_title": "Sensible Bio secures $47M Series A for mRNA therapy manufacturing platform"
+    },
+    {
+      "company": "",
+      "ticker": null,
+      "licensor": null,
+      "licensee": null,
+      "type": "collaboration",
+      "upfront_usd": 355000000.0,
+      "total_usd": 1200000000.0,
+      "therapeutic_area": null,
+      "modality": null,
+      "phase": null,
+      "target": null,
+      "percentile_total": 76.5,
+      "source_url": "https://endpoints.news/csl-to-pay-355m-upfront-to-co-develop-alentis-kidney-and-liver-drug/",
+      "source_title": "CSL to pay $355M upfront to co-develop Alentis’ kidney and liver drug"
+    },
+    {
+      "company": "Jasper Therapeutics, Inc.",
+      "ticker": null,
+      "licensor": null,
+      "licensee": null,
+      "type": "license",
+      "upfront_usd": null,
+      "total_usd": null,
+      "therapeutic_area": null,
+      "modality": null,
+      "phase": null,
+      "target": null,
+      "percentile_total": null,
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1788028/000121390026106574/ea030760201ex99-3.htm",
+      "source_title": "Jasper Therapeutics, Inc. 8-K mentioning license agreement"
+    }
+  ],
+  "approvals": [],
+  "readouts": [
+    {
+      "nct": "NCT06838000",
+      "phase": "Phase 3",
+      "sponsor": "Sanofi Pasteur, a Sanofi Company",
+      "title": "Study of the Safety and Immunogenicity of Catch-up Vaccination With a 21-valent Pneumococcal Conjugate Vaccine (PCV21) in Healthy Infants, Toddlers, Children, and Adolescents",
+      "primary_completion": "2026-12-01",
+      "enrollment": 1268,
+      "score": 36.66,
+      "url": "https://clinicaltrials.gov/study/NCT06838000"
+    },
+    {
+      "nct": "NCT06915480",
+      "phase": "Phase 3",
+      "sponsor": "Hugo W. Moser Research Institute at Kennedy Krieger, Inc.",
+      "title": "Reducing Missed Appointments",
+      "primary_completion": "2026-12-31",
+      "enrollment": 5000,
+      "score": 28.55,
+      "url": "https://clinicaltrials.gov/study/NCT06915480"
+    },
+    {
+      "nct": "NCT07029711",
+      "phase": "Phase 3",
+      "sponsor": "Pfizer",
+      "title": "A Study to Learn About Medicine Called Ritlecitinib in Children Aged Between 6 to 12 Years With Severe Alopecia Areata",
+      "primary_completion": "2026-12-02",
+      "enrollment": 208,
+      "score": 28.54,
+      "url": "https://clinicaltrials.gov/study/NCT07029711"
+    },
+    {
+      "nct": "NCT07284654",
+      "phase": "Phase 3",
+      "sponsor": "Vaxcyte, Inc.",
+      "title": "Safety, Tolerability, and Immunogenicity of VAX-31 in Adults ≥50 Years With Immunobridging to Adults 18-49",
+      "primary_completion": "2027-01",
+      "enrollment": 4049,
+      "score": 27.92,
+      "url": "https://clinicaltrials.gov/study/NCT07284654"
+    },
+    {
+      "nct": "NCT05692180",
+      "phase": "Phase 3",
+      "sponsor": "AstraZeneca",
+      "title": "A Multicentre, Randomised, Double-blind, Parallel Group, Placebo-controlled, Time-to-first Asthma Exacerbation Phase III Efficacy and Safety Study of Benralizumab in Paediatric Patients With Severe Eosinophilic Asthma",
+      "primary_completion": "2026-12-23",
+      "enrollment": 94,
+      "score": 24.99,
+      "url": "https://clinicaltrials.gov/study/NCT05692180"
+    },
+    {
+      "nct": "NCT05440149",
+      "phase": "Phase 3",
+      "sponsor": "Seoul National University Hospital",
+      "title": "The Postoperative Radiotherapy in N1 Breast Cancer Patients",
+      "primary_completion": "2026-12-31",
+      "enrollment": 1106,
+      "score": 24.03,
+      "url": "https://clinicaltrials.gov/study/NCT05440149"
+    },
+    {
+      "nct": "NCT07505888",
+      "phase": "Phase 3",
+      "sponsor": "Sinovac Biotech Co., Ltd",
+      "title": "Phase Ⅲ Trial of Group ACYW135 Meningococcal Conjugate Vaccine in Children Aged 2-6 Years",
+      "primary_completion": "2026-11",
+      "enrollment": 660,
+      "score": 22.48,
+      "url": "https://clinicaltrials.gov/study/NCT07505888"
+    },
+    {
+      "nct": "NCT06194734",
+      "phase": "Phase 3",
+      "sponsor": "Beijing Konruns Pharmaceutical Co., Ltd.",
+      "title": "A Study of KC1036 Versus Investigator's Choice of Chemotherapy in Patients With Advanced Esophageal Cancer",
+      "primary_completion": "2026-12-30",
+      "enrollment": 490,
+      "score": 21.59,
+      "url": "https://clinicaltrials.gov/study/NCT06194734"
+    },
+    {
+      "nct": "NCT05304468",
+      "phase": "Phase 3",
+      "sponsor": "Sun Yat-sen University",
+      "title": "Reduced-dose Versus Standard Dose Radiotherapy for Nasopharyngeal Carcinomain",
+      "primary_completion": "2026-10-29",
+      "enrollment": 452,
+      "score": 21.35,
+      "url": "https://clinicaltrials.gov/study/NCT05304468"
+    },
+    {
+      "nct": "NCT07505056",
+      "phase": "Phase 3",
+      "sponsor": "Nanjing First Hospital, Nanjing Medical University",
+      "title": "Jianpi Lishi Jiedu Granules for Prevention of Postoperative Recurrence in Colorectal Advanced Adenomas",
+      "primary_completion": "2026-12-31",
+      "enrollment": 376,
+      "score": 20.8,
+      "url": "https://clinicaltrials.gov/study/NCT07505056"
+    },
+    {
+      "nct": "NCT06819826",
+      "phase": "Phase 3",
+      "sponsor": "Biocity Biopharmaceutics Co., Ltd.",
+      "title": "A Study of SC0062 Capsule for the Treatment of IgA Nephropathy with Proteinuria",
+      "primary_completion": "2026-12-31",
+      "enrollment": 360,
+      "score": 20.67,
+      "url": "https://clinicaltrials.gov/study/NCT06819826"
+    },
+    {
+      "nct": "NCT05477576",
+      "phase": "Phase 3",
+      "sponsor": "RayzeBio, Inc.",
+      "title": "Study of RYZ101 Compared With SOC in Pts w Inoperable SSTR+ Well-differentiated GEP-NET That Has Progressed Following 177Lu-SSA Therapy",
+      "primary_completion": "2026-12",
+      "enrollment": 343,
+      "score": 20.52,
+      "url": "https://clinicaltrials.gov/study/NCT05477576"
+    }
+  ],
+  "market": [],
+  "comps": {
+    "n_historical": 17,
+    "median_total_usd": 237000000.0,
+    "thin_sample": true
+  },
+  "insights": [
+    {
+      "move": "structure-over-headline",
+      "text": "CSL to pay $355M upfront to co-develop A: upfront is 29.6% of the headline total — above the classic 5–10% band; the buyer paid real cash up front.",
+      "numbers": {
+        "company": "CSL to pay $355M upfront to co-develop A",
+        "upfront_usd": 355000000.0,
+        "total_usd": 1200000000.0,
+        "share": 0.2958
+      },
+      "confidence": "computed"
+    },
+    {
+      "move": "delta-vs-baseline",
+      "text": "0 approvals vs a 28-day daily average of 1.8 (0.0x).",
+      "numbers": {
+        "today": 0,
+        "trailing_avg": 1.82
+      },
+      "confidence": "computed"
+    },
+    {
+      "move": "absence-as-signal",
+      "text": "Zero FDA approvals in a weekday window — quiet days cluster before PDUFA batches; watch the next 5 sessions for a catch-up.",
+      "numbers": {
+        "approvals": 0
+      },
+      "confidence": "computed"
+    }
+  ],
+  "figures": [
+    {
+      "path": "out/figures/2026-10-05/deal-sizes.png",
+      "takeaway": "Largest disclosed deal: $1.2B"
+    }
+  ],
+  "sources": [
+    {
+      "title": "Sensible Bio secures $47M Series A for mRNA therapy manufacturing platform",
+      "url": "https://endpoints.news/sensible-bio-secures-47m-series-a-for-mrna-therapy-manufacturing-platform/",
+      "outlet": "endpoints"
+    },
+    {
+      "title": "CSL to pay $355M upfront to co-develop Alentis’ kidney and liver drug",
+      "url": "https://endpoints.news/csl-to-pay-355m-upfront-to-co-develop-alentis-kidney-and-liver-drug/",
+      "outlet": "endpoints"
+    },
+    {
+      "title": "Jasper Therapeutics, Inc. 8-K mentioning license agreement",
+      "url": "https://www.sec.gov/Archives/edgar/data/1788028/000121390026106574/ea030760201ex99-3.htm",
+      "outlet": "sec-edgar"
+    },
+    {
+      "title": "Study of the Safety and Immunogenicity of Catch-up Vaccination With a 21-valent Pneumococcal Conjugate Vaccine (PCV21) in Healthy Infants, T",
+      "url": "https://clinicaltrials.gov/study/NCT06838000",
+      "outlet": "ctgov"
+    },
+    {
+      "title": "Reducing Missed Appointments",
+      "url": "https://clinicaltrials.gov/study/NCT06915480",
+      "outlet": "ctgov"
+    },
+    {
+      "title": "A Study to Learn About Medicine Called Ritlecitinib in Children Aged Between 6 to 12 Years With Severe Alopecia Areata",
+      "url": "https://clinicaltrials.gov/study/NCT07029711",
+      "outlet": "ctgov"
+    },
+    {
+      "title": "Safety, Tolerability, and Immunogenicity of VAX-31 in Adults ≥50 Years With Immunobridging to Adults 18-49",
+      "url": "https://clinicaltrials.gov/study/NCT07284654",
+      "outlet": "ctgov"
+    },
+    {
+      "title": "A Multicentre, Randomised, Double-blind, Parallel Group, Placebo-controlled, Time-to-first Asthma Exacerbation Phase III Efficacy and Safety",
+      "url": "https://clinicaltrials.gov/study/NCT05692180",
+      "outlet": "ctgov"
+    },
+    {
+      "title": "The Postoperative Radiotherapy in N1 Breast Cancer Patients",
+      "url": "https://clinicaltrials.gov/study/NCT05440149",
+      "outlet": "ctgov"
+    },
+    {
+      "title": "Phase Ⅲ Trial of Group ACYW135 Meningococcal Conjugate Vaccine in Children Aged 2-6 Years",
+      "url": "https://clinicaltrials.gov/study/NCT07505888",
+      "outlet": "ctgov"
+    },
+    {
+      "title": "A Study of KC1036 Versus Investigator's Choice of Chemotherapy in Patients With Advanced Esophageal Cancer",
+      "url": "https://clinicaltrials.gov/study/NCT06194734",
+      "outlet": "ctgov"
+    },
+    {
+      "title": "Reduced-dose Versus Standard Dose Radiotherapy for Nasopharyngeal Carcinomain",
+      "url": "https://clinicaltrials.gov/study/NCT05304468",
+      "outlet": "ctgov"
+    },
+    {
+      "title": "Jianpi Lishi Jiedu Granules for Prevention of Postoperative Recurrence in Colorectal Advanced Adenomas",
+      "url": "https://clinicaltrials.gov/study/NCT07505056",
+      "outlet": "ctgov"
+    },
+    {
+      "title": "A Study of SC0062 Capsule for the Treatment of IgA Nephropathy with Proteinuria",
+      "url": "https://clinicaltrials.gov/study/NCT06819826",
+      "outlet": "ctgov"
+    },
+    {
+      "title": "Study of RYZ101 Compared With SOC in Pts w Inoperable SSTR+ Well-differentiated GEP-NET That Has Progressed Following 177Lu-SSA Therapy",
+      "url": "https://clinicaltrials.gov/study/NCT05477576",
+      "outlet": "ctgov"
+    }
+  ],
+  "provenance": {
+    "fetched_at": "2026-10-05T12:06:08.489456+00:00",
+    "sources_ok": [
+      "sec-edgar",
+      "openfda",
+      "ctgov",
+      "fda-press",
+      "ema-news",
+      "fiercepharma",
+      "fiercebiotech",
+      "biopharmadive",
+      "endpoints",
+      "prnewswire"
+    ],
+    "sources_failed": []
+  }
+}

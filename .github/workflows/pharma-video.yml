@@ -1,0 +1,83 @@
+# After a daily review PR is merged, render and publish its companion video,
+# write videoId back to the article, and push. The push triggers the site deploy.
+name: pharma-video
+
+on:
+  pull_request:
+    types: [closed]
+    branches: [main]
+  workflow_dispatch:
+    inputs:
+      slug:
+        description: 'post slug, e.g. pharma-daily-2026-09-05'
+        required: true
+
+permissions:
+  contents: write
+
+concurrency:
+  group: pharma-video
+  cancel-in-progress: false
+
+jobs:
+  video:
+    if: >-
+      github.event_name == 'workflow_dispatch' ||
+      (github.event.pull_request.merged == true &&
+       startsWith(github.event.pull_request.head.ref, 'pharma-daily/'))
+    runs-on: ubuntu-latest
+    timeout-minutes: 45
+    steps:
+      - uses: actions/checkout@v6
+        with:
+          ref: main
+
+      - name: Resolve slug
+        run: |
+          if [ "${{ github.event_name }}" = "workflow_dispatch" ]; then
+            echo "SLUG=${{ inputs.slug }}" >> "$GITHUB_ENV"
+          else
+            REF="${{ github.event.pull_request.head.ref }}"
+            echo "SLUG=pharma-daily-${REF#pharma-daily/}" >> "$GITHUB_ENV"
+          fi
+
+      - uses: actions/setup-node@v6
+        with:
+          node-version: 22
+          cache: npm
+
+      - name: Install Chrome for slide rendering
+        uses: browser-actions/setup-chrome@v2
+        with:
+          chrome-version: stable
+
+      - uses: astral-sh/setup-uv@v8.3.2
+        with:
+          enable-cache: true
+
+      - name: Install locked dependencies
+        run: |
+          npm ci
+          cd tools/video
+          npm ci
+          uv sync --locked
+
+      - name: Restore YouTube OAuth files
+        env:
+          YT_CLIENT: ${{ secrets.YOUTUBE_CLIENT_SECRET_JSON }}
+          YT_TOKEN: ${{ secrets.YOUTUBE_TOKEN_JSON }}
+        run: |
+          if [ -z "$YT_CLIENT" ] || [ -z "$YT_TOKEN" ]; then
+            echo "::error::YOUTUBE_CLIENT_SECRET_JSON and YOUTUBE_TOKEN_JSON must be configured."
+            exit 1
+          fi
+          printf '%s' "$YT_CLIENT" > tools/video/.google-client-secret.json
+          printf '%s' "$YT_TOKEN" > tools/video/.google-token.json
+
+      - name: Configure git identity for write-back
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+
+      - name: Render, upload, and write back videoId
+        run: npm run video:release -- "$SLUG" --public

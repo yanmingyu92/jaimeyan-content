@@ -1,0 +1,29 @@
+name: deploy-site
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - 'content/posts/**'
+      - 'public/audio/**'
+      - 'public/figures/**'
+      - 'public/images/posts/**'
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - name: Trigger the private site's Vercel production build
+        env:
+          VERCEL_DEPLOY_HOOK_URL: ${{ secrets.VERCEL_DEPLOY_HOOK_URL }}
+        run: |
+          if [ -z "$VERCEL_DEPLOY_HOOK_URL" ]; then
+            echo "::warning::VERCEL_DEPLOY_HOOK_URL is not configured; content is committed but the site was not redeployed."
+            exit 0
+          fi
+          curl --fail --silent --show-error --retry 3 --request POST "$VERCEL_DEPLOY_HOOK_URL"

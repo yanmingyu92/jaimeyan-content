@@ -1,0 +1,616 @@
+{
+  "date": "2026-09-09",
+  "window": {
+    "start": "2026-09-08",
+    "end": "2026-09-09"
+  },
+  "deals": [
+    {
+      "company": "Monte Rosa Therapeutics, Inc.",
+      "ticker": "GLUE",
+      "licensor": null,
+      "licensee": null,
+      "type": "license",
+      "upfront_usd": null,
+      "total_usd": 2100000000.0,
+      "therapeutic_area": "oncology",
+      "modality": "small molecule",
+      "phase": "Phase 2",
+      "target": null,
+      "percentile_total": 80.0,
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1826457/000119312526384360/glue-ex99_1.htm",
+      "source_title": "Monte Rosa Therapeutics, Inc. 8-K mentioning license agreement"
+    },
+    {
+      "company": "Adicet Bio, Inc.",
+      "ticker": null,
+      "licensor": null,
+      "licensee": null,
+      "type": "license",
+      "upfront_usd": null,
+      "total_usd": null,
+      "therapeutic_area": "oncology",
+      "modality": "bispecific antibody",
+      "phase": "Phase 1",
+      "target": "CD70",
+      "percentile_total": null,
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1720580/000172058026000056/acet-ex99_1.htm",
+      "source_title": "Adicet Bio, Inc. 8-K mentioning license agreement"
+    },
+    {
+      "company": "BrainChild Bio",
+      "ticker": null,
+      "licensor": null,
+      "licensee": null,
+      "type": "other",
+      "upfront_usd": null,
+      "total_usd": 116000000.0,
+      "therapeutic_area": "oncology",
+      "modality": "cell therapy",
+      "phase": null,
+      "target": null,
+      "percentile_total": null,
+      "source_url": "https://endpoints.news/brainchild-bio-gets-116m-for-trial-of-pediatric-brain-tumor-car-t/",
+      "source_title": "BrainChild Bio gets $116M for pivotal trial of pediatric brain tumor CAR-T"
+    },
+    {
+      "company": "Moonwalk",
+      "ticker": null,
+      "licensor": null,
+      "licensee": null,
+      "type": "financing",
+      "upfront_usd": null,
+      "total_usd": 70000000.0,
+      "therapeutic_area": "metabolic",
+      "modality": "RNA therapeutic",
+      "phase": null,
+      "target": null,
+      "percentile_total": null,
+      "source_url": "https://endpoints.news/moonwalk-raises-70-million-to-test-sirna-treatment-for-obesity/",
+      "source_title": "Moonwalk raises $70M to test siRNA treatment for obesity"
+    },
+    {
+      "company": "TwoStep",
+      "ticker": null,
+      "licensor": null,
+      "licensee": null,
+      "type": "financing",
+      "upfront_usd": null,
+      "total_usd": 62500000.0,
+      "therapeutic_area": "oncology",
+      "modality": "ADC",
+      "phase": null,
+      "target": null,
+      "percentile_total": null,
+      "source_url": "https://endpoints.news/cancer-biotech-twostep-gets-62-5m-to-take-twist-on-adcs-into-clinic/",
+      "source_title": "Cancer biotech TwoStep gets $62.5M to take twist on ADCs into clinic"
+    },
+    {
+      "company": "",
+      "ticker": null,
+      "licensor": null,
+      "licensee": null,
+      "type": "other",
+      "upfront_usd": null,
+      "total_usd": 10000000000.0,
+      "therapeutic_area": "cardiology",
+      "modality": "cell therapy",
+      "phase": null,
+      "target": null,
+      "percentile_total": null,
+      "source_url": "https://www.biopharmadive.com/news/roivant-astrazeneca-etcamah-GPRC5D-pharvaris-inhibrx/829763/",
+      "source_title": "Roivant surges on ‘exceptional’ results; Bristol Myers touts first-of-its-kind CAR-T therapy"
+    },
+    {
+      "company": "",
+      "ticker": null,
+      "licensor": null,
+      "licensee": null,
+      "type": "financing",
+      "upfront_usd": null,
+      "total_usd": 225000000.0,
+      "therapeutic_area": "oncology",
+      "modality": null,
+      "phase": "Phase 2",
+      "target": null,
+      "percentile_total": null,
+      "source_url": "https://www.fiercebiotech.com/biotech/solstice-rises-225m-advance-second-gen-ctla-4-immunotherapy",
+      "source_title": "Solstice rises with $225M series A to advance next-gen CTLA-4 immunotherapy into phase 2"
+    },
+    {
+      "company": "",
+      "ticker": null,
+      "licensor": null,
+      "licensee": null,
+      "type": "acquisition",
+      "upfront_usd": null,
+      "total_usd": 12000000000.0,
+      "therapeutic_area": null,
+      "modality": null,
+      "phase": "Phase 3",
+      "target": null,
+      "percentile_total": 100.0,
+      "source_url": "https://www.fiercebiotech.com/biotech/novartis-centerpiece-12b-avidity-buyout-flunks-crucial-phase-3-test",
+      "source_title": "Novartis stock slides as centerpiece of $12B Avidity buyout flunks ‘crucial’ phase 3 test"
+    },
+    {
+      "company": "",
+      "ticker": null,
+      "licensor": null,
+      "licensee": null,
+      "type": "financing",
+      "upfront_usd": null,
+      "total_usd": 50000000.0,
+      "therapeutic_area": "metabolic",
+      "modality": null,
+      "phase": null,
+      "target": null,
+      "percentile_total": null,
+      "source_url": "https://endpoints.news/kura-oncology-spins-out-diabetes-pipeline-with-50m-and-lillys-help/",
+      "source_title": "Kura Oncology spins out diabetes pipeline with $50M and Lilly's help"
+    },
+    {
+      "company": "Keros Therapeutics, Inc.",
+      "ticker": null,
+      "licensor": null,
+      "licensee": null,
+      "type": "license",
+      "upfront_usd": null,
+      "total_usd": 20000000.0,
+      "therapeutic_area": null,
+      "modality": null,
+      "phase": null,
+      "target": null,
+      "percentile_total": 20.0,
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1664710/000166471026000053/kros-20260908.htm",
+      "source_title": "Keros Therapeutics, Inc. 8-K mentioning license agreement"
+    },
+    {
+      "company": "",
+      "ticker": null,
+      "licensor": null,
+      "licensee": null,
+      "type": "other",
+      "upfront_usd": null,
+      "total_usd": 410000000.0,
+      "therapeutic_area": null,
+      "modality": null,
+      "phase": null,
+      "target": null,
+      "percentile_total": null,
+      "source_url": "https://www.fiercebiotech.com/biotech/luma-closes-410m-fund-life-sciences-biotechs-over-15-years",
+      "source_title": "Luma locks down 15-year, $410M fund for life science investments"
+    },
+    {
+      "company": "",
+      "ticker": null,
+      "licensor": null,
+      "licensee": null,
+      "type": "other",
+      "upfront_usd": null,
+      "total_usd": 300000000.0,
+      "therapeutic_area": null,
+      "modality": null,
+      "phase": null,
+      "target": null,
+      "percentile_total": null,
+      "source_url": "https://www.fiercepharma.com/pharma/sandoz-aims-biosimilar-dominance-under-new-strategy-300m-facility-sweetener-slovenia",
+      "source_title": "Sandoz sets sights on 100 biosimilars in new 2040 strategy, with $300M facility build"
+    },
+    {
+      "company": "",
+      "ticker": null,
+      "licensor": null,
+      "licensee": null,
+      "type": "other",
+      "upfront_usd": null,
+      "total_usd": 275000000.0,
+      "therapeutic_area": null,
+      "modality": null,
+      "phase": null,
+      "target": null,
+      "percentile_total": null,
+      "source_url": "https://www.fiercebiotech.com/biotech/encoded-executes-275m-raise-advance-dravet-syndrome-asset-and-scale-manufacturing",
+      "source_title": "GV-backed Encoded gains $275M to advance Dravet drug, scale genetic med manufacturing"
+    },
+    {
+      "company": "",
+      "ticker": null,
+      "licensor": null,
+      "licensee": null,
+      "type": "financing",
+      "upfront_usd": null,
+      "total_usd": 55000000.0,
+      "therapeutic_area": null,
+      "modality": null,
+      "phase": null,
+      "target": null,
+      "percentile_total": null,
+      "source_url": "https://www.fiercebiotech.com/biotech/schrodinger-births-new-immunology-and-immune-focused-biotech-tectora-therapeutics",
+      "source_title": "Schrödinger births new immunology and inflammation biotech, Tectora Therapeutics"
+    },
+    {
+      "company": "",
+      "ticker": null,
+      "licensor": null,
+      "licensee": null,
+      "type": "other",
+      "upfront_usd": null,
+      "total_usd": 9200000.0,
+      "therapeutic_area": null,
+      "modality": null,
+      "phase": null,
+      "target": null,
+      "percentile_total": null,
+      "source_url": "https://www.prnewswire.com/news-releases/arpa-h-selects-updoc-to-lead-development-of-autonomous-clinical-ai-system-in-an-initiative-joined-by-microsoft-openai-and-nvidia-302873780.html",
+      "source_title": "ARPA-H Selects UpDoc to Lead Development of Autonomous Clinical AI System, in an Initiative Joined by Microsoft, OpenAI and NVIDIA"
+    },
+    {
+      "company": "",
+      "ticker": null,
+      "licensor": null,
+      "licensee": null,
+      "type": "other",
+      "upfront_usd": null,
+      "total_usd": 2100000.0,
+      "therapeutic_area": null,
+      "modality": null,
+      "phase": null,
+      "target": null,
+      "percentile_total": null,
+      "source_url": "https://www.prnewswire.com/news-releases/partillion-bioscience-secures-2-1-million-nih-sbir-grant-to-advance-large-scale-cell-cell-interaction-sequencing-302873553.html",
+      "source_title": "/C O R R E C T I O N -- Partillion Bioscience/"
+    },
+    {
+      "company": "Kura Oncology, Inc.",
+      "ticker": null,
+      "licensor": null,
+      "licensee": null,
+      "type": "license",
+      "upfront_usd": null,
+      "total_usd": null,
+      "therapeutic_area": null,
+      "modality": null,
+      "phase": null,
+      "target": null,
+      "percentile_total": null,
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1422143/000119312526385881/d496500d8k.htm",
+      "source_title": "Kura Oncology, Inc. 8-K mentioning license agreement"
+    },
+    {
+      "company": "",
+      "ticker": null,
+      "licensor": null,
+      "licensee": null,
+      "type": "collaboration",
+      "upfront_usd": null,
+      "total_usd": null,
+      "therapeutic_area": null,
+      "modality": null,
+      "phase": null,
+      "target": null,
+      "percentile_total": null,
+      "source_url": "https://endpoints.news/expanding-its-biopharma-plans-anthropic-looks-for-a-life-sciences-dealmaker/",
+      "source_title": "Expanding its biopharma plans, Anthropic looks for a life sciences dealmaker"
+    }
+  ],
+  "approvals": [],
+  "readouts": [
+    {
+      "nct": "NCT05239728",
+      "phase": "Phase 3",
+      "sponsor": "Merck Sharp & Dohme LLC",
+      "title": "A Study of Belzutifan (MK-6482) Plus Pembrolizumab (MK-3475) Versus Placebo Plus Pembrolizumab in Participants With Clear Cell Renal Cell Carcinoma Post Nephrectomy (MK-6482-022)",
+      "primary_completion": "2026-10-28",
+      "enrollment": 1800,
+      "score": 38.23,
+      "url": "https://clinicaltrials.gov/study/NCT05239728"
+    },
+    {
+      "nct": "NCT04657991",
+      "phase": "Phase 3",
+      "sponsor": "Pfizer",
+      "title": "A Clinical Trial of Three Study Medicines (Encorafenib, Binimetinib, and Pembrolizumab) in Patients With Advanced or Metastatic Melanoma",
+      "primary_completion": "2026-10-30",
+      "enrollment": 257,
+      "score": 29.49,
+      "url": "https://clinicaltrials.gov/study/NCT04657991"
+    },
+    {
+      "nct": "NCT07029711",
+      "phase": "Phase 3",
+      "sponsor": "Pfizer",
+      "title": "A Study to Learn About Medicine Called Ritlecitinib in Children Aged Between 6 to 12 Years With Severe Alopecia Areata",
+      "primary_completion": "2026-12-02",
+      "enrollment": 208,
+      "score": 28.54,
+      "url": "https://clinicaltrials.gov/study/NCT07029711"
+    },
+    {
+      "nct": "NCT06363877",
+      "phase": "Phase 3",
+      "sponsor": "Loma Linda University",
+      "title": "Diluted Aqueous Povidone-Iodine Compared to Saline to Decrease Surgical Site Infections",
+      "primary_completion": "2026-10",
+      "enrollment": 1100,
+      "score": 24.01,
+      "url": "https://clinicaltrials.gov/study/NCT06363877"
+    },
+    {
+      "nct": "NCT05201638",
+      "phase": "Phase 3",
+      "sponsor": "Immunic AG",
+      "title": "Study to Evaluate the Efficacy, Safety and Tolerability of IMU-838 in Patients With Relapsing Multiple Sclerosis",
+      "primary_completion": "2026-11",
+      "enrollment": 1100,
+      "score": 24.01,
+      "url": "https://clinicaltrials.gov/study/NCT05201638"
+    },
+    {
+      "nct": "NCT06414031",
+      "phase": "Phase 3",
+      "sponsor": "Ulrich Ronellenfitsch, MD",
+      "title": "Tranexamic Acid for Reduction of Transfusion in Abdominal Surgery",
+      "primary_completion": "2026-11-30",
+      "enrollment": 850,
+      "score": 23.24,
+      "url": "https://clinicaltrials.gov/study/NCT06414031"
+    },
+    {
+      "nct": "NCT04246684",
+      "phase": "Phase 3",
+      "sponsor": "Prof. Dr. med. Claus Rödel",
+      "title": "Short RT Versus RCT,Followed by Chemo and Organ Preservation for Interm and High-risk Rectal Cancer Patients",
+      "primary_completion": "2026-09-15",
+      "enrollment": 702,
+      "score": 22.67,
+      "url": "https://clinicaltrials.gov/study/NCT04246684"
+    },
+    {
+      "nct": "NCT04979338",
+      "phase": "Phase 3",
+      "sponsor": "Cedars-Sinai Medical Center",
+      "title": "Development of Effective, Opioid Sparing Techniques for Peri-operative Pain Management of Transgender Patients Undergoing Gender Affirming Surgeries",
+      "primary_completion": "2026-09-30",
+      "enrollment": 640,
+      "score": 22.39,
+      "url": "https://clinicaltrials.gov/study/NCT04979338"
+    },
+    {
+      "nct": "NCT02176967",
+      "phase": "Phase 3",
+      "sponsor": "Children's Oncology Group",
+      "title": "Response and Biology-Based Risk Factor-Guided Therapy in Treating Younger Patients With Non-high Risk Neuroblastoma",
+      "primary_completion": "2026-09-30",
+      "enrollment": 621,
+      "score": 22.3,
+      "url": "https://clinicaltrials.gov/study/NCT02176967"
+    },
+    {
+      "nct": "NCT04965493",
+      "phase": "Phase 3",
+      "sponsor": "Loxo Oncology, Inc.",
+      "title": "A Trial of Pirtobrutinib (LOXO-305) Plus Venetoclax and Rituximab (PVR) Versus Venetoclax and Rituximab (VR) in Previously Treated Chronic Lymphocytic Leukemia/Small Lymphocytic Lymphoma (CLL/SLL)",
+      "primary_completion": "2026-10",
+      "enrollment": 600,
+      "score": 22.2,
+      "url": "https://clinicaltrials.gov/study/NCT04965493"
+    },
+    {
+      "nct": "NCT06958211",
+      "phase": "Phase 3",
+      "sponsor": "Incyte Corporation",
+      "title": "Study to Evaluate the Efficacy and Safety of Ruxolitinib Cream in Participants With Hidradenitis Suppurativa (TRuE-HS2)",
+      "primary_completion": "2026-10-09",
+      "enrollment": 573,
+      "score": 22.06,
+      "url": "https://clinicaltrials.gov/study/NCT06958211"
+    },
+    {
+      "nct": "NCT05672576",
+      "phase": "Phase 3",
+      "sponsor": "Viatris Innovation GmbH",
+      "title": "A Research Study to Evaluate the Efficacy and Safety of Cenerimod in Subjects Suffering From Systemic Lupus Erythematosus",
+      "primary_completion": "2026-10-31",
+      "enrollment": 451,
+      "score": 21.34,
+      "url": "https://clinicaltrials.gov/study/NCT05672576"
+    }
+  ],
+  "market": [
+    {
+      "ticker": "GLUE",
+      "change_1d_pct": 1.4,
+      "as_of": "2026-09-09"
+    }
+  ],
+  "comps": {
+    "n_historical": 5,
+    "median_total_usd": 1000000000.0,
+    "thin_sample": true
+  },
+  "insights": [
+    {
+      "move": "absence-as-signal",
+      "text": "Zero FDA approvals in a weekday window — quiet days cluster before PDUFA batches; watch the next 5 sessions for a catch-up.",
+      "numbers": {
+        "approvals": 0
+      },
+      "confidence": "computed"
+    }
+  ],
+  "figures": [
+    {
+      "path": "out/figures/2026-09-09/deal-sizes.png",
+      "takeaway": "Largest disclosed total $12B — vs 5 accumulated comps"
+    }
+  ],
+  "sources": [
+    {
+      "title": "Monte Rosa Therapeutics, Inc. 8-K mentioning license agreement",
+      "url": "https://www.sec.gov/Archives/edgar/data/1826457/000119312526384360/glue-ex99_1.htm",
+      "outlet": "sec-edgar"
+    },
+    {
+      "title": "Adicet Bio, Inc. 8-K mentioning license agreement",
+      "url": "https://www.sec.gov/Archives/edgar/data/1720580/000172058026000056/acet-ex99_1.htm",
+      "outlet": "sec-edgar"
+    },
+    {
+      "title": "BrainChild Bio gets $116M for pivotal trial of pediatric brain tumor CAR-T",
+      "url": "https://endpoints.news/brainchild-bio-gets-116m-for-trial-of-pediatric-brain-tumor-car-t/",
+      "outlet": "endpoints"
+    },
+    {
+      "title": "Moonwalk raises $70M to test siRNA treatment for obesity",
+      "url": "https://endpoints.news/moonwalk-raises-70-million-to-test-sirna-treatment-for-obesity/",
+      "outlet": "endpoints"
+    },
+    {
+      "title": "Cancer biotech TwoStep gets $62.5M to take twist on ADCs into clinic",
+      "url": "https://endpoints.news/cancer-biotech-twostep-gets-62-5m-to-take-twist-on-adcs-into-clinic/",
+      "outlet": "endpoints"
+    },
+    {
+      "title": "Roivant surges on ‘exceptional’ results; Bristol Myers touts first-of-its-kind CAR-T therapy",
+      "url": "https://www.biopharmadive.com/news/roivant-astrazeneca-etcamah-GPRC5D-pharvaris-inhibrx/829763/",
+      "outlet": "biopharmadive"
+    },
+    {
+      "title": "Solstice rises with $225M series A to advance next-gen CTLA-4 immunotherapy into phase 2",
+      "url": "https://www.fiercebiotech.com/biotech/solstice-rises-225m-advance-second-gen-ctla-4-immunotherapy",
+      "outlet": "fiercebiotech"
+    },
+    {
+      "title": "Novartis stock slides as centerpiece of $12B Avidity buyout flunks ‘crucial’ phase 3 test",
+      "url": "https://www.fiercebiotech.com/biotech/novartis-centerpiece-12b-avidity-buyout-flunks-crucial-phase-3-test",
+      "outlet": "fiercebiotech"
+    },
+    {
+      "title": "Kura Oncology spins out diabetes pipeline with $50M and Lilly's help",
+      "url": "https://endpoints.news/kura-oncology-spins-out-diabetes-pipeline-with-50m-and-lillys-help/",
+      "outlet": "endpoints"
+    },
+    {
+      "title": "Keros Therapeutics, Inc. 8-K mentioning license agreement",
+      "url": "https://www.sec.gov/Archives/edgar/data/1664710/000166471026000053/kros-20260908.htm",
+      "outlet": "sec-edgar"
+    },
+    {
+      "title": "Luma locks down 15-year, $410M fund for life science investments",
+      "url": "https://www.fiercebiotech.com/biotech/luma-closes-410m-fund-life-sciences-biotechs-over-15-years",
+      "outlet": "fiercebiotech"
+    },
+    {
+      "title": "Sandoz sets sights on 100 biosimilars in new 2040 strategy, with $300M facility build",
+      "url": "https://www.fiercepharma.com/pharma/sandoz-aims-biosimilar-dominance-under-new-strategy-300m-facility-sweetener-slovenia",
+      "outlet": "fiercepharma"
+    },
+    {
+      "title": "GV-backed Encoded gains $275M to advance Dravet drug, scale genetic med manufacturing",
+      "url": "https://www.fiercebiotech.com/biotech/encoded-executes-275m-raise-advance-dravet-syndrome-asset-and-scale-manufacturing",
+      "outlet": "fiercebiotech"
+    },
+    {
+      "title": "Schrödinger births new immunology and inflammation biotech, Tectora Therapeutics",
+      "url": "https://www.fiercebiotech.com/biotech/schrodinger-births-new-immunology-and-immune-focused-biotech-tectora-therapeutics",
+      "outlet": "fiercebiotech"
+    },
+    {
+      "title": "ARPA-H Selects UpDoc to Lead Development of Autonomous Clinical AI System, in an Initiative Joined by Microsoft, OpenAI and NVIDIA",
+      "url": "https://www.prnewswire.com/news-releases/arpa-h-selects-updoc-to-lead-development-of-autonomous-clinical-ai-system-in-an-initiative-joined-by-microsoft-openai-and-nvidia-302873780.html",
+      "outlet": "prnewswire"
+    },
+    {
+      "title": "/C O R R E C T I O N -- Partillion Bioscience/",
+      "url": "https://www.prnewswire.com/news-releases/partillion-bioscience-secures-2-1-million-nih-sbir-grant-to-advance-large-scale-cell-cell-interaction-sequencing-302873553.html",
+      "outlet": "prnewswire"
+    },
+    {
+      "title": "Kura Oncology, Inc. 8-K mentioning license agreement",
+      "url": "https://www.sec.gov/Archives/edgar/data/1422143/000119312526385881/d496500d8k.htm",
+      "outlet": "sec-edgar"
+    },
+    {
+      "title": "Expanding its biopharma plans, Anthropic looks for a life sciences dealmaker",
+      "url": "https://endpoints.news/expanding-its-biopharma-plans-anthropic-looks-for-a-life-sciences-dealmaker/",
+      "outlet": "endpoints"
+    },
+    {
+      "title": "A Study of Belzutifan (MK-6482) Plus Pembrolizumab (MK-3475) Versus Placebo Plus Pembrolizumab in Participants With Clear Cell Renal Cell Ca",
+      "url": "https://clinicaltrials.gov/study/NCT05239728",
+      "outlet": "ctgov"
+    },
+    {
+      "title": "A Clinical Trial of Three Study Medicines (Encorafenib, Binimetinib, and Pembrolizumab) in Patients With Advanced or Metastatic Melanoma",
+      "url": "https://clinicaltrials.gov/study/NCT04657991",
+      "outlet": "ctgov"
+    },
+    {
+      "title": "A Study to Learn About Medicine Called Ritlecitinib in Children Aged Between 6 to 12 Years With Severe Alopecia Areata",
+      "url": "https://clinicaltrials.gov/study/NCT07029711",
+      "outlet": "ctgov"
+    },
+    {
+      "title": "Diluted Aqueous Povidone-Iodine Compared to Saline to Decrease Surgical Site Infections",
+      "url": "https://clinicaltrials.gov/study/NCT06363877",
+      "outlet": "ctgov"
+    },
+    {
+      "title": "Study to Evaluate the Efficacy, Safety and Tolerability of IMU-838 in Patients With Relapsing Multiple Sclerosis",
+      "url": "https://clinicaltrials.gov/study/NCT05201638",
+      "outlet": "ctgov"
+    },
+    {
+      "title": "Tranexamic Acid for Reduction of Transfusion in Abdominal Surgery",
+      "url": "https://clinicaltrials.gov/study/NCT06414031",
+      "outlet": "ctgov"
+    },
+    {
+      "title": "Short RT Versus RCT,Followed by Chemo and Organ Preservation for Interm and High-risk Rectal Cancer Patients",
+      "url": "https://clinicaltrials.gov/study/NCT04246684",
+      "outlet": "ctgov"
+    },
+    {
+      "title": "Development of Effective, Opioid Sparing Techniques for Peri-operative Pain Management of Transgender Patients Undergoing Gender Affirming S",
+      "url": "https://clinicaltrials.gov/study/NCT04979338",
+      "outlet": "ctgov"
+    },
+    {
+      "title": "Response and Biology-Based Risk Factor-Guided Therapy in Treating Younger Patients With Non-high Risk Neuroblastoma",
+      "url": "https://clinicaltrials.gov/study/NCT02176967",
+      "outlet": "ctgov"
+    },
+    {
+      "title": "A Trial of Pirtobrutinib (LOXO-305) Plus Venetoclax and Rituximab (PVR) Versus Venetoclax and Rituximab (VR) in Previously Treated Chronic L",
+      "url": "https://clinicaltrials.gov/study/NCT04965493",
+      "outlet": "ctgov"
+    },
+    {
+      "title": "Study to Evaluate the Efficacy and Safety of Ruxolitinib Cream in Participants With Hidradenitis Suppurativa (TRuE-HS2)",
+      "url": "https://clinicaltrials.gov/study/NCT06958211",
+      "outlet": "ctgov"
+    },
+    {
+      "title": "A Research Study to Evaluate the Efficacy and Safety of Cenerimod in Subjects Suffering From Systemic Lupus Erythematosus",
+      "url": "https://clinicaltrials.gov/study/NCT05672576",
+      "outlet": "ctgov"
+    }
+  ],
+  "provenance": {
+    "fetched_at": "2026-09-09T17:08:39.078684+00:00",
+    "sources_ok": [
+      "sec-edgar",
+      "openfda",
+      "ctgov",
+      "fda-press",
+      "ema-news",
+      "fiercepharma",
+      "fiercebiotech",
+      "biopharmadive",
+      "endpoints",
+      "prnewswire"
+    ],
+    "sources_failed": []
+  }
+}

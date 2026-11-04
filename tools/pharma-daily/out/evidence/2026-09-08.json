@@ -1,0 +1,46 @@
+{
+  "date": "2026-09-08",
+  "evidence": [
+    {
+      "question_id": "q1",
+      "answer": "Novartis' $12 billion acquisition of Avidity Biosciences is already closed, so the deal's headline price is fixed, but the Phase 3 Harbor trial failure of del-desiran in myotonic dystrophy type 1 impairs the value of the acquisition's central asset. Guggenheim analysts had called success for del-desiran 'crucial' for validating the Avidity deal, and Novartis had previously cited external peak-sales forecasts for del-desiran as high as $6 billion. Novartis shares were down about 12.5% in pre-market trading following the readout. The event should be classified as a major Phase 3 clinical-trial failure and value-destruction event.",
+      "publisher": "FierceBiotech",
+      "source_url": "https://www.fiercebiotech.com/biotech/novartis-centerpiece-12b-avidity-buyout-flunks-crucial-phase-3-test",
+      "as_of": "2026-09-08",
+      "confidence": "medium"
+    },
+    {
+      "question_id": "q2",
+      "answer": "The counterparty is Novartis. Monte Rosa granted Novartis a global exclusive development and commercialization license for VAV1-directed molecular glue degraders, including MRT-6160 (DDY391), an oral small-molecule degrader being advanced in Sjögren's disease and other immune-mediated diseases.",
+      "publisher": "SEC EDGAR (Monte Rosa 8-K Exhibit 99.1)",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1826457/000119312526384360/glue-ex99_1.htm",
+      "as_of": "2026-09-08",
+      "confidence": "high"
+    },
+    {
+      "question_id": "q3",
+      "answer": "The $2.1 billion figure is back-loaded: it represents the maximum potential development, regulatory, and sales milestones under the Novartis license, with the first $50 million milestone tied to the first-patient visit of the Phase 2 study in Sjögren's disease. The 2.02% one-day move in GLUE suggests the market had already priced in the Novartis partnership and is treating the new milestone as a modest, expected trigger rather than a large new upfront infusion.",
+      "publisher": "SEC EDGAR (Monte Rosa 8-K Exhibit 99.1); pack market data",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1826457/000119312526384360/glue-ex99_1.htm",
+      "as_of": "2026-09-08",
+      "confidence": "medium"
+    },
+    {
+      "question_id": "q4",
+      "answer": "It is a single transaction: BrainChild Bio raised one $116 million series A round to fund a pivotal Phase 2 trial of BCB-276 in pediatric diffuse intrinsic pontine glioma (DIPG). The pack lists the same round twice because two outlets reported it with different classification labels (Endpoints as 'other' and FierceBiotech as 'financing'), but the articles describe the same financing.",
+      "publisher": "FierceBiotech",
+      "source_url": "https://www.fiercebiotech.com/biotech/brainchild-bio-masterminds-116m-series-pivotal-push-pediatric-brain-cancer",
+      "as_of": "2026-09-08",
+      "confidence": "medium"
+    },
+    {
+      "question_id": "q9",
+      "answer": "The 2026-10-30 date on ClinicalTrials.gov is an estimated primary completion date for the Phase 3 portion of the study (objective response by BICR). The study is listed as active and not recruiting, with 257 participants enrolled. It is a registry placeholder for when the last enrolled participant is expected to complete the primary endpoint, not a confirmed top-line data-release date, which would follow database lock and analysis.",
+      "publisher": "ClinicalTrials.gov",
+      "source_url": "https://clinicaltrials.gov/study/NCT04657991",
+      "as_of": "2026-09-08",
+      "confidence": "high"
+    }
+  ],
+  "unanswered": ["q5", "q6", "q7", "q8"]
+}

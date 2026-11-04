@@ -1,0 +1,31 @@
+name: content-qc
+
+on:
+  pull_request:
+    paths:
+      - 'content/posts/**'
+      - 'public/audio/**'
+      - 'public/figures/**'
+      - 'public/images/posts/**'
+      - 'scripts/**'
+      - '.github/workflows/content-qc.yml'
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  qc:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v6
+        with:
+          persist-credentials: false
+      - uses: actions/setup-node@v6
+        with:
+          node-version: 22
+          cache: npm
+      - run: npm ci
+      - run: npm run qc:blog
+      - run: npm run qc:assets

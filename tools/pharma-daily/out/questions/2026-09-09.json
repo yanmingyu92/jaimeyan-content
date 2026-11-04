@@ -1,0 +1,86 @@
+{
+  "date": "2026-09-09",
+  "questions": [
+    {
+      "id": "q1",
+      "question": "Novartis's $12B Avidity acquisition is recorded as a Phase 3 deal with a 100th-percentile headline, but the source says the lead asset just flunked a 'crucial' Phase 3. What endpoint failed, and does this put the acquisition thesis or a write-down on the table?",
+      "category": "challenge",
+      "trigger": "deals[7].total_usd + deals[7].phase + source_title 'Novartis stock slides as centerpiece of $12B Avidity buyout flunks crucial phase 3 test'",
+      "reader_value": "Determines whether the deal's strategic rationale is impaired and what Novartis is likely to do next.",
+      "answerable_from": "web",
+      "priority": 1
+    },
+    {
+      "id": "q2",
+      "question": "Monte Rosa disclosed a $2.1B Phase 2 small-molecule license with no upfront, no target, and no partner named. Who is the licensee and what does the milestone-heavy structure imply about clinical risk allocation?",
+      "category": "so-what",
+      "trigger": "deals[0].total_usd + deals[0].upfront_usd + deals[0].phase + deals[0].target",
+      "reader_value": "Separates real, near-term value from contingent milestones and explains why the stock only moved 1.4%.",
+      "answerable_from": "web",
+      "priority": 2
+    },
+    {
+      "id": "q3",
+      "question": "GLUE rose just 1.4% on a $2.1B headline license. Is the muted move pricing in a low upfront and distant milestones, or is there a larger overhang on Monte Rosa's platform?",
+      "category": "so-what",
+      "trigger": "market[0].change_1d_pct + deals[0].total_usd",
+      "reader_value": "Helps interpret the market-implied probability that the headline economics will actually be realized.",
+      "answerable_from": "web",
+      "priority": 3
+    },
+    {
+      "id": "q4",
+      "question": "The pack shows zero FDA approvals in the two-day window, yet multiple Phase 3 primary-completion dates cluster in October-November 2026. Are any actual PDUFA dates due in the next two weeks, or is this purely a calendar lull?",
+      "category": "so-what",
+      "trigger": "insights[0].numbers.approvals + readouts[0:5].primary_completion",
+      "reader_value": "Tells readers whether the quiet period is a routine gap or a signal of delayed filings to watch.",
+      "answerable_from": "datasource",
+      "priority": 4
+    },
+    {
+      "id": "q5",
+      "question": "Adicet Bio's 8-K reports a CD70 bispecific antibody license in Phase 1 but names no partner and no economics. Who is the licensee, and how material is the deal relative to Adicet's cash runway?",
+      "category": "background",
+      "trigger": "deals[1].company + deals[1].target + deals[1].source_title",
+      "reader_value": "Clarifies whether this is a significant revenue event or a small research collaboration.",
+      "answerable_from": "web",
+      "priority": 5
+    },
+    {
+      "id": "q6",
+      "question": "Solstice raised a $225M Series A to advance a next-gen CTLA-4 immunotherapy into Phase 2. What preclinical or early clinical data package justifies a nine-figure pre-proof-of-concept valuation?",
+      "category": "so-what",
+      "trigger": "deals[6].total_usd + deals[6].phase + deals[6].source_title",
+      "reader_value": "Lets investors judge whether this is a platform premium or a sign of froth in the I-O financing market.",
+      "answerable_from": "web",
+      "priority": 6
+    },
+    {
+      "id": "q7",
+      "question": "Kura Oncology is spinning out its diabetes pipeline with $50M and Lilly's help. Which assets are included, and does Lilly receive an option, an equity stake, or only a research collaboration?",
+      "category": "background",
+      "trigger": "deals[8].total_usd + deals[8].therapeutic_area + deals[8].source_title",
+      "reader_value": "Reveals whether Kura is monetizing non-core assets or staging a future metabolic entry with Lilly leverage.",
+      "answerable_from": "web",
+      "priority": 7
+    },
+    {
+      "id": "q8",
+      "question": "Anthropic's collaboration row has no economics, and the source says it is hiring a life-sciences dealmaker. What is Anthropic actually offering biopharma beyond compute, and is there a near-term revenue opportunity?",
+      "category": "challenge",
+      "trigger": "deals[17].source_title",
+      "reader_value": "Tests whether the AI-in-pharma narrative today is substantive or still speculative.",
+      "answerable_from": "web",
+      "priority": 8
+    },
+    {
+      "id": "q9",
+      "question": "Row deals[5] lists a $10B cardiology cell-therapy deal with no company, sourced to a Roivant/Bristol Myers CAR-T article. Is this a data-extraction error, and are the pack's two largest entries (deals[5] and deals[7]) systematically missing company names?",
+      "category": "contradiction",
+      "trigger": "deals[5].company + deals[5].total_usd + deals[5].therapeutic_area + deals[5].source_title + deals[7].company + comps.thin_sample",
+      "reader_value": "Flags confidence in the pack's sizing statistics before they drive any market narrative.",
+      "answerable_from": "web",
+      "priority": 9
+    }
+  ]
+}

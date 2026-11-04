@@ -1,0 +1,70 @@
+{
+  "date": "2026-09-07",
+  "evidence": [
+    {
+      "question_id": "q1",
+      "answer": "EXCLAIM-2 (NCT04129502) already read out negatively: first-line mobocertinib did not improve outcomes versus platinum-based chemotherapy in EGFR exon 20 insertion NSCLC. Takeda voluntarily withdrew Exkivity in the U.S. in October 2023 and initiated global withdrawal; the EU conditional marketing application was withdrawn in July 2022 and the UK conditional authorisation ended March 2024. The current ClinicalTrials.gov window is a stale registry record, not a new catalyst—this is legacy pipeline residue.",
+      "publisher": "Takeda / EMA",
+      "source_url": "https://www.takeda.com/newsroom/newsreleases/2023/takeda-provides-update-on-exkivity-mobocertinib/",
+      "as_of": "2023-10-02",
+      "confidence": "high"
+    },
+    {
+      "question_id": "q2",
+      "answer": "Capivasertib+fulvestrant (Truqap) is already approved in China; NMPA granted approval on 15 April 2025 for HR+/HER2- advanced breast cancer with PIK3CA/AKT1/PTEN alterations after endocrine therapy. NCT06635447 (CAPItrue) is a China-only Phase IIIb study, so a positive readout is mainly supportive—reinforcing reimbursement, real-world evidence, and launch penetration rather than creating a new approval event. Incremental commercial value is therefore limited beyond the existing China launch.",
+      "publisher": "VCBeat (reporting AstraZeneca)",
+      "source_url": "https://www.vcbeathealth.com/article/8379",
+      "as_of": "2025-04-22",
+      "confidence": "high"
+    },
+    {
+      "question_id": "q3",
+      "answer": "Biogen acquired Human Immunology Biosciences for $1.15 billion upfront plus up to $650 million in milestones (total up to ~$1.8 billion), completed July 2024. Felzartamab is an anti-CD38 monoclonal antibody. Supporting prior evidence includes a Phase II randomized placebo-controlled trial in kidney-transplant AMR (NCT05021484) that showed acceptable safety and reductions in morphologic and molecular AMR activity; an open-label extension reported that prolonged, biomarker-guided dosing further lowered microvascular inflammation and molecular AMR probability in most patients.",
+      "publisher": "Biogen / Lancet Regional Health Europe",
+      "source_url": "https://investors.biogen.com/news-releases/news-release-details/biogen-bolsters-late-stage-pipeline-expands-immunology-portfolio",
+      "as_of": "2024-05-22",
+      "confidence": "high"
+    },
+    {
+      "question_id": "q4",
+      "answer": "The most recent FDA novel-drug approval action was 3 September 2026 (Zanvastro, zilganersen). A four-day quiet window around the Labor Day holiday does not, by itself, support a reliable 5-session PDUFA catch-up pattern; FDA approvals are event-driven and historically irregular, so this should be read as noise unless a cluster actually appears.",
+      "publisher": "U.S. FDA",
+      "source_url": "https://www.fda.gov/drugs/novel-drug-approvals-fda/novel-drug-approvals-2026",
+      "as_of": "2026-09-07",
+      "confidence": "high"
+    },
+    {
+      "question_id": "q5",
+      "answer": "NCT04704921 is the 671-patient Phase 2/3 pivotal ATMOSPHERE/ASCENT program for subretinal ABBV-RGX-314 in wet AMD, with pivotal data expected in 2026. AbbVie and REGENXBIO are explicitly advancing two separate routes: subretinal delivery for wet AMD and suprachoroidal delivery (using the SCS Microinjector) for diabetic retinopathy. The large subretinal study therefore confirms subretinal as the lead commercial route for nAMD, while suprachoroidal is being pursued for different indications and broader in-office access.",
+      "publisher": "AbbVie / REGENXBIO",
+      "source_url": "https://news.abbvie.com/2025-01-13-AbbVie-and-REGENXBIO-Announce-Updates-on-the-ABBV-RGX-314-Clinical-Program",
+      "as_of": "2025-01-13",
+      "confidence": "high"
+    },
+    {
+      "question_id": "q6",
+      "answer": "QLG1091 is positioned as an oral semaglutide biosimilar, not a differentiated novel GLP-1. Chinese industry reports and the trial registry describe it as Qilu Pharmaceutical’s oral semaglutide biosimilar, the first in China to enter Phase 3, testing head-to-head against Rybelsus with an equivalence design and HbA1c change as the primary endpoint.",
+      "publisher": "Sina Finance / PharmCube",
+      "source_url": "https://finance.sina.com.cn/wm/2026-03-16/doc-inhrevap8738369.shtml",
+      "as_of": "2026-03-16",
+      "confidence": "high"
+    },
+    {
+      "question_id": "q7",
+      "answer": "BL-M07D1 (trastuzumab brengitecan / T-Bren) is a HER2-directed ADC composed of trastuzumab-like antibody, a cathepsin B–cleavable linker, and the topoisomerase I inhibitor payload Ed-04, with a drug-to-antibody ratio of 8. This contrasts with T-DM1 (DM1 payload, non-cleavable SMCC linker, DAR ~3.5) and Enhertu/T-DXd (DXd payload, cleavable tetrapeptide linker, DAR ~8). Preclinical data reported in the Phase 1 paper suggest Ed-04 is more potent than DXd and that T-Bren has bystander effects comparable to T-DXd and stronger than T-DM1.",
+      "publisher": "EBioMedicine (Lancet)",
+      "source_url": "https://www.thelancet.com/journals/ebiom/article/PIIS2352-3964(26)00234-3/fulltext",
+      "as_of": "2026-07",
+      "confidence": "high"
+    },
+    {
+      "question_id": "q8",
+      "answer": "Lutathera had not received NMPA approval for GEP-NETs in mainland China as of early 2025; Novartis’s clinical trial application was accepted in February 2025 and a China Phase 3 (NETTER-3) is underway. HengRui’s 177Lu oxodotreotide injection—its first radioligand therapeutic and a Lutathera copy—received NMPA clinical-trial approval in 2023, and its NDA was accepted by CDE on 1 April 2026 (CYHS2600762). A positive Phase 3 readout would strengthen HengRui’s filing and likely make it the first domestic PRRT competitor, ending or pre-empting Lutathera’s China exclusivity in SSTR-positive GEP-NETs.",
+      "publisher": "VCBeat / Sina Finance",
+      "source_url": "https://www.vcbeathealth.com/article/9210",
+      "as_of": "2025-02-12",
+      "confidence": "medium"
+    }
+  ],
+  "unanswered": ["q9", "q10"]
+}

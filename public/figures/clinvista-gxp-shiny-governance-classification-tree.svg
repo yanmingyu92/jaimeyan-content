@@ -1,0 +1,56 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 700 320" font-family="system-ui, -apple-system, 'Segoe UI', sans-serif">
+  <rect width="700" height="320" fill="#fafaf9"/>
+  <defs>
+    <marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse">
+      <path d="M0,0 L10,5 L0,10 z" fill="#1c1917"/>
+    </marker>
+  </defs>
+
+  <!-- Question 1 -->
+  <rect x="190" y="24" width="320" height="56" rx="8" stroke="#d6d3d1" fill="#ffffff"/>
+  <text x="350" y="47" font-size="13" fill="#1c1917" text-anchor="middle" font-weight="600">Does the output directly support a regulated</text>
+  <text x="350" y="64" font-size="13" fill="#1c1917" text-anchor="middle" font-weight="600">submission, record, or decision?</text>
+
+  <!-- Q1 yes -->
+  <g stroke="#1c1917" stroke-width="1.5" fill="none">
+    <line x1="510" y1="52" x2="576" y2="52" marker-end="url(#arrow)"/>
+  </g>
+  <text x="543" y="44" font-size="12" fill="#57534e" text-anchor="middle">yes</text>
+  <rect x="580" y="24" width="104" height="56" rx="8" stroke="#9f1239" fill="#ffffff"/>
+  <text x="632" y="48" font-size="13" fill="#9f1239" text-anchor="middle" font-weight="600">gxp-critical</text>
+  <text x="632" y="66" font-size="11" fill="#57534e" text-anchor="middle">double programming</text>
+
+  <!-- Q1 no down to Q2 -->
+  <g stroke="#1c1917" stroke-width="1.5" fill="none">
+    <line x1="350" y1="80" x2="350" y2="118" marker-end="url(#arrow)"/>
+  </g>
+  <text x="364" y="104" font-size="12" fill="#57534e">no</text>
+
+  <!-- Question 2 -->
+  <rect x="190" y="122" width="320" height="56" rx="8" stroke="#d6d3d1" fill="#ffffff"/>
+  <text x="350" y="145" font-size="13" fill="#1c1917" text-anchor="middle" font-weight="600">Does the output support internal clinical or</text>
+  <text x="350" y="162" font-size="13" fill="#1c1917" text-anchor="middle" font-weight="600">scientific decisions?</text>
+
+  <!-- Q2 yes -->
+  <g stroke="#1c1917" stroke-width="1.5" fill="none">
+    <line x1="510" y1="150" x2="576" y2="150" marker-end="url(#arrow)"/>
+  </g>
+  <text x="543" y="142" font-size="12" fill="#57534e" text-anchor="middle">yes</text>
+  <rect x="580" y="122" width="104" height="56" rx="8" stroke="#9f1239" fill="#ffffff"/>
+  <text x="632" y="146" font-size="13" fill="#9f1239" text-anchor="middle" font-weight="600">gxp-support</text>
+  <text x="632" y="164" font-size="11" fill="#57534e" text-anchor="middle">memo + re-check</text>
+
+  <!-- Q2 no down to exploratory -->
+  <g stroke="#1c1917" stroke-width="1.5" fill="none">
+    <line x1="350" y1="178" x2="350" y2="216" marker-end="url(#arrow)"/>
+  </g>
+  <text x="364" y="202" font-size="12" fill="#57534e">no</text>
+
+  <!-- exploratory -->
+  <rect x="246" y="220" width="208" height="52" rx="8" stroke="#d6d3d1" fill="#ffffff"/>
+  <text x="350" y="242" font-size="13" fill="#9f1239" text-anchor="middle" font-weight="600">exploratory</text>
+  <text x="350" y="260" font-size="11" fill="#57534e" text-anchor="middle">code review + automated tests</text>
+
+  <!-- Footer -->
+  <text x="350" y="304" font-size="12" fill="#57534e" text-anchor="middle">In doubt between two tiers, take the higher one. Upgrades are always allowed; downgrades need a written rationale.</text>
+</svg>

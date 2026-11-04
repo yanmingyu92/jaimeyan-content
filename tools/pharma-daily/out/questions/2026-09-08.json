@@ -1,0 +1,86 @@
+{
+  "date": "2026-09-08",
+  "questions": [
+    {
+      "id": "q1",
+      "question": "Novartis paid $12B for Avidity; the lead asset just failed a 'crucial' Phase 3. What happens to the deal's value now, and how should we classify this event in today's recap?",
+      "category": "challenge",
+      "trigger": "deals[4].total_usd=12000000000 and deals[4].phase=Phase 3 plus source headline 'flunks crucial phase 3 test'",
+      "reader_value": "A $12B acquisition centerpiece failing Phase 3 is the day's biggest value-destruction event and changes how readers view Novartis M&A risk.",
+      "answerable_from": "web",
+      "priority": 1
+    },
+    {
+      "id": "q2",
+      "question": "Monte Rosa's $2.1B license is tagged at the 75th percentile of disclosed totals, yet the pack shows no licensor, licensee, target, or modality. Which partner is on the other side of the deal, and what are they actually licensing?",
+      "category": "background",
+      "trigger": "deals[0].total_usd=2100000000, percentile_total=75.0 with licensor=null, licensee=null, target=null, modality='small molecule' but target=null",
+      "reader_value": "Without the counterparty and target, the headline value is uninterpretable for BD practitioners comparing deal structures.",
+      "answerable_from": "web",
+      "priority": 1
+    },
+    {
+      "id": "q3",
+      "question": "GLUE stock rose only 2.02% on a $2.1B, 75th-percentile license announcement. Does the market already know the deal economics, or is the modest move telling us the terms are back-loaded?",
+      "category": "so-what",
+      "trigger": "market[0].change_1d_pct=2.02 for GLUE vs deals[0].total_usd=2100000000 and percentile_total=75.0",
+      "reader_value": "The disconnect between headline deal size and stock reaction flags whether the upfront is meaningful or the market had already priced it in.",
+      "answerable_from": "web",
+      "priority": 2
+    },
+    {
+      "id": "q4",
+      "question": "BrainChild Bio's $116M financing appears twice in the pack — once as type 'other' with company name and modality, and once as type 'financing' with no company name. Is this one round reported twice or two different transactions?",
+      "category": "contradiction",
+      "trigger": "deals[1] (type=other, company=BrainChild Bio, total_usd=116000000) and deals[3] (type=financing, company='', total_usd=116000000)",
+      "reader_value": "Duplicate or inconsistent classification risks overstating today's financing volume and misleads readers tracking the pediatric CAR-T round.",
+      "answerable_from": "web",
+      "priority": 2
+    },
+    {
+      "id": "q5",
+      "question": "Moonwalk raised $70M for an siRNA obesity candidate. Who led the round, and how is it positioning against the GLP-1 franchises that now dominate metabolic deals?",
+      "category": "background",
+      "trigger": "deals[2].total_usd=70000000, therapeutic_area=metabolic, modality='RNA therapeutic', source headline 'siRNA treatment for obesity'",
+      "reader_value": "In a metabolic market crowded by incretins, the investor syndicate and differentiation claim determine whether this financing is newsworthy.",
+      "answerable_from": "web",
+      "priority": 2
+    },
+    {
+      "id": "q6",
+      "question": "Anthropic is hiring a life-sciences dealmaker but today's pack lists the item as a 'collaboration' with no disclosed economics. Is there an actual alliance, or is this just a hiring signal?",
+      "category": "contradiction",
+      "trigger": "deals[6].type=collaboration with total_usd=null, source title 'Anthropic looks for a life-sciences dealmaker'",
+      "reader_value": "Mislabeling a hiring move as a collaboration would mislead readers about AI-native entrants' real biopharma footprint.",
+      "answerable_from": "web",
+      "priority": 3
+    },
+    {
+      "id": "q7",
+      "question": "Sandoz's $300M Slovenia biosimilar factory is classified as 'financing' with no company. Should it instead be reported as capex/manufacturing news, and what products will the facility support?",
+      "category": "challenge",
+      "trigger": "deals[5].type=financing, company='', total_usd=300000000, source title 'new $300M factory in Slovenia'",
+      "reader_value": "Capacity investments are strategically different from financing rounds; the framing affects how readers assess biosimilar supply dynamics.",
+      "answerable_from": "web",
+      "priority": 3
+    },
+    {
+      "id": "q8",
+      "question": "The pack says zero FDA approvals today and warns that quiet days cluster before PDUFA batches. Which PDUFA decisions are due in the next five sessions?",
+      "category": "so-what",
+      "trigger": "insights[0] (move=absence-as-signal, numbers.approvals=0, text mentions 'next 5 sessions')",
+      "reader_value": "Anticipating the catch-up batch tells practitioners what approval catalysts to watch immediately after this quiet session.",
+      "answerable_from": "datasource",
+      "priority": 3
+    },
+    {
+      "id": "q9",
+      "question": "Pfizer's Phase 3 melanoma trial of encorafenib/binimetinib/pembrolizumab (NCT04657991) tops today's readout list with primary completion on 2026-10-30. Is top-line data expected then, or is this just a ClinicalTrials.gov placeholder?",
+      "category": "background",
+      "trigger": "readouts[0].nct=NCT04657991, phase=Phase 3, primary_completion='2026-10-30', score=29.49",
+      "reader_value": "The highest-scoring readout may be near a data catalyst; confirming timing helps readers prioritize watch-list entries.",
+      "answerable_from": "web",
+      "priority": 3
+    }
+  ]
+}

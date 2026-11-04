@@ -1,0 +1,54 @@
+{
+  "date": "2026-09-09",
+  "evidence": [
+    {
+      "question_id": "q1",
+      "answer": "The Phase 3 Harbor trial of del-desiran in myotonic dystrophy type 1 missed its primary endpoint of video hand opening time (vHOT). Because del-desiran was the centerpiece of the $12 billion Avidity acquisition and had been forecast to peak at up to $6 billion annually, the failure pressures the deal's strategic rationale. Novartis said it will analyze the full dataset and talk to health authorities about next steps; the source does not mention an impairment or write-down.",
+      "publisher": "FierceBiotech",
+      "source_url": "https://www.fiercebiotech.com/biotech/novartis-centerpiece-12b-avidity-buyout-flunks-crucial-phase-3-test",
+      "as_of": "2026-09-08",
+      "confidence": "medium"
+    },
+    {
+      "question_id": "q2",
+      "answer": "The licensee is Novartis. The agreement is a global exclusive development and commercialization license for VAV1-directed molecular glue degraders including MRT-6160 (DDY391). Monte Rosa is eligible for up to $2.1 billion in development, regulatory, and sales milestones, beginning with Phase 2 study initiation. Novartis funds and conducts Phase 2; Monte Rosa co-funds Phase 3, shares 30% of U.S. profit/loss, and receives tiered ex-U.S. royalties.",
+      "publisher": "SEC EDGAR",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1826457/000119312526384360/glue-ex99_1.htm",
+      "as_of": "2026-09-08",
+      "confidence": "high"
+    },
+    {
+      "question_id": "q3",
+      "answer": "The 1.4% move in GLUE is consistent with the deal's back-loaded structure: the Monte Rosa 8-K discloses no upfront payment and up to $2.1 billion in milestones tied to Phase 2 starts, regulatory events, and sales, with Novartis funding Phase 2. The source does not point to a separate platform overhang as the cause of the muted reaction.",
+      "publisher": "Monte Rosa 8-K / portfolio market data",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1826457/000119312526384360/glue-ex99_1.htm",
+      "as_of": "2026-09-09",
+      "confidence": "medium"
+    },
+    {
+      "question_id": "q6",
+      "answer": "Solstice licensed porustobart, an Fc-enhanced CTLA-4 antibody, from China's Harbour BioMed for a $105 million upfront package and is already advancing it in a Phase 2 trial in MSS stage II/III colon cancer. Harbour's Phase 1b data showed a 30% response rate for porustobart plus Keytruda in that population, versus roughly 0% for anti-PD-L1 monotherapy and up to 5% for PD-1 plus first-generation CTLA-4, with remissions averaging 8.4 months. The antibody also has a shorter half-life (four to five days) designed to reduce immune-related toxicities, and is being studied in the neoadjuvant setting.",
+      "publisher": "FierceBiotech",
+      "source_url": "https://www.fiercebiotech.com/biotech/solstice-rises-225m-advance-second-gen-ctla-4-immunotherapy",
+      "as_of": "2026-09-09",
+      "confidence": "medium"
+    },
+    {
+      "question_id": "q7",
+      "answer": "Kura contributed next-generation menin inhibitors for diabetes and other cardiometabolic diseases, including the compound KO-7246, to a new wholly owned subsidiary, Caspian Therapeutics. Kura invested $4.3 million in Caspian's $50 million Series A and holds about 49.2% of Caspian post-financing. Caspian received exclusive worldwide rights in the cardiometabolic field, while Kura retained a broad R&D license back and an intercompany services agreement. The SEC filing does not name Lilly or disclose whether Lilly received an option, equity stake, or collaboration; the Endpoints headline only notes the spinout was 'with Lilly's help' without terms.",
+      "publisher": "SEC EDGAR / Endpoints headline",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1422143/000119312526385881/d496500d8k.htm",
+      "as_of": "2026-09-09",
+      "confidence": "medium"
+    },
+    {
+      "question_id": "q9",
+      "answer": "deals[5] is a data-extraction error. The cited BioPharma Dive article is a Sept. 8 news roundup covering Roivant's pulmonary hypertension drug, AstraZeneca's Etcamah approval, Bristol Myers' GPRC5D CAR-T, Pharvaris' HAE pill, and Inhibrx's Keytruda combination; it contains no $10 billion cardiology cell-therapy deal. deals[7] is also missing company names in the pack even though the source article explicitly identifies Novartis as the acquirer and Avidity Biosciences as the target, so the two largest entries are both missing company names.",
+      "publisher": "BioPharma Dive / FierceBiotech",
+      "source_url": "https://www.biopharmadive.com/news/roivant-astrazeneca-etcamah-GPRC5D-pharvaris-inhibrx/829763/",
+      "as_of": "2026-09-08",
+      "confidence": "high"
+    }
+  ],
+  "unanswered": ["q4", "q5", "q8"]
+}

@@ -1,0 +1,15 @@
+{
+  "name": "jaimeyan-content",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "qc:blog": "node scripts/blog-qc.mjs",
+    "qc:assets": "node scripts/content-assets-qc.mjs",
+    "video:build": "node tools/video/build-video.mjs",
+    "video:upload": "node tools/video/upload-video.mjs",
+    "video:auth": "node tools/video/auth-youtube.mjs",
+    "video:release": "node tools/video/release-video.mjs",
+    "video:publish-existing": "node tools/video/publish-existing.mjs"
+  }
+}

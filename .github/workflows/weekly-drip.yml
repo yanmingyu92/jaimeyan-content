@@ -1,0 +1,92 @@
+name: weekly-drip
+
+# Import only due drafts from the private site repository, publish them here,
+# and let the public push trigger the site's Vercel build.
+on:
+  schedule:
+    - cron: '0 9 * * 0'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: weekly-drip
+  cancel-in-progress: false
+
+jobs:
+  drip:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@v6
+
+      - name: Read private drafts
+        uses: actions/checkout@v6
+        with:
+          repository: yanmingyu92/portfolio
+          ref: main
+          token: ${{ secrets.PORTFOLIO_READ_TOKEN }}
+          path: private
+          fetch-depth: 1
+          sparse-checkout: content/posts
+          persist-credentials: false
+
+      - uses: actions/setup-node@v6
+        with:
+          node-version: 22
+          cache: npm
+
+      - run: npm ci
+
+      - name: Plan due releases from private drafts
+        id: plan
+        env:
+          DRIP_PRIVATE_POSTS_DIR: ${{ github.workspace }}/private/content/posts
+        run: echo "due=$(node scripts/drip-next.mjs)" >> "$GITHUB_OUTPUT"
+
+      - name: Nothing due
+        if: steps.plan.outputs.due == '[]'
+        run: echo 'No posts due this week.'
+
+      - name: Import, release, and push due posts
+        if: steps.plan.outputs.due != '[]'
+        env:
+          DUE_JSON: ${{ steps.plan.outputs.due }}
+        run: |
+          SLUGS=$(printf '%s' "$DUE_JSON" | jq -r '.[].slug' | tr -d '\r')
+          for s in $SLUGS; do
+            test -f "private/content/posts/$s.md"
+            if [ ! -f "content/posts/$s.md" ]; then
+              cp "private/content/posts/$s.md" "content/posts/$s.md"
+            fi
+            echo "== releasing $s =="
+            node scripts/drip-release.mjs "$s"
+          done
+          npm run qc:blog
+          npm run qc:assets
+          git config user.name "drip-bot"
+          git config user.email "actions@github.com"
+          git add content/posts
+          if git diff --staged --quiet; then
+            echo "Nothing to commit (unexpected)"
+            exit 1
+          fi
+          git commit -m "chore(drip): auto-release week of $(date -u +%F)"
+          git push
+
+      - name: Tag and create GitHub Release
+        if: steps.plan.outputs.due != '[]'
+        env:
+          GH_TOKEN: ${{ github.token }}
+          DUE_JSON: ${{ steps.plan.outputs.due }}
+        run: |
+          TAGS=$(printf '%s' "$DUE_JSON" | jq -r '.[] | select(.tag) | .tag' | tr -d '\r')
+          if [ -z "$TAGS" ]; then echo 'No tag this week.'; exit 0; fi
+          for TAG in $TAGS; do
+            TITLE=$(printf '%s' "$DUE_JSON" | jq -r --arg t "$TAG" '.[] | select(.tag == $t) | .releaseTitle' | tr -d '\r')
+            git tag "$TAG"
+            git push origin "$TAG"
+            gh release create "$TAG" --title "$TITLE" \
+              --notes "Automated series release. Content CC BY 4.0 - cite the concept DOI 10.5281/zenodo.22233175."
+          done

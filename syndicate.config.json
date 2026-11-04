@@ -1,0 +1,46 @@
+{
+  "siteUrl": "https://jaimeyan.com",
+  "postsDir": "content/posts",
+  "reviewDir": "review",
+  "platforms": {
+    "devto": {
+      "enabled": false,
+      "mode": "api",
+      "note": "DISABLED on purpose: dev.to RSS import (Settings > Extensions > Publishing from RSS) now owns this channel — it auto-imports every post as a canonical-marked draft, and .github/workflows/devto-publish.yml publishes 2/week. Using this API adapter as well would create duplicate drafts."
+    },
+    "hashnode": {
+      "enabled": false,
+      "mode": "api",
+      "note": "requires Hashnode Pro ($50/yr) for GraphQL API access"
+    },
+    "wechat": {
+      "enabled": true,
+      "mode": "draft-file",
+      "note": "paste into doocs/md (md.doocs.org), copy styled HTML into 公众号后台; no API"
+    },
+    "medium": {
+      "enabled": true,
+      "mode": "manual-import",
+      "note": "API dead; generate import URL + instructions"
+    },
+    "zhihu": {
+      "enabled": true,
+      "mode": "draft-file",
+      "note": "publish via Wechatsync browser extension/CLI as draft"
+    },
+    "juejin": {
+      "enabled": true,
+      "mode": "draft-file"
+    },
+    "reddit": {
+      "enabled": true,
+      "mode": "draft-file",
+      "note": "human posts manually; respect each subreddit's self-promotion rules"
+    },
+    "xiaohongshu": {
+      "enabled": true,
+      "mode": "draft-file",
+      "note": "short caption + carousel copy; manual posting"
+    }
+  }
+}

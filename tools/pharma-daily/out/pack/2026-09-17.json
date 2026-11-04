@@ -1,0 +1,1228 @@
+{
+  "date": "2026-09-17",
+  "window": {
+    "start": "2026-09-10",
+    "end": "2026-09-17"
+  },
+  "deals": [
+    {
+      "company": "Yarrow Bioscience, Inc.",
+      "ticker": null,
+      "licensor": null,
+      "licensee": null,
+      "type": "license",
+      "upfront_usd": null,
+      "total_usd": 150000000.0,
+      "therapeutic_area": "oncology",
+      "modality": "monoclonal antibody",
+      "phase": "Phase 2a",
+      "target": "TSHR",
+      "percentile_total": 36.4,
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1566044/000110465926106699/tm2624937d1_ex99-2.htm",
+      "source_title": "Yarrow Bioscience, Inc. 8-K mentioning license agreement"
+    },
+    {
+      "company": "Connect Biopharma Holdings Ltd",
+      "ticker": null,
+      "licensor": null,
+      "licensee": null,
+      "type": "collaboration",
+      "upfront_usd": null,
+      "total_usd": 99000000.0,
+      "therapeutic_area": "immunology",
+      "modality": "monoclonal antibody",
+      "phase": "Phase 2",
+      "target": "IL-4R",
+      "percentile_total": 18.2,
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1835268/000183526826000034/exhibit991.htm",
+      "source_title": "Connect Biopharma Holdings Ltd 8-K mentioning collaboration agreement"
+    },
+    {
+      "company": "Tempest Therapeutics, Inc.",
+      "ticker": "TPST",
+      "licensor": null,
+      "licensee": null,
+      "type": "license",
+      "upfront_usd": null,
+      "total_usd": null,
+      "therapeutic_area": "oncology",
+      "modality": "cell therapy",
+      "phase": "Phase 1",
+      "target": "CAR",
+      "percentile_total": null,
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1544227/000119312526394492/d185404dex991.htm",
+      "source_title": "Tempest Therapeutics, Inc. 8-K mentioning license agreement"
+    },
+    {
+      "company": "Roche / Dualitas",
+      "ticker": null,
+      "licensor": "Dualitas",
+      "licensee": "Roche",
+      "type": "other",
+      "upfront_usd": null,
+      "total_usd": 1000000000.0,
+      "therapeutic_area": null,
+      "modality": "bispecific antibody",
+      "phase": null,
+      "target": null,
+      "percentile_total": null,
+      "source_url": "https://www.fiercebiotech.com/biotech/roche-pays-dualitas-365m-pair-big-bispecific-screening-drive",
+      "source_title": "Roche signs $1B deal with Dualitas to pair up on big bispecific screening drive"
+    },
+    {
+      "company": "Cardiff Oncology, Inc.",
+      "ticker": "CRDF",
+      "licensor": null,
+      "licensee": null,
+      "type": "license",
+      "upfront_usd": null,
+      "total_usd": null,
+      "therapeutic_area": "oncology",
+      "modality": "ADC",
+      "phase": "Phase 3",
+      "target": null,
+      "percentile_total": null,
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1213037/000149315226042506/ex99-1.htm",
+      "source_title": "Cardiff Oncology, Inc. 8-K mentioning license agreement"
+    },
+    {
+      "company": "Perspective Therapeutics, Inc.",
+      "ticker": "MRK",
+      "licensor": null,
+      "licensee": null,
+      "type": "collaboration",
+      "upfront_usd": null,
+      "total_usd": null,
+      "therapeutic_area": "oncology",
+      "modality": "monoclonal antibody",
+      "phase": "Phase 1",
+      "target": null,
+      "percentile_total": null,
+      "source_url": "https://www.sec.gov/Archives/edgar/data/728387/000119312526389785/catx-ex99_1.htm",
+      "source_title": "Perspective Therapeutics, Inc. 8-K mentioning collaboration agreement"
+    },
+    {
+      "company": "Sling",
+      "ticker": null,
+      "licensor": null,
+      "licensee": null,
+      "type": "other",
+      "upfront_usd": null,
+      "total_usd": 123000000.0,
+      "therapeutic_area": "oncology",
+      "modality": null,
+      "phase": "Phase 3",
+      "target": null,
+      "percentile_total": null,
+      "source_url": "https://endpoints.news/sling-gets-123m-for-phase-3-trial-of-ex-astellas-drug-in-thyroid-eye-disease/",
+      "source_title": "Sling gets $123M for Phase 3 trial of ex-Astellas drug in thyroid eye disease"
+    },
+    {
+      "company": "",
+      "ticker": null,
+      "licensor": null,
+      "licensee": null,
+      "type": "other",
+      "upfront_usd": null,
+      "total_usd": 100000000.0,
+      "therapeutic_area": "oncology",
+      "modality": "ADC",
+      "phase": "Phase 1",
+      "target": null,
+      "percentile_total": null,
+      "source_url": "https://endpoints.news/bristol-myers-scraps-orum-partnered-cancer-drug/",
+      "source_title": "Bristol Myers scraps $100M Orum-partnered cancer drug"
+    },
+    {
+      "company": "",
+      "ticker": null,
+      "licensor": null,
+      "licensee": null,
+      "type": "other",
+      "upfront_usd": null,
+      "total_usd": 750000000.0,
+      "therapeutic_area": "oncology",
+      "modality": null,
+      "phase": "Phase 1",
+      "target": null,
+      "percentile_total": null,
+      "source_url": "https://www.fiercebiotech.com/biotech/gsk-doubles-down-chimagen-750m-multiple-myeloma-wager",
+      "source_title": "GSK doubles down on Chimagen with $750M multiple myeloma wager"
+    },
+    {
+      "company": "",
+      "ticker": null,
+      "licensor": null,
+      "licensee": null,
+      "type": "financing",
+      "upfront_usd": null,
+      "total_usd": 123000000.0,
+      "therapeutic_area": "metabolic",
+      "modality": null,
+      "phase": "Phase 3",
+      "target": null,
+      "percentile_total": null,
+      "source_url": "https://www.fiercebiotech.com/biotech/sling-reels-123m-series-c-funding-its-oral-tepezza-rival-eye-disease",
+      "source_title": "Sling reels in $123M series C to fund oral Tepezza rival through phase 3 trial"
+    },
+    {
+      "company": "Korsana Biosciences, Inc.",
+      "ticker": null,
+      "licensor": null,
+      "licensee": null,
+      "type": "license",
+      "upfront_usd": null,
+      "total_usd": null,
+      "therapeutic_area": "neurology",
+      "modality": "monoclonal antibody",
+      "phase": null,
+      "target": null,
+      "percentile_total": null,
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1755237/000119312526389318/d178159dex993.htm",
+      "source_title": "Korsana Biosciences, Inc. 8-K mentioning license agreement"
+    },
+    {
+      "company": "Jaguar / Afib",
+      "ticker": null,
+      "licensor": "Afib",
+      "licensee": "Jaguar",
+      "type": "acquisition",
+      "upfront_usd": null,
+      "total_usd": null,
+      "therapeutic_area": null,
+      "modality": null,
+      "phase": null,
+      "target": null,
+      "percentile_total": null,
+      "source_url": "https://www.fiercebiotech.com/medtech/newly-formed-jaguar-acquires-afib-device-assets-jj",
+      "source_title": "Newly formed Jaguar acquires Afib device assets from J&amp;J"
+    },
+    {
+      "company": "",
+      "ticker": null,
+      "licensor": null,
+      "licensee": null,
+      "type": "collaboration",
+      "upfront_usd": null,
+      "total_usd": 1400000000.0,
+      "therapeutic_area": null,
+      "modality": "peptide",
+      "phase": null,
+      "target": null,
+      "percentile_total": 81.8,
+      "source_url": "https://www.biopharmadive.com/news/novo-orbis-macrocyclic-peptides-oral-obesity-drugs/830645/",
+      "source_title": "Novo partners with Orbis, deepening investment in oral peptide drugs"
+    },
+    {
+      "company": "",
+      "ticker": null,
+      "licensor": null,
+      "licensee": null,
+      "type": "financing",
+      "upfront_usd": null,
+      "total_usd": 315000000.0,
+      "therapeutic_area": "neurology",
+      "modality": null,
+      "phase": null,
+      "target": null,
+      "percentile_total": null,
+      "source_url": "https://www.fiercebiotech.com/biotech/sk-pens-315m-pact-fellow-south-korean-company-parkinsons-prospect",
+      "source_title": "SK pens $315M pact with fellow South Korean company for Parkinson’s prospect"
+    },
+    {
+      "company": "",
+      "ticker": null,
+      "licensor": null,
+      "licensee": null,
+      "type": "other",
+      "upfront_usd": null,
+      "total_usd": 285000000.0,
+      "therapeutic_area": "metabolic",
+      "modality": null,
+      "phase": null,
+      "target": null,
+      "percentile_total": null,
+      "source_url": "https://www.fiercebiotech.com/biotech/novo-walks-away-285m-pact-develop-monthly-glp-1-ascendis",
+      "source_title": "Novo walks away from $285M pact to develop monthly GLP-1 obesity drug with Ascendis"
+    },
+    {
+      "company": "",
+      "ticker": null,
+      "licensor": null,
+      "licensee": null,
+      "type": "acquisition",
+      "upfront_usd": null,
+      "total_usd": 180000000.0,
+      "therapeutic_area": null,
+      "modality": "monoclonal antibody",
+      "phase": null,
+      "target": null,
+      "percentile_total": 45.5,
+      "source_url": "https://www.biopharmadive.com/news/north-immunology-aethlon-biotech-reverse-merger-eczema-drug/830631/",
+      "source_title": "North Immunology joins biotech reverse merger boom with Aethlon deal"
+    },
+    {
+      "company": "",
+      "ticker": null,
+      "licensor": null,
+      "licensee": null,
+      "type": "other",
+      "upfront_usd": null,
+      "total_usd": 120000000.0,
+      "therapeutic_area": null,
+      "modality": "cell therapy",
+      "phase": null,
+      "target": null,
+      "percentile_total": null,
+      "source_url": "https://www.fiercepharma.com/pharma/ori-locks-down-120m-pact-deploy-automated-production-platform-unnamed-commercial-cell",
+      "source_title": "Ori locks down $120M pact to deploy automated production platform for unnamed commercial cell therapy"
+    },
+    {
+      "company": "",
+      "ticker": null,
+      "licensor": null,
+      "licensee": null,
+      "type": "other",
+      "upfront_usd": null,
+      "total_usd": 36500000.0,
+      "therapeutic_area": null,
+      "modality": "bispecific antibody",
+      "phase": null,
+      "target": null,
+      "percentile_total": null,
+      "source_url": "https://endpoints.news/roche-turns-to-dualitas-to-find-new-bispecific-approaches-for-immunology/",
+      "source_title": "Roche turns to Dualitas to find new bispecific approaches for immunology"
+    },
+    {
+      "company": "",
+      "ticker": null,
+      "licensor": null,
+      "licensee": null,
+      "type": "collaboration",
+      "upfront_usd": null,
+      "total_usd": null,
+      "therapeutic_area": "infectious disease",
+      "modality": "cell therapy",
+      "phase": null,
+      "target": null,
+      "percentile_total": null,
+      "source_url": "https://www.fiercepharma.com/manufacturing/cellares-links-genomefrontier-evaluate-virus-free-car-t-therapy-production",
+      "source_title": "Cellares links with GenomeFrontier to test automation approach for virus-free CAR-Ts"
+    },
+    {
+      "company": "",
+      "ticker": null,
+      "licensor": null,
+      "licensee": null,
+      "type": "acquisition",
+      "upfront_usd": null,
+      "total_usd": null,
+      "therapeutic_area": "cardiology",
+      "modality": null,
+      "phase": "Phase 2",
+      "target": null,
+      "percentile_total": null,
+      "source_url": "https://endpoints.news/two-more-biotechs-marea-and-north-immunology-do-reverse-mergers/",
+      "source_title": "Two more biotechs, Marea and North Immunology, do reverse mergers"
+    },
+    {
+      "company": "",
+      "ticker": null,
+      "licensor": null,
+      "licensee": null,
+      "type": "other",
+      "upfront_usd": null,
+      "total_usd": 1400000000.0,
+      "therapeutic_area": null,
+      "modality": null,
+      "phase": null,
+      "target": null,
+      "percentile_total": null,
+      "source_url": "https://www.fiercebiotech.com/biotech/novo-explores-macrocycles-potential-14b-cardiometabolic-pact-danish-biotech",
+      "source_title": "Novo explores macrocycles’ potential in $1.4B cardiometabolic pact with Danish biotech"
+    },
+    {
+      "company": "",
+      "ticker": null,
+      "licensor": null,
+      "licensee": null,
+      "type": "other",
+      "upfront_usd": null,
+      "total_usd": 600000000.0,
+      "therapeutic_area": null,
+      "modality": null,
+      "phase": null,
+      "target": null,
+      "percentile_total": null,
+      "source_url": "https://www.fiercepharma.com/pharma/reckitt-allots-600-million-upgrade-its-us-operations",
+      "source_title": "Reckitt allots $600 million in upgrade of its U.S. operations"
+    },
+    {
+      "company": "",
+      "ticker": null,
+      "licensor": null,
+      "licensee": null,
+      "type": "collaboration",
+      "upfront_usd": null,
+      "total_usd": 237000000.0,
+      "therapeutic_area": null,
+      "modality": null,
+      "phase": null,
+      "target": null,
+      "percentile_total": 54.5,
+      "source_url": "https://www.fiercebiotech.com/biotech/lilly-pledges-237m-program-cns-genetic-med-collab-canadian-biotech",
+      "source_title": "Lilly pledges up to $237M per program in CNS genetic med collab with Canadian biotech"
+    },
+    {
+      "company": "",
+      "ticker": null,
+      "licensor": null,
+      "licensee": null,
+      "type": "acquisition",
+      "upfront_usd": null,
+      "total_usd": 125000000.0,
+      "therapeutic_area": null,
+      "modality": null,
+      "phase": null,
+      "target": null,
+      "percentile_total": 27.3,
+      "source_url": "https://www.fiercebiotech.com/biotech/novartis-pays-sironax-125m-acquire-platform-crossing-blood-brain-barrier",
+      "source_title": "Novartis pays Sironax $125M to acquire platform for crossing the blood-brain barrier"
+    },
+    {
+      "company": "LISATA THERAPEUTICS, INC.",
+      "ticker": null,
+      "licensor": null,
+      "licensee": null,
+      "type": "license",
+      "upfront_usd": null,
+      "total_usd": null,
+      "therapeutic_area": null,
+      "modality": null,
+      "phase": null,
+      "target": null,
+      "percentile_total": null,
+      "source_url": "https://www.sec.gov/Archives/edgar/data/320017/000114036126036866/ef20082158_ex2-1.htm",
+      "source_title": "LISATA THERAPEUTICS, INC. 8-K mentioning license agreement"
+    },
+    {
+      "company": "Xenetic Biosciences, Inc.",
+      "ticker": null,
+      "licensor": null,
+      "licensee": null,
+      "type": "license",
+      "upfront_usd": null,
+      "total_usd": null,
+      "therapeutic_area": null,
+      "modality": null,
+      "phase": null,
+      "target": null,
+      "percentile_total": null,
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1534525/000168316826007181/xenetic_ex0201.htm",
+      "source_title": "Xenetic Biosciences, Inc. 8-K mentioning license agreement"
+    },
+    {
+      "company": "",
+      "ticker": null,
+      "licensor": null,
+      "licensee": null,
+      "type": "collaboration",
+      "upfront_usd": null,
+      "total_usd": null,
+      "therapeutic_area": "neurology",
+      "modality": null,
+      "phase": null,
+      "target": null,
+      "percentile_total": null,
+      "source_url": "https://www.fiercepharma.com/marketing/eli-lilly-dishes-out-fresh-produce-cultivate-alzheimers-awareness",
+      "source_title": "Eli Lilly dishes out fresh produce to cultivate Alzheimer’s awareness"
+    },
+    {
+      "company": "",
+      "ticker": null,
+      "licensor": null,
+      "licensee": null,
+      "type": "acquisition",
+      "upfront_usd": null,
+      "total_usd": null,
+      "therapeutic_area": "oncology",
+      "modality": null,
+      "phase": null,
+      "target": null,
+      "percentile_total": null,
+      "source_url": "https://www.fiercebiotech.com/biotech/after-one-failed-acquisition-attempt-lisata-finds-lifeline-marea-merger",
+      "source_title": "After one failed acquisition attempt, Lisata finds lifeline in Marea merger"
+    },
+    {
+      "company": "",
+      "ticker": null,
+      "licensor": null,
+      "licensee": null,
+      "type": "acquisition",
+      "upfront_usd": null,
+      "total_usd": null,
+      "therapeutic_area": "immunology",
+      "modality": null,
+      "phase": null,
+      "target": null,
+      "percentile_total": null,
+      "source_url": "https://www.fiercebiotech.com/biotech/north-immunology-goes-public-reverse-merger-eczema-drug-heads-toward-clinic",
+      "source_title": "North Immunology goes public via reverse merger as eczema drug heads toward clinic"
+    },
+    {
+      "company": "",
+      "ticker": null,
+      "licensor": null,
+      "licensee": null,
+      "type": "collaboration",
+      "upfront_usd": null,
+      "total_usd": null,
+      "therapeutic_area": null,
+      "modality": "cell therapy",
+      "phase": null,
+      "target": null,
+      "percentile_total": null,
+      "source_url": "https://endpoints.news/cellares-and-ori-biotechs-new-cell-therapy-manufacturing-contracts/",
+      "source_title": "Cellares and Ori Biotech’s new cell therapy manufacturing contracts"
+    },
+    {
+      "company": "",
+      "ticker": null,
+      "licensor": null,
+      "licensee": null,
+      "type": "license",
+      "upfront_usd": null,
+      "total_usd": null,
+      "therapeutic_area": "neurology",
+      "modality": null,
+      "phase": null,
+      "target": null,
+      "percentile_total": null,
+      "source_url": "https://endpoints.news/a-parkinsons-biotech-debut-fundraising-campaign-and-licensing-deal/",
+      "source_title": "A Parkinson's biotech debut, fundraising campaign and licensing deal"
+    },
+    {
+      "company": "",
+      "ticker": null,
+      "licensor": null,
+      "licensee": null,
+      "type": "collaboration",
+      "upfront_usd": null,
+      "total_usd": null,
+      "therapeutic_area": null,
+      "modality": null,
+      "phase": null,
+      "target": null,
+      "percentile_total": null,
+      "source_url": "https://endpoints.news/general-catalyst-details-tech-partnerships-at-summa-health/",
+      "source_title": "General Catalyst details tech partnerships at Summa Health"
+    }
+  ],
+  "approvals": [
+    {
+      "product": "EPINEPHRINE",
+      "sponsor": "Zydus Pharms",
+      "date": "2026-09-14",
+      "url": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=219832",
+      "application_type": "ANDA"
+    },
+    {
+      "product": "IMDELLTRA",
+      "sponsor": "Amgen Inc",
+      "date": "2026-09-11",
+      "url": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=761344",
+      "application_type": "BLA"
+    },
+    {
+      "product": "LISDEXAMFETAMINE DIMESYLATE",
+      "sponsor": "Ascent Pharms Inc",
+      "date": "2026-09-10",
+      "url": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=217442",
+      "application_type": "ANDA"
+    },
+    {
+      "product": "ASENAPINE MALEATE",
+      "sponsor": "Alembic",
+      "date": "2026-09-10",
+      "url": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=206098",
+      "application_type": "ANDA"
+    },
+    {
+      "product": "SPIRONOLACTONE AND HYDROCHLOROTHIAZIDE",
+      "sponsor": "Rubicon Research",
+      "date": "2026-09-10",
+      "url": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=220884",
+      "application_type": "ANDA"
+    },
+    {
+      "product": "ITRACONAZOLE",
+      "sponsor": "Apotex",
+      "date": "2026-09-11",
+      "url": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=208481",
+      "application_type": "ANDA"
+    },
+    {
+      "product": "GABAPENTIN",
+      "sponsor": "Invagen Pharms",
+      "date": "2026-09-11",
+      "url": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=090705",
+      "application_type": "ANDA"
+    },
+    {
+      "product": "COLISTIMETHATE SODIUM",
+      "sponsor": "Sagent Pharms Inc",
+      "date": "2026-09-14",
+      "url": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=201365",
+      "application_type": "ANDA"
+    },
+    {
+      "product": "ISEMBYLD",
+      "sponsor": "Scholar Rock Inc",
+      "date": "2026-09-11",
+      "url": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=761463",
+      "application_type": "BLA"
+    },
+    {
+      "product": "PRIMAQUINE PHOSPHATE",
+      "sponsor": "Alvogen",
+      "date": "2026-09-14",
+      "url": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=203924",
+      "application_type": "ANDA"
+    },
+    {
+      "product": "POLYETHYLENE GLYCOL 3350",
+      "sponsor": "Strides Pharma",
+      "date": "2026-09-11",
+      "url": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=203928",
+      "application_type": "ANDA"
+    },
+    {
+      "product": "ANNOVERA",
+      "sponsor": "Mayne Pharma",
+      "date": "2026-09-10",
+      "url": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=209627",
+      "application_type": "NDA"
+    },
+    {
+      "product": "CARBIDOPA AND LEVODOPA",
+      "sponsor": "Sun Pharm Inds",
+      "date": "2026-09-11",
+      "url": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=078536",
+      "application_type": "ANDA"
+    },
+    {
+      "product": "ITRACONAZOLE",
+      "sponsor": "Amneal Pharms",
+      "date": "2026-09-14",
+      "url": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=205080",
+      "application_type": "ANDA"
+    },
+    {
+      "product": "DOXYCYCLINE HYCLATE",
+      "sponsor": "Changzhou Pharm",
+      "date": "2026-09-14",
+      "url": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=211343",
+      "application_type": "ANDA"
+    },
+    {
+      "product": "PACLITAXEL",
+      "sponsor": "Teva Pharms",
+      "date": "2026-09-11",
+      "url": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=075184",
+      "application_type": "ANDA"
+    },
+    {
+      "product": "ITRACONAZOLE",
+      "sponsor": "Alembic",
+      "date": "2026-09-14",
+      "url": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=206741",
+      "application_type": "ANDA"
+    },
+    {
+      "product": "KYBELLA",
+      "sponsor": "Abbvie",
+      "date": "2026-09-11",
+      "url": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=206333",
+      "application_type": "NDA"
+    },
+    {
+      "product": "DASATINIB",
+      "sponsor": "Msn",
+      "date": "2026-09-11",
+      "url": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=219579",
+      "application_type": "ANDA"
+    },
+    {
+      "product": "CLOBAZAM",
+      "sponsor": "Micro Labs",
+      "date": "2026-09-14",
+      "url": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=211711",
+      "application_type": "ANDA"
+    },
+    {
+      "product": "CARBIDOPA AND LEVODOPA",
+      "sponsor": "Actavis Elizabeth",
+      "date": "2026-09-11",
+      "url": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=074260",
+      "application_type": "ANDA"
+    },
+    {
+      "product": "PIXCLARA",
+      "sponsor": "Telix Pharmaceuticals Us Inc",
+      "date": "2026-09-11",
+      "url": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=218592",
+      "application_type": "NDA"
+    },
+    {
+      "product": "ISOTRETINOIN",
+      "sponsor": "Aurobindo Pharma Ltd",
+      "date": "2026-09-10",
+      "url": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=220336",
+      "application_type": "ANDA"
+    },
+    {
+      "product": "JOENJA",
+      "sponsor": "Pharming",
+      "date": "2026-09-11",
+      "url": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=217759",
+      "application_type": "NDA"
+    },
+    {
+      "product": "PRIMAQUINE PHOSPHATE",
+      "sponsor": "Unichem",
+      "date": "2026-09-14",
+      "url": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=204476",
+      "application_type": "ANDA"
+    }
+  ],
+  "readouts": [
+    {
+      "nct": "NCT05946941",
+      "phase": "Phase 3",
+      "sponsor": "Bristol-Myers Squibb",
+      "title": "A Study to Evaluate the Efficacy and Safety of Deucravacitinib in Adults With Active Sjögren's Syndrome",
+      "primary_completion": "2026-11-18",
+      "enrollment": 774,
+      "score": 34.44,
+      "url": "https://clinicaltrials.gov/study/NCT05946941"
+    },
+    {
+      "nct": "NCT06417814",
+      "phase": "Phase 3",
+      "sponsor": "AstraZeneca",
+      "title": "A Study to Investigate the Efficacy and Safety of Dato-DXd With or Without Osimertinib Compared With Platinum Based Doublet Chemotherapy in Participants With EGFR-Mutated Locally Advanced or Metastatic Non-Small Cell Lung Cancer",
+      "primary_completion": "2026-09-30",
+      "enrollment": 744,
+      "score": 34.26,
+      "url": "https://clinicaltrials.gov/study/NCT06417814"
+    },
+    {
+      "nct": "NCT03705234",
+      "phase": "Phase 3",
+      "sponsor": "University of Oxford",
+      "title": "A Randomized Trial Assessing the Effects of Inclisiran on Clinical Outcomes Among People With Cardiovascular Disease",
+      "primary_completion": "2026-10",
+      "enrollment": 16124,
+      "score": 32.06,
+      "url": "https://clinicaltrials.gov/study/NCT03705234"
+    },
+    {
+      "nct": "NCT05646862",
+      "phase": "Phase 3",
+      "sponsor": "Hoffmann-La Roche",
+      "title": "A Study Evaluating the Efficacy and Safety of Inavolisib Plus Fulvestrant Compared With Alpelisib Plus Fulvestrant in Participants With HR-Positive, HER2-Negative, PIK3CA Mutated, Locally Advanced or Metastatic Breast Cancer Post CDK4/6i and Endocrine Combination Therapy",
+      "primary_completion": "2026-11-13",
+      "enrollment": 420,
+      "score": 31.69,
+      "url": "https://clinicaltrials.gov/study/NCT05646862"
+    },
+    {
+      "nct": "NCT07029711",
+      "phase": "Phase 3",
+      "sponsor": "Pfizer",
+      "title": "A Study to Learn About Medicine Called Ritlecitinib in Children Aged Between 6 to 12 Years With Severe Alopecia Areata",
+      "primary_completion": "2026-12-02",
+      "enrollment": 208,
+      "score": 28.54,
+      "url": "https://clinicaltrials.gov/study/NCT07029711"
+    },
+    {
+      "nct": "NCT07381803",
+      "phase": "Phase 3",
+      "sponsor": "Second Affiliated Hospital, Zhejiang University, School of Medicine",
+      "title": "The Impact of Fexofenadine Hydrochloride on the Prognosis of Patients Post-Acute Myocardial Infarction",
+      "primary_completion": "2026-12",
+      "enrollment": 2804,
+      "score": 26.82,
+      "url": "https://clinicaltrials.gov/study/NCT07381803"
+    },
+    {
+      "nct": "NCT04513808",
+      "phase": "Phase 3",
+      "sponsor": "The Cleveland Clinic",
+      "title": "Total Intravenous Anesthesia and Recurrence Free Survival",
+      "primary_completion": "2026-12",
+      "enrollment": 1614,
+      "score": 25.16,
+      "url": "https://clinicaltrials.gov/study/NCT04513808"
+    },
+    {
+      "nct": "NCT04221035",
+      "phase": "Phase 3",
+      "sponsor": "Gustave Roussy, Cancer Campus, Grand Paris",
+      "title": "High-Risk Neuroblastoma Study 2 of SIOP-Europa-Neuroblastoma (SIOPEN)",
+      "primary_completion": "2026-11",
+      "enrollment": 800,
+      "score": 23.06,
+      "url": "https://clinicaltrials.gov/study/NCT04221035"
+    },
+    {
+      "nct": "NCT04145258",
+      "phase": "Phase 3",
+      "sponsor": "ANRS, Emerging Infectious Diseases",
+      "title": "Intensified Tuberculosis Treatment to Reduce the Mortality of Patients With Tuberculous Meningitis",
+      "primary_completion": "2026-09-23",
+      "enrollment": 768,
+      "score": 22.94,
+      "url": "https://clinicaltrials.gov/study/NCT04145258"
+    },
+    {
+      "nct": "NCT05654454",
+      "phase": "Phase 3",
+      "sponsor": "Mabscale, LLC",
+      "title": "A Safety and Efficacy Study of Bevacizumab, Paclitaxel, Carboplatin Compared to Avastin® in Non-Small Cell Lung Cancer",
+      "primary_completion": "2026-12",
+      "enrollment": 620,
+      "score": 22.29,
+      "url": "https://clinicaltrials.gov/study/NCT05654454"
+    },
+    {
+      "nct": "NCT06683742",
+      "phase": "Phase 3",
+      "sponsor": "EyePoint Pharmaceuticals, Inc.",
+      "title": "A 2-year Study of EYP-1901 in Subjects With Wet Age Related Macular Degeneration (wAMD) (LUCIA) Primary Efficacy Will be Determined at Week 56",
+      "primary_completion": "2026-10",
+      "enrollment": 400,
+      "score": 20.98,
+      "url": "https://clinicaltrials.gov/study/NCT06683742"
+    },
+    {
+      "nct": "NCT05050942",
+      "phase": "Phase 3",
+      "sponsor": "Camurus AB",
+      "title": "A Trial to Assess Efficacy and Safety of Octreotide Subcutaneous Depot in Patients With GEP-NET",
+      "primary_completion": "2026-11",
+      "enrollment": 332,
+      "score": 20.42,
+      "url": "https://clinicaltrials.gov/study/NCT05050942"
+    }
+  ],
+  "market": [
+    {
+      "ticker": "TPST",
+      "change_1d_pct": 60.26,
+      "as_of": "2026-09-17"
+    },
+    {
+      "ticker": "CRDF",
+      "change_1d_pct": 0.75,
+      "as_of": "2026-09-17"
+    },
+    {
+      "ticker": "MRK",
+      "change_1d_pct": 0.78,
+      "as_of": "2026-09-17"
+    }
+  ],
+  "comps": {
+    "n_historical": 11,
+    "median_total_usd": 237000000.0,
+    "thin_sample": true
+  },
+  "insights": [
+    {
+      "move": "market-verdict",
+      "text": "TPST moved +60.3% on the day (on a deal ticker, as of 2026-09-17).",
+      "numbers": {
+        "ticker": "TPST",
+        "change_1d_pct": 60.26,
+        "as_of": "2026-09-17",
+        "deal_linked": true
+      },
+      "confidence": "computed"
+    }
+  ],
+  "figures": [
+    {
+      "path": "out\\figures\\2026-09-17\\deal-sizes.png",
+      "takeaway": "Largest disclosed total $1.4B — vs 11 accumulated comps"
+    },
+    {
+      "path": "out\\figures\\2026-09-17\\market-reaction.png",
+      "takeaway": "TPST led deal tickers at +60.3%; 3 of 3 rose"
+    }
+  ],
+  "sources": [
+    {
+      "title": "Yarrow Bioscience, Inc. 8-K mentioning license agreement",
+      "url": "https://www.sec.gov/Archives/edgar/data/1566044/000110465926106699/tm2624937d1_ex99-2.htm",
+      "outlet": "sec-edgar"
+    },
+    {
+      "title": "Connect Biopharma Holdings Ltd 8-K mentioning collaboration agreement",
+      "url": "https://www.sec.gov/Archives/edgar/data/1835268/000183526826000034/exhibit991.htm",
+      "outlet": "sec-edgar"
+    },
+    {
+      "title": "Tempest Therapeutics, Inc. 8-K mentioning license agreement",
+      "url": "https://www.sec.gov/Archives/edgar/data/1544227/000119312526394492/d185404dex991.htm",
+      "outlet": "sec-edgar"
+    },
+    {
+      "title": "Roche signs $1B deal with Dualitas to pair up on big bispecific screening drive",
+      "url": "https://www.fiercebiotech.com/biotech/roche-pays-dualitas-365m-pair-big-bispecific-screening-drive",
+      "outlet": "fiercebiotech"
+    },
+    {
+      "title": "Cardiff Oncology, Inc. 8-K mentioning license agreement",
+      "url": "https://www.sec.gov/Archives/edgar/data/1213037/000149315226042506/ex99-1.htm",
+      "outlet": "sec-edgar"
+    },
+    {
+      "title": "Perspective Therapeutics, Inc. 8-K mentioning collaboration agreement",
+      "url": "https://www.sec.gov/Archives/edgar/data/728387/000119312526389785/catx-ex99_1.htm",
+      "outlet": "sec-edgar"
+    },
+    {
+      "title": "Sling gets $123M for Phase 3 trial of ex-Astellas drug in thyroid eye disease",
+      "url": "https://endpoints.news/sling-gets-123m-for-phase-3-trial-of-ex-astellas-drug-in-thyroid-eye-disease/",
+      "outlet": "endpoints"
+    },
+    {
+      "title": "Bristol Myers scraps $100M Orum-partnered cancer drug",
+      "url": "https://endpoints.news/bristol-myers-scraps-orum-partnered-cancer-drug/",
+      "outlet": "endpoints"
+    },
+    {
+      "title": "GSK doubles down on Chimagen with $750M multiple myeloma wager",
+      "url": "https://www.fiercebiotech.com/biotech/gsk-doubles-down-chimagen-750m-multiple-myeloma-wager",
+      "outlet": "fiercebiotech"
+    },
+    {
+      "title": "Sling reels in $123M series C to fund oral Tepezza rival through phase 3 trial",
+      "url": "https://www.fiercebiotech.com/biotech/sling-reels-123m-series-c-funding-its-oral-tepezza-rival-eye-disease",
+      "outlet": "fiercebiotech"
+    },
+    {
+      "title": "Korsana Biosciences, Inc. 8-K mentioning license agreement",
+      "url": "https://www.sec.gov/Archives/edgar/data/1755237/000119312526389318/d178159dex993.htm",
+      "outlet": "sec-edgar"
+    },
+    {
+      "title": "Newly formed Jaguar acquires Afib device assets from J&amp;J",
+      "url": "https://www.fiercebiotech.com/medtech/newly-formed-jaguar-acquires-afib-device-assets-jj",
+      "outlet": "fiercebiotech"
+    },
+    {
+      "title": "Novo partners with Orbis, deepening investment in oral peptide drugs",
+      "url": "https://www.biopharmadive.com/news/novo-orbis-macrocyclic-peptides-oral-obesity-drugs/830645/",
+      "outlet": "biopharmadive"
+    },
+    {
+      "title": "SK pens $315M pact with fellow South Korean company for Parkinson’s prospect",
+      "url": "https://www.fiercebiotech.com/biotech/sk-pens-315m-pact-fellow-south-korean-company-parkinsons-prospect",
+      "outlet": "fiercebiotech"
+    },
+    {
+      "title": "Novo walks away from $285M pact to develop monthly GLP-1 obesity drug with Ascendis",
+      "url": "https://www.fiercebiotech.com/biotech/novo-walks-away-285m-pact-develop-monthly-glp-1-ascendis",
+      "outlet": "fiercebiotech"
+    },
+    {
+      "title": "North Immunology joins biotech reverse merger boom with Aethlon deal",
+      "url": "https://www.biopharmadive.com/news/north-immunology-aethlon-biotech-reverse-merger-eczema-drug/830631/",
+      "outlet": "biopharmadive"
+    },
+    {
+      "title": "Ori locks down $120M pact to deploy automated production platform for unnamed commercial cell therapy",
+      "url": "https://www.fiercepharma.com/pharma/ori-locks-down-120m-pact-deploy-automated-production-platform-unnamed-commercial-cell",
+      "outlet": "fiercepharma"
+    },
+    {
+      "title": "Roche turns to Dualitas to find new bispecific approaches for immunology",
+      "url": "https://endpoints.news/roche-turns-to-dualitas-to-find-new-bispecific-approaches-for-immunology/",
+      "outlet": "endpoints"
+    },
+    {
+      "title": "Cellares links with GenomeFrontier to test automation approach for virus-free CAR-Ts",
+      "url": "https://www.fiercepharma.com/manufacturing/cellares-links-genomefrontier-evaluate-virus-free-car-t-therapy-production",
+      "outlet": "fiercepharma"
+    },
+    {
+      "title": "Two more biotechs, Marea and North Immunology, do reverse mergers",
+      "url": "https://endpoints.news/two-more-biotechs-marea-and-north-immunology-do-reverse-mergers/",
+      "outlet": "endpoints"
+    },
+    {
+      "title": "Novo explores macrocycles’ potential in $1.4B cardiometabolic pact with Danish biotech",
+      "url": "https://www.fiercebiotech.com/biotech/novo-explores-macrocycles-potential-14b-cardiometabolic-pact-danish-biotech",
+      "outlet": "fiercebiotech"
+    },
+    {
+      "title": "Reckitt allots $600 million in upgrade of its U.S. operations",
+      "url": "https://www.fiercepharma.com/pharma/reckitt-allots-600-million-upgrade-its-us-operations",
+      "outlet": "fiercepharma"
+    },
+    {
+      "title": "Lilly pledges up to $237M per program in CNS genetic med collab with Canadian biotech",
+      "url": "https://www.fiercebiotech.com/biotech/lilly-pledges-237m-program-cns-genetic-med-collab-canadian-biotech",
+      "outlet": "fiercebiotech"
+    },
+    {
+      "title": "Novartis pays Sironax $125M to acquire platform for crossing the blood-brain barrier",
+      "url": "https://www.fiercebiotech.com/biotech/novartis-pays-sironax-125m-acquire-platform-crossing-blood-brain-barrier",
+      "outlet": "fiercebiotech"
+    },
+    {
+      "title": "LISATA THERAPEUTICS, INC. 8-K mentioning license agreement",
+      "url": "https://www.sec.gov/Archives/edgar/data/320017/000114036126036866/ef20082158_ex2-1.htm",
+      "outlet": "sec-edgar"
+    },
+    {
+      "title": "Xenetic Biosciences, Inc. 8-K mentioning license agreement",
+      "url": "https://www.sec.gov/Archives/edgar/data/1534525/000168316826007181/xenetic_ex0201.htm",
+      "outlet": "sec-edgar"
+    },
+    {
+      "title": "Eli Lilly dishes out fresh produce to cultivate Alzheimer’s awareness",
+      "url": "https://www.fiercepharma.com/marketing/eli-lilly-dishes-out-fresh-produce-cultivate-alzheimers-awareness",
+      "outlet": "fiercepharma"
+    },
+    {
+      "title": "After one failed acquisition attempt, Lisata finds lifeline in Marea merger",
+      "url": "https://www.fiercebiotech.com/biotech/after-one-failed-acquisition-attempt-lisata-finds-lifeline-marea-merger",
+      "outlet": "fiercebiotech"
+    },
+    {
+      "title": "North Immunology goes public via reverse merger as eczema drug heads toward clinic",
+      "url": "https://www.fiercebiotech.com/biotech/north-immunology-goes-public-reverse-merger-eczema-drug-heads-toward-clinic",
+      "outlet": "fiercebiotech"
+    },
+    {
+      "title": "Cellares and Ori Biotech’s new cell therapy manufacturing contracts",
+      "url": "https://endpoints.news/cellares-and-ori-biotechs-new-cell-therapy-manufacturing-contracts/",
+      "outlet": "endpoints"
+    },
+    {
+      "title": "A Parkinson's biotech debut, fundraising campaign and licensing deal",
+      "url": "https://endpoints.news/a-parkinsons-biotech-debut-fundraising-campaign-and-licensing-deal/",
+      "outlet": "endpoints"
+    },
+    {
+      "title": "General Catalyst details tech partnerships at Summa Health",
+      "url": "https://endpoints.news/general-catalyst-details-tech-partnerships-at-summa-health/",
+      "outlet": "endpoints"
+    },
+    {
+      "title": "FDA approval: EPINEPHRINE (Zydus Pharms)",
+      "url": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=219832",
+      "outlet": "openfda"
+    },
+    {
+      "title": "FDA approval: IMDELLTRA (Amgen Inc)",
+      "url": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=761344",
+      "outlet": "openfda"
+    },
+    {
+      "title": "FDA approval: LISDEXAMFETAMINE DIMESYLATE (Ascent Pharms Inc)",
+      "url": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=217442",
+      "outlet": "openfda"
+    },
+    {
+      "title": "FDA approval: ASENAPINE MALEATE (Alembic)",
+      "url": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=206098",
+      "outlet": "openfda"
+    },
+    {
+      "title": "FDA approval: SPIRONOLACTONE AND HYDROCHLOROTHIAZIDE (Rubicon Research)",
+      "url": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=220884",
+      "outlet": "openfda"
+    },
+    {
+      "title": "FDA approval: ITRACONAZOLE (Apotex)",
+      "url": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=208481",
+      "outlet": "openfda"
+    },
+    {
+      "title": "FDA approval: GABAPENTIN (Invagen Pharms)",
+      "url": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=090705",
+      "outlet": "openfda"
+    },
+    {
+      "title": "FDA approval: COLISTIMETHATE SODIUM (Sagent Pharms Inc)",
+      "url": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=201365",
+      "outlet": "openfda"
+    },
+    {
+      "title": "FDA approval: ISEMBYLD (Scholar Rock Inc)",
+      "url": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=761463",
+      "outlet": "openfda"
+    },
+    {
+      "title": "FDA approval: PRIMAQUINE PHOSPHATE (Alvogen)",
+      "url": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=203924",
+      "outlet": "openfda"
+    },
+    {
+      "title": "FDA approval: POLYETHYLENE GLYCOL 3350 (Strides Pharma)",
+      "url": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=203928",
+      "outlet": "openfda"
+    },
+    {
+      "title": "FDA approval: ANNOVERA (Mayne Pharma)",
+      "url": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=209627",
+      "outlet": "openfda"
+    },
+    {
+      "title": "FDA approval: CARBIDOPA AND LEVODOPA (Sun Pharm Inds)",
+      "url": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=078536",
+      "outlet": "openfda"
+    },
+    {
+      "title": "FDA approval: ITRACONAZOLE (Amneal Pharms)",
+      "url": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=205080",
+      "outlet": "openfda"
+    },
+    {
+      "title": "FDA approval: DOXYCYCLINE HYCLATE (Changzhou Pharm)",
+      "url": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=211343",
+      "outlet": "openfda"
+    },
+    {
+      "title": "FDA approval: PACLITAXEL (Teva Pharms)",
+      "url": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=075184",
+      "outlet": "openfda"
+    },
+    {
+      "title": "FDA approval: ITRACONAZOLE (Alembic)",
+      "url": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=206741",
+      "outlet": "openfda"
+    },
+    {
+      "title": "FDA approval: KYBELLA (Abbvie)",
+      "url": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=206333",
+      "outlet": "openfda"
+    },
+    {
+      "title": "FDA approval: DASATINIB (Msn)",
+      "url": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=219579",
+      "outlet": "openfda"
+    },
+    {
+      "title": "FDA approval: CLOBAZAM (Micro Labs)",
+      "url": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=211711",
+      "outlet": "openfda"
+    },
+    {
+      "title": "FDA approval: CARBIDOPA AND LEVODOPA (Actavis Elizabeth)",
+      "url": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=074260",
+      "outlet": "openfda"
+    },
+    {
+      "title": "FDA approval: PIXCLARA (Telix Pharmaceuticals Us Inc)",
+      "url": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=218592",
+      "outlet": "openfda"
+    },
+    {
+      "title": "FDA approval: ISOTRETINOIN (Aurobindo Pharma Ltd)",
+      "url": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=220336",
+      "outlet": "openfda"
+    },
+    {
+      "title": "FDA approval: JOENJA (Pharming)",
+      "url": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=217759",
+      "outlet": "openfda"
+    },
+    {
+      "title": "FDA approval: PRIMAQUINE PHOSPHATE (Unichem)",
+      "url": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=204476",
+      "outlet": "openfda"
+    },
+    {
+      "title": "A Study to Evaluate the Efficacy and Safety of Deucravacitinib in Adults With Active Sjögren's Syndrome",
+      "url": "https://clinicaltrials.gov/study/NCT05946941",
+      "outlet": "ctgov"
+    },
+    {
+      "title": "A Study to Investigate the Efficacy and Safety of Dato-DXd With or Without Osimertinib Compared With Platinum Based Doublet Chemotherapy in ",
+      "url": "https://clinicaltrials.gov/study/NCT06417814",
+      "outlet": "ctgov"
+    },
+    {
+      "title": "A Randomized Trial Assessing the Effects of Inclisiran on Clinical Outcomes Among People With Cardiovascular Disease",
+      "url": "https://clinicaltrials.gov/study/NCT03705234",
+      "outlet": "ctgov"
+    },
+    {
+      "title": "A Study Evaluating the Efficacy and Safety of Inavolisib Plus Fulvestrant Compared With Alpelisib Plus Fulvestrant in Participants With HR-P",
+      "url": "https://clinicaltrials.gov/study/NCT05646862",
+      "outlet": "ctgov"
+    },
+    {
+      "title": "A Study to Learn About Medicine Called Ritlecitinib in Children Aged Between 6 to 12 Years With Severe Alopecia Areata",
+      "url": "https://clinicaltrials.gov/study/NCT07029711",
+      "outlet": "ctgov"
+    },
+    {
+      "title": "The Impact of Fexofenadine Hydrochloride on the Prognosis of Patients Post-Acute Myocardial Infarction",
+      "url": "https://clinicaltrials.gov/study/NCT07381803",
+      "outlet": "ctgov"
+    },
+    {
+      "title": "Total Intravenous Anesthesia and Recurrence Free Survival",
+      "url": "https://clinicaltrials.gov/study/NCT04513808",
+      "outlet": "ctgov"
+    },
+    {
+      "title": "High-Risk Neuroblastoma Study 2 of SIOP-Europa-Neuroblastoma (SIOPEN)",
+      "url": "https://clinicaltrials.gov/study/NCT04221035",
+      "outlet": "ctgov"
+    },
+    {
+      "title": "Intensified Tuberculosis Treatment to Reduce the Mortality of Patients With Tuberculous Meningitis",
+      "url": "https://clinicaltrials.gov/study/NCT04145258",
+      "outlet": "ctgov"
+    },
+    {
+      "title": "A Safety and Efficacy Study of Bevacizumab, Paclitaxel, Carboplatin Compared to Avastin® in Non-Small Cell Lung Cancer",
+      "url": "https://clinicaltrials.gov/study/NCT05654454",
+      "outlet": "ctgov"
+    },
+    {
+      "title": "A 2-year Study of EYP-1901 in Subjects With Wet Age Related Macular Degeneration (wAMD) (LUCIA) Primary Efficacy Will be Determined at Week ",
+      "url": "https://clinicaltrials.gov/study/NCT06683742",
+      "outlet": "ctgov"
+    },
+    {
+      "title": "A Trial to Assess Efficacy and Safety of Octreotide Subcutaneous Depot in Patients With GEP-NET",
+      "url": "https://clinicaltrials.gov/study/NCT05050942",
+      "outlet": "ctgov"
+    }
+  ],
+  "provenance": {
+    "fetched_at": "2026-09-18T01:55:51.370179+00:00",
+    "sources_ok": [
+      "sec-edgar",
+      "openfda",
+      "ctgov",
+      "fda-press",
+      "ema-news",
+      "fiercepharma",
+      "fiercebiotech",
+      "biopharmadive",
+      "endpoints",
+      "prnewswire"
+    ],
+    "sources_failed": []
+  }
+}

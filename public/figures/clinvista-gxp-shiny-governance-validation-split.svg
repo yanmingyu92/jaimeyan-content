@@ -1,0 +1,48 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 700 320" font-family="system-ui, -apple-system, 'Segoe UI', sans-serif">
+  <rect width="700" height="320" fill="#fafaf9"/>
+  <defs>
+    <marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse">
+      <path d="M0,0 L10,5 L0,10 z" fill="#1c1917"/>
+    </marker>
+  </defs>
+
+  <!-- Lane labels -->
+  <g fill="#9f1239" font-size="13" font-weight="600">
+    <text x="16" y="72">Platform layer</text>
+    <text x="16" y="216">Application</text>
+    <text x="16" y="232">layer</text>
+  </g>
+
+  <!-- Platform lane -->
+  <rect x="130" y="36" width="554" height="72" rx="8" stroke="#d6d3d1" fill="#ffffff"/>
+  <text x="407" y="66" font-size="14" font-weight="600" fill="#1c1917" text-anchor="middle">Platform validation — one IQ/OQ report</text>
+  <text x="407" y="88" font-size="13" fill="#57534e" text-anchor="middle">Validated once · re-validated only by impact assessment on listed triggers</text>
+
+  <!-- Coupling note -->
+  <g stroke="#1c1917" stroke-width="1.5" fill="none">
+    <line x1="407" y1="108" x2="407" y2="146" marker-end="url(#arrow)"/>
+  </g>
+  <text x="423" y="132" font-size="12" fill="#57534e">referenced by each app — never repeated</text>
+
+  <!-- Application lane -->
+  <g stroke="#d6d3d1" fill="#ffffff">
+    <rect x="130" y="152" width="170" height="88" rx="8"/>
+    <rect x="322" y="152" width="170" height="88" rx="8"/>
+    <rect x="514" y="152" width="170" height="88" rx="8"/>
+  </g>
+  <g text-anchor="middle">
+    <text x="215" y="182" font-size="13" fill="#9f1239" font-weight="600">exploratory</text>
+    <text x="215" y="202" font-size="12" fill="#1c1917">code review +</text>
+    <text x="215" y="218" font-size="12" fill="#1c1917">automated tests</text>
+    <text x="407" y="182" font-size="13" fill="#9f1239" font-weight="600">gxp-support</text>
+    <text x="407" y="202" font-size="12" fill="#1c1917">+ memo, RTM,</text>
+    <text x="407" y="218" font-size="12" fill="#1c1917">second-person re-check</text>
+    <text x="599" y="182" font-size="13" fill="#9f1239" font-weight="600">gxp-critical</text>
+    <text x="599" y="202" font-size="12" fill="#1c1917">+ independent double</text>
+    <text x="599" y="218" font-size="12" fill="#1c1917">programming, dual sign-off</text>
+  </g>
+
+  <!-- Footer rule -->
+  <text x="407" y="278" font-size="12" fill="#57534e" text-anchor="middle">Each app re-validates when its data logic changes — the platform report does not churn with it.</text>
+  <text x="407" y="298" font-size="12" fill="#57534e" text-anchor="middle">Tier is declared in app metadata, proposed by the author, approved by the platform maintainer, enforced in CI.</text>
+</svg>
