@@ -1,0 +1,490 @@
+{
+  "date": "2026-11-04",
+  "window": {
+    "start": "2026-11-03",
+    "end": "2026-11-04"
+  },
+  "deals": [
+    {
+      "company": "IDEAYA Biosciences, Inc.",
+      "ticker": "IDYA",
+      "licensor": null,
+      "licensee": null,
+      "type": "license",
+      "upfront_usd": null,
+      "total_usd": 1150000000.0,
+      "therapeutic_area": "oncology",
+      "modality": "ADC",
+      "phase": "Phase 1",
+      "target": "EC90",
+      "percentile_total": 75.0,
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1676725/000119312526444225/idya-ex99_1.htm",
+      "source_title": "IDEAYA Biosciences, Inc. 8-K mentioning license agreement"
+    },
+    {
+      "company": "Nuvectis Pharma, Inc.",
+      "ticker": "NVCT",
+      "licensor": null,
+      "licensee": null,
+      "type": "license",
+      "upfront_usd": 30100000.0,
+      "total_usd": 140000000.0,
+      "therapeutic_area": "oncology",
+      "modality": "small molecule",
+      "phase": "Phase 1b",
+      "target": null,
+      "percentile_total": 29.2,
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1875558/000110465926122360/tm2628939d1_ex99-1.htm",
+      "source_title": "Nuvectis Pharma, Inc. 8-K mentioning license agreement"
+    },
+    {
+      "company": "Harmony Biosciences Holdings, Inc.",
+      "ticker": "HRMY",
+      "licensor": null,
+      "licensee": null,
+      "type": "license",
+      "upfront_usd": null,
+      "total_usd": 1040000000.0,
+      "therapeutic_area": "rare disease",
+      "modality": null,
+      "phase": "Phase 1b",
+      "target": "AET",
+      "percentile_total": 70.8,
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1802665/000110465926122377/hrmy-ex99d1.htm",
+      "source_title": "Harmony Biosciences Holdings, Inc. 8-K mentioning license agreement"
+    },
+    {
+      "company": "NewAmsterdam Pharma Co N.V.",
+      "ticker": "NAMS",
+      "licensor": null,
+      "licensee": null,
+      "type": "license",
+      "upfront_usd": null,
+      "total_usd": 643100000.0,
+      "therapeutic_area": "neurology",
+      "modality": null,
+      "phase": "Phase 2b",
+      "target": null,
+      "percentile_total": 62.5,
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1936258/000119312526446219/nams-ex99_1.htm",
+      "source_title": "NewAmsterdam Pharma Co N.V. 8-K mentioning license agreement"
+    },
+    {
+      "company": "Aquestive Therapeutics, Inc.",
+      "ticker": null,
+      "licensor": null,
+      "licensee": null,
+      "type": "license",
+      "upfront_usd": 12800000.0,
+      "total_usd": 47500000.0,
+      "therapeutic_area": "immunology",
+      "modality": null,
+      "phase": null,
+      "target": null,
+      "percentile_total": 12.5,
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1398733/000139873326000073/q32026-ex991earningsrelease.htm",
+      "source_title": "Aquestive Therapeutics, Inc. 8-K mentioning license agreement"
+    },
+    {
+      "company": "",
+      "ticker": null,
+      "licensor": null,
+      "licensee": null,
+      "type": "other",
+      "upfront_usd": null,
+      "total_usd": 7000000000.0,
+      "therapeutic_area": "oncology",
+      "modality": "ADC",
+      "phase": null,
+      "target": null,
+      "percentile_total": null,
+      "source_url": "https://endpoints.news/boehringer-ingelheim-strikes-7b-backloaded-adc-tce-cancer-deal-with-chinas-sino/",
+      "source_title": "Boehringer Ingelheim strikes $7B backloaded ADC, TCE cancer deal with China's Sino"
+    },
+    {
+      "company": "",
+      "ticker": null,
+      "licensor": null,
+      "licensee": null,
+      "type": "license",
+      "upfront_usd": null,
+      "total_usd": 1470000000.0,
+      "therapeutic_area": "immunology",
+      "modality": null,
+      "phase": null,
+      "target": "IBD",
+      "percentile_total": 87.5,
+      "source_url": "https://endpoints.news/abbvie-bets-up-to-1-47b-on-nxeras-gut-targeting-ibd-program/",
+      "source_title": "AbbVie bets up to $1.47B on Nxera's gut-targeting IBD program"
+    },
+    {
+      "company": "Ultragenyx Pharmaceutical Inc.",
+      "ticker": null,
+      "licensor": null,
+      "licensee": null,
+      "type": "license",
+      "upfront_usd": null,
+      "total_usd": 210000000.0,
+      "therapeutic_area": null,
+      "modality": null,
+      "phase": null,
+      "target": null,
+      "percentile_total": 45.8,
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1515673/000119312526445342/rare-20261030.htm",
+      "source_title": "Ultragenyx Pharmaceutical Inc. 8-K mentioning license agreement"
+    },
+    {
+      "company": "",
+      "ticker": null,
+      "licensor": null,
+      "licensee": null,
+      "type": "other",
+      "upfront_usd": null,
+      "total_usd": 1500000000.0,
+      "therapeutic_area": null,
+      "modality": null,
+      "phase": null,
+      "target": null,
+      "percentile_total": null,
+      "source_url": "https://endpoints.news/serviers-1-5b-bet-on-edgewise-drug-fails-five-months-in/",
+      "source_title": "Servier's $1.5B bet on Edgewise drug fails five months in"
+    }
+  ],
+  "approvals": [],
+  "readouts": [
+    {
+      "nct": "NCT06531824",
+      "phase": "Phase 3",
+      "sponsor": "Boehringer Ingelheim",
+      "title": "EASi-KIDNEY™ (The Studies of Heart & Kidney Protection With BI 690517 in Combination With Empagliflozin)",
+      "primary_completion": "2026-12-31",
+      "enrollment": 8371,
+      "score": 45.15,
+      "url": "https://clinicaltrials.gov/study/NCT06531824"
+    },
+    {
+      "nct": "NCT04344158",
+      "phase": "Phase 3",
+      "sponsor": "Chia Tai Tianqing Pharmaceutical Group Co., Ltd.",
+      "title": "A Phase III Clinical Trial of AK105 Injection Combined With Anlotinib Hydrochloride Capsules Versus Sorafenib in Subjects With Advanced Hepatocellular Carcinoma (HCC)",
+      "primary_completion": "2026-12",
+      "enrollment": 648,
+      "score": 22.43,
+      "url": "https://clinicaltrials.gov/study/NCT04344158"
+    },
+    {
+      "nct": "NCT07672561",
+      "phase": "Phase 3",
+      "sponsor": "Zhejiang Wenda Pharma Technology LTD.",
+      "title": "A Multicenter, Randomized, Double-Blind, Placebo-Controlled Phase Ⅲ Study to Evaluate the Efficacy and Safety of WD-890 Tablets for the Treatment of Moderate to Severe Plaque Psoriasis",
+      "primary_completion": "2026-11-30",
+      "enrollment": 375,
+      "score": 20.79,
+      "url": "https://clinicaltrials.gov/study/NCT07672561"
+    },
+    {
+      "nct": "NCT06696261",
+      "phase": "Phase 3",
+      "sponsor": "Tasly Pharmaceutical Group Co., Ltd",
+      "title": "A Study of Lianxiaxiaopi Granules in the Treatment of Postprandial Distress Syndrome",
+      "primary_completion": "2026-12-31",
+      "enrollment": 342,
+      "score": 20.51,
+      "url": "https://clinicaltrials.gov/study/NCT06696261"
+    },
+    {
+      "nct": "NCT06749834",
+      "phase": "Phase 3",
+      "sponsor": "Second Affiliated Hospital, Zhejiang University, School of Medicine",
+      "title": "Intravenous Thrombolysis and NOAC",
+      "primary_completion": "2026-12-31",
+      "enrollment": 280,
+      "score": 19.92,
+      "url": "https://clinicaltrials.gov/study/NCT06749834"
+    },
+    {
+      "nct": "NCT07184632",
+      "phase": "Phase 2",
+      "sponsor": "Novo Nordisk A/S",
+      "title": "A Research Study on How Well Different Doses of the Medicine NNC0662-0419 Help People Living With Overweight or Obesity",
+      "primary_completion": "2026-12-14",
+      "enrollment": 224,
+      "score": 19.25,
+      "url": "https://clinicaltrials.gov/study/NCT07184632"
+    },
+    {
+      "nct": "NCT07223840",
+      "phase": "Phase 2",
+      "sponsor": "Eli Lilly and Company",
+      "title": "A Study of Brenipatide in Adults Who Quit Smoking Cigarettes and Want to Avoid Relapse",
+      "primary_completion": "2027-02",
+      "enrollment": 222,
+      "score": 19.22,
+      "url": "https://clinicaltrials.gov/study/NCT07223840"
+    },
+    {
+      "nct": "NCT06970847",
+      "phase": "Phase 3",
+      "sponsor": "Clarity Pharmaceuticals Ltd",
+      "title": "64Cu-SAR-bisPSMA Positron Emission Tomography: A Phase 3 Study of Participants With Biochemical Recurrence of Prostate Cancer",
+      "primary_completion": "2026-12-31",
+      "enrollment": 220,
+      "score": 19.19,
+      "url": "https://clinicaltrials.gov/study/NCT06970847"
+    },
+    {
+      "nct": "NCT05340491",
+      "phase": "Phase 3",
+      "sponsor": "Sun Yat-sen University",
+      "title": "Chemoradiotherapy Plus Anti-PD1 in Recurrent NPC: A Multicenter, Open-label, Randomised, Controlled, Phase III Trial",
+      "primary_completion": "2026-12",
+      "enrollment": 212,
+      "score": 19.08,
+      "url": "https://clinicaltrials.gov/study/NCT05340491"
+    },
+    {
+      "nct": "NCT07420296",
+      "phase": "Phase 3",
+      "sponsor": "Tianjin Medical University General Hospital",
+      "title": "Modified Zipper Therapy for AQP4-IgG Positive Neuromyelitis Optica Spectrum Disorder",
+      "primary_completion": "2026-12-31",
+      "enrollment": 198,
+      "score": 18.88,
+      "url": "https://clinicaltrials.gov/study/NCT07420296"
+    },
+    {
+      "nct": "NCT04435990",
+      "phase": "Phase 3",
+      "sponsor": "Inmunotek S.L.",
+      "title": "Efficacy and Safety Evaluation for the Treatment of Allergy Against Mites",
+      "primary_completion": "2026-12",
+      "enrollment": 150,
+      "score": 18.05,
+      "url": "https://clinicaltrials.gov/study/NCT04435990"
+    },
+    {
+      "nct": "NCT07060495",
+      "phase": "Phase 3",
+      "sponsor": "Rutgers, The State University of New Jersey",
+      "title": "RADA16 for Adult Tonsillectomy",
+      "primary_completion": "2026-12-01",
+      "enrollment": 134,
+      "score": 17.72,
+      "url": "https://clinicaltrials.gov/study/NCT07060495"
+    }
+  ],
+  "market": [
+    {
+      "ticker": "IDYA",
+      "change_1d_pct": 0.93,
+      "as_of": "2026-11-04"
+    },
+    {
+      "ticker": "NVCT",
+      "change_1d_pct": -4.71,
+      "as_of": "2026-11-04"
+    },
+    {
+      "ticker": "HRMY",
+      "change_1d_pct": -8.26,
+      "as_of": "2026-11-04"
+    },
+    {
+      "ticker": "NAMS",
+      "change_1d_pct": 2.46,
+      "as_of": "2026-11-04"
+    }
+  ],
+  "comps": {
+    "n_historical": 24,
+    "median_total_usd": 243500000.0,
+    "thin_sample": true
+  },
+  "insights": [
+    {
+      "move": "structure-over-headline",
+      "text": "Nuvectis Pharma, Inc.: upfront is 21.5% of the headline total — above the classic 5–10% band; the buyer paid real cash up front.",
+      "numbers": {
+        "company": "Nuvectis Pharma, Inc.",
+        "upfront_usd": 30100000.0,
+        "total_usd": 140000000.0,
+        "share": 0.215
+      },
+      "confidence": "computed"
+    },
+    {
+      "move": "structure-over-headline",
+      "text": "Aquestive Therapeutics, Inc.: upfront is 26.9% of the headline total — above the classic 5–10% band; the buyer paid real cash up front.",
+      "numbers": {
+        "company": "Aquestive Therapeutics, Inc.",
+        "upfront_usd": 12800000.0,
+        "total_usd": 47500000.0,
+        "share": 0.2695
+      },
+      "confidence": "computed"
+    },
+    {
+      "move": "market-verdict",
+      "text": "NVCT moved -4.7% on the day (on a deal ticker, as of 2026-11-04).",
+      "numbers": {
+        "ticker": "NVCT",
+        "change_1d_pct": -4.71,
+        "as_of": "2026-11-04",
+        "deal_linked": true
+      },
+      "confidence": "computed"
+    },
+    {
+      "move": "market-verdict",
+      "text": "HRMY moved -8.3% on the day (on a deal ticker, as of 2026-11-04).",
+      "numbers": {
+        "ticker": "HRMY",
+        "change_1d_pct": -8.26,
+        "as_of": "2026-11-04",
+        "deal_linked": true
+      },
+      "confidence": "computed"
+    },
+    {
+      "move": "absence-as-signal",
+      "text": "Zero FDA approvals in a weekday window — quiet days cluster before PDUFA batches; watch the next 5 sessions for a catch-up.",
+      "numbers": {
+        "approvals": 0
+      },
+      "confidence": "computed"
+    }
+  ],
+  "figures": [
+    {
+      "path": "out\\figures\\2026-11-04\\deal-sizes.png",
+      "takeaway": "Largest disclosed total $7B — vs 24 accumulated comps"
+    },
+    {
+      "path": "out\\figures\\2026-11-04\\market-reaction.png",
+      "takeaway": "NAMS led deal tickers at +2.5%; 2 of 4 rose"
+    }
+  ],
+  "sources": [
+    {
+      "title": "IDEAYA Biosciences, Inc. 8-K mentioning license agreement",
+      "url": "https://www.sec.gov/Archives/edgar/data/1676725/000119312526444225/idya-ex99_1.htm",
+      "outlet": "sec-edgar"
+    },
+    {
+      "title": "Nuvectis Pharma, Inc. 8-K mentioning license agreement",
+      "url": "https://www.sec.gov/Archives/edgar/data/1875558/000110465926122360/tm2628939d1_ex99-1.htm",
+      "outlet": "sec-edgar"
+    },
+    {
+      "title": "Harmony Biosciences Holdings, Inc. 8-K mentioning license agreement",
+      "url": "https://www.sec.gov/Archives/edgar/data/1802665/000110465926122377/hrmy-ex99d1.htm",
+      "outlet": "sec-edgar"
+    },
+    {
+      "title": "NewAmsterdam Pharma Co N.V. 8-K mentioning license agreement",
+      "url": "https://www.sec.gov/Archives/edgar/data/1936258/000119312526446219/nams-ex99_1.htm",
+      "outlet": "sec-edgar"
+    },
+    {
+      "title": "Aquestive Therapeutics, Inc. 8-K mentioning license agreement",
+      "url": "https://www.sec.gov/Archives/edgar/data/1398733/000139873326000073/q32026-ex991earningsrelease.htm",
+      "outlet": "sec-edgar"
+    },
+    {
+      "title": "Boehringer Ingelheim strikes $7B backloaded ADC, TCE cancer deal with China's Sino",
+      "url": "https://endpoints.news/boehringer-ingelheim-strikes-7b-backloaded-adc-tce-cancer-deal-with-chinas-sino/",
+      "outlet": "endpoints"
+    },
+    {
+      "title": "AbbVie bets up to $1.47B on Nxera's gut-targeting IBD program",
+      "url": "https://endpoints.news/abbvie-bets-up-to-1-47b-on-nxeras-gut-targeting-ibd-program/",
+      "outlet": "endpoints"
+    },
+    {
+      "title": "Ultragenyx Pharmaceutical Inc. 8-K mentioning license agreement",
+      "url": "https://www.sec.gov/Archives/edgar/data/1515673/000119312526445342/rare-20261030.htm",
+      "outlet": "sec-edgar"
+    },
+    {
+      "title": "Servier's $1.5B bet on Edgewise drug fails five months in",
+      "url": "https://endpoints.news/serviers-1-5b-bet-on-edgewise-drug-fails-five-months-in/",
+      "outlet": "endpoints"
+    },
+    {
+      "title": "EASi-KIDNEY™ (The Studies of Heart & Kidney Protection With BI 690517 in Combination With Empagliflozin)",
+      "url": "https://clinicaltrials.gov/study/NCT06531824",
+      "outlet": "ctgov"
+    },
+    {
+      "title": "A Phase III Clinical Trial of AK105 Injection Combined With Anlotinib Hydrochloride Capsules Versus Sorafenib in Subjects With Advanced Hepa",
+      "url": "https://clinicaltrials.gov/study/NCT04344158",
+      "outlet": "ctgov"
+    },
+    {
+      "title": "A Multicenter, Randomized, Double-Blind, Placebo-Controlled Phase Ⅲ Study to Evaluate the Efficacy and Safety of WD-890 Tablets for the Trea",
+      "url": "https://clinicaltrials.gov/study/NCT07672561",
+      "outlet": "ctgov"
+    },
+    {
+      "title": "A Study of Lianxiaxiaopi Granules in the Treatment of Postprandial Distress Syndrome",
+      "url": "https://clinicaltrials.gov/study/NCT06696261",
+      "outlet": "ctgov"
+    },
+    {
+      "title": "Intravenous Thrombolysis and NOAC",
+      "url": "https://clinicaltrials.gov/study/NCT06749834",
+      "outlet": "ctgov"
+    },
+    {
+      "title": "A Research Study on How Well Different Doses of the Medicine NNC0662-0419 Help People Living With Overweight or Obesity",
+      "url": "https://clinicaltrials.gov/study/NCT07184632",
+      "outlet": "ctgov"
+    },
+    {
+      "title": "A Study of Brenipatide in Adults Who Quit Smoking Cigarettes and Want to Avoid Relapse",
+      "url": "https://clinicaltrials.gov/study/NCT07223840",
+      "outlet": "ctgov"
+    },
+    {
+      "title": "64Cu-SAR-bisPSMA Positron Emission Tomography: A Phase 3 Study of Participants With Biochemical Recurrence of Prostate Cancer",
+      "url": "https://clinicaltrials.gov/study/NCT06970847",
+      "outlet": "ctgov"
+    },
+    {
+      "title": "Chemoradiotherapy Plus Anti-PD1 in Recurrent NPC: A Multicenter, Open-label, Randomised, Controlled, Phase III Trial",
+      "url": "https://clinicaltrials.gov/study/NCT05340491",
+      "outlet": "ctgov"
+    },
+    {
+      "title": "Modified Zipper Therapy for AQP4-IgG Positive Neuromyelitis Optica Spectrum Disorder",
+      "url": "https://clinicaltrials.gov/study/NCT07420296",
+      "outlet": "ctgov"
+    },
+    {
+      "title": "Efficacy and Safety Evaluation for the Treatment of Allergy Against Mites",
+      "url": "https://clinicaltrials.gov/study/NCT04435990",
+      "outlet": "ctgov"
+    },
+    {
+      "title": "RADA16 for Adult Tonsillectomy",
+      "url": "https://clinicaltrials.gov/study/NCT07060495",
+      "outlet": "ctgov"
+    }
+  ],
+  "provenance": {
+    "fetched_at": "2026-11-04T16:06:39.100864+00:00",
+    "sources_ok": [
+      "sec-edgar",
+      "openfda",
+      "ctgov",
+      "fda-press",
+      "ema-news",
+      "fiercepharma",
+      "fiercebiotech",
+      "biopharmadive",
+      "endpoints",
+      "prnewswire"
+    ],
+    "sources_failed": []
+  }
+}
