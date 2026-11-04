@@ -43,31 +43,39 @@ async function api(path, method = 'GET', body) {
 }
 
 // 1. canonical order from the RSS feed (date-desc by construction)
-const xml = await (await fetch(FEED)).text();
+const feedResponse = await fetch(FEED);
+if (!feedResponse.ok) throw new Error(`site RSS -> ${feedResponse.status}`);
+const xml = await feedResponse.text();
 const feedOrder = [...xml.matchAll(/<link>(https:\/\/jaimeyan\.com\/(blog|papers)\/[^<]+)<\/link>/g)]
 	.map(m => m[1])
 	.filter(l => INCLUDE_PAPERS || l.includes('/blog/'));
 console.log(`feed order: ${feedOrder.length} candidate URLs${INCLUDE_PAPERS ? ' (papers included)' : ''}`);
 
-if (DRY && !process.env.DEV_TO_API_KEY) console.log('no DEV_TO_API_KEY — dry-run');
+if (!process.env.DEV_TO_API_KEY) {
+	console.log('no DEV_TO_API_KEY — dry-run only; skipping authenticated dev.to API calls');
+} else {
+	if (DRY) console.log('--dry-run — no articles will be published');
 
-// 2. unpublished drafts whose canonical URL is in the feed
-const drafts = await api('/articles/me/unpublished?per_page=1000');
-const queue = feedOrder
-	.map(url => drafts.find(d => d.canonical_url === url))
-	.filter(Boolean);
-console.log(`unpublished drafts matching feed: ${queue.length} (of ${drafts.length} total drafts)`);
+	// 2. unpublished drafts whose canonical URL is in the feed
+	const drafts = await api('/articles/me/unpublished?per_page=1000');
+	const queue = feedOrder
+		.map(url => drafts.find(d => d.canonical_url === url))
+		.filter(Boolean);
+	console.log(`unpublished drafts matching feed: ${queue.length} (of ${drafts.length} total drafts)`);
 
-// 3. publish the next MAX
-const batch = queue.slice(0, MAX);
-if (batch.length === 0) { console.log('queue empty — nothing to publish'); process.exit(0); }
-
-for (const d of batch) {
-	console.log(`${DRY ? '[dry-run] would publish' : 'publishing'}: ${d.title}`);
-	console.log(`  canonical: ${d.canonical_url}`);
-	if (!DRY) {
-		await api(`/articles/${d.id}`, 'PUT', { article: { published: true } });
-		console.log(`  -> live at ${d.url}`);
+	// 3. publish the next MAX
+	const batch = queue.slice(0, MAX);
+	if (batch.length === 0) {
+		console.log('queue empty — nothing to publish');
+	} else {
+		for (const d of batch) {
+			console.log(`${DRY ? '[dry-run] would publish' : 'publishing'}: ${d.title}`);
+			console.log(`  canonical: ${d.canonical_url}`);
+			if (!DRY) {
+				await api(`/articles/${d.id}`, 'PUT', { article: { published: true } });
+				console.log(`  -> live at ${d.url}`);
+			}
+		}
+		console.log(`done: ${batch.length} ${DRY ? 'would be' : ''} published, ${queue.length - batch.length} left in queue`);
 	}
 }
-console.log(`done: ${batch.length} ${DRY ? 'would be' : ''} published, ${queue.length - batch.length} left in queue`);
