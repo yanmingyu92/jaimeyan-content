@@ -29,14 +29,15 @@ const flag = n => args.includes(`--${n}`);
 const opt = (n, d) => { const i = args.indexOf(`--${n}`); return i !== -1 && args[i + 1] ? args[i + 1] : d; };
 
 const MAX = parseInt(opt('max', '2'), 10);
-const DRY = flag('dry-run') || !process.env.DEV_TO_API_KEY;
+const DEVTO_KEY = process.env.DEV_TO_API_KEY || process.env.DEV;
+const DRY = flag('dry-run') || !DEVTO_KEY;
 const INCLUDE_PAPERS = flag('include-papers');
 const FEED = 'https://jaimeyan.com/rss.xml';
 
 async function api(path, method = 'GET', body) {
 	const res = await fetch(`https://dev.to/api${path}`, {
 		method,
-		headers: { 'api-key': process.env.DEV_TO_API_KEY, 'Content-Type': 'application/json' },
+		headers: { 'api-key': DEVTO_KEY, 'Content-Type': 'application/json' },
 		body: body ? JSON.stringify(body) : undefined,
 	});
 	if (!res.ok) throw new Error(`dev.to ${method} ${path} -> ${res.status}: ${await res.text()}`);
@@ -52,7 +53,7 @@ const feedOrder = [...xml.matchAll(/<link>(https:\/\/jaimeyan\.com\/(blog|papers
 	.filter(l => INCLUDE_PAPERS || l.includes('/blog/'));
 console.log(`feed order: ${feedOrder.length} candidate URLs${INCLUDE_PAPERS ? ' (papers included)' : ''}`);
 
-if (!process.env.DEV_TO_API_KEY) {
+if (!DEVTO_KEY) {
 	console.log('no DEV_TO_API_KEY — dry-run only; skipping authenticated dev.to API calls');
 } else {
 	if (DRY) console.log('--dry-run — no articles will be published');
