@@ -25,4 +25,5 @@ jobs:
       - name: Publish next 2 drafts
         env:
           DEV_TO_API_KEY: ${{ secrets.DEV_TO_API_KEY }}
+          CONTENT_ENV_FILE: C:/Users/JaimeYan/OneDrive - Kardigan/personal_testing/clinivista_docker/jaimeyan-site/.env
         run: node scripts/devto-publish-weekly.mjs --max 2

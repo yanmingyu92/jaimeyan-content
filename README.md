@@ -32,7 +32,7 @@ The runner reuses local resources instead of duplicating credentials into GitHub
 - `PRIVATE_SITE_ROOT` points to the private checkout for due drafts.
 - `VIDEO_TOOL_ROOT` points to the private `tools/video/` OAuth directory.
 - `deploy-site` uses `VERCEL_DEPLOY_HOOK_URL` when configured, otherwise the existing local Vercel CLI session to redeploy private `main`.
-- `DEV_TO_API_KEY` is still required for actual dev.to publication; without it the workflow performs a safe dry run.
+- Actual dev.to publication reads `DEV_TO_API_KEY` from Actions secrets or the runner's existing private `.env` through `CONTENT_ENV_FILE`; without a key the workflow performs a safe dry run.
 - Optional `KIMI_API` and `DEEPSEEK_KEY` enable the LLM editorial pass. Set `PHARMA_AGENT=1` only when these are configured.
 
 Never commit OAuth JSON, `.env` files, access tokens, private drafts, or local rendering caches. Existing secrets cannot be read back through GitHub; rotate them through the UI when needed.

@@ -14,8 +14,9 @@ import { fileURLToPath } from 'node:url';
 
 const root = join(dirname(fileURLToPath(import.meta.url)), '..');
 
-// load .env without overriding real env vars (CI provides the secret directly)
-const envFile = join(root, '.env');
+// Load .env without overriding real env vars. CONTENT_ENV_FILE lets the trusted
+// self-hosted runner reuse its existing private configuration without copying it.
+const envFile = process.env.CONTENT_ENV_FILE || join(root, '.env');
 if (existsSync(envFile)) {
 	for (const line of readFileSync(envFile, 'utf8').split('\n')) {
 		const m = line.match(/^([A-Z_]+)=(\S.*)$/);
