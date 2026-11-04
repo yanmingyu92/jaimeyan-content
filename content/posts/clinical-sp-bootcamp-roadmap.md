@@ -75,10 +75,10 @@ The series runs four lines. The SDTM/TLF line is the production spine: raw data 
 | [11 — The career guide](/blog/statistical-programmer-career-2026.html) | Career | Plan your entry with a realistic skill ladder and a 90-day study plan |
 | [12 — Git for clinical programmers](/blog/git-for-clinical-programmers.html) | SCE | Version-control programs and review changes the way modern teams do |
 | [13 — Pipeline as code](/blog/pipeline-as-code-sdtm-adam.html) | SCE | Describe the SDTM-to-ADaM-to-TLF flow as runnable code instead of drive letters |
-| 14 — AI in validated environments | SCE | State precisely where AI assistance may touch a GxP workflow and where it stops |
+| [14 — AI in validated environments](/blog/ai-in-validated-environments.html) | SCE | State precisely where AI assistance may touch a GxP workflow and where it stops |
 | [15 — Reading the protocol and SAP](/blog/protocol-sap-reading-guide.html) | Start Here | Turn protocol and SAP sentences into artifacts: datasets, flags, spec rows, or logged queries |
 | [16 — Define-XML and the reviewer's guide](/blog/define-xml-reviewers-guide-tutorial.html) | Submission | Ship submission metadata that answers the reviewer's questions before they ask them |
-| 17 — Windowing, baseline, LOCF | ADaM | Apply the three rule families that decide whether a BDS dataset is right |
+| [17 — Windowing, baseline, LOCF](/blog/visit-windowing-baseline-locf-guide.html) | ADaM | Apply the three rule families that decide whether a BDS dataset is right |
 | 18 — SAS macros for TLF | TLF | Drive every output from one metadata table and debug the classics with MPRINT |
 | 19 — P-values FAQ | Statistics | Explain and QC the tests your tables report, without pretending to be the statistician |
 | 20 — ADRS and RECIST | ADaM | Derive oncology response analyses from TU/TR/RS without inventing rules |
