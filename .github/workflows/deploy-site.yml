@@ -32,5 +32,5 @@ jobs:
           # Trusted-runner fallback: reuse the existing Vercel CLI session and
           # redeploy private main, whose build clones the latest public content.
           VERCEL="C:/Users/JaimeYan/OneDrive - Kardigan/personal_testing/clinivista_docker/jaimeyan-site/tmp/vercel-cli/node_modules/.bin/vercel"
-          PROD_URL=$("$VERCEL" api "/v9/projects/jaimeyan-site?teamId=team_bIKPWjEXwImRjk6Jdpsj3yAe" --raw | node -e "let s='';process.stdin.on('data',d=>s+=d).on('end',()=>console.log(JSON.parse(s).targets.production.url))")
+          PROD_URL=$("$VERCEL" api "/v9/projects/portfolio?teamId=team_bIKPWjEXwImRjk6Jdpsj3yAe" --raw | node -e "let s='';process.stdin.on('data',d=>s+=d).on('end',()=>console.log(JSON.parse(s).targets.production.url))")
           "$VERCEL" redeploy "$PROD_URL" --environment production --no-wait
