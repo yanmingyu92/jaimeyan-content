@@ -25,7 +25,7 @@ The website build itself stays in the private site repository. A successful cont
 
 ## Automation and secrets
 
-Publishing workflows use the trusted Windows `pharma` self-hosted runner because the GitHub account currently cannot allocate hosted runners. Only `main`, schedules, manual dispatches, and merged-PR events execute on it. Fork pull requests never execute on the self-hosted runner; `content-qc` is manual-only, and daily content is checked before its review PR is created. The machine must remain online for scheduled jobs.
+Publishing workflows use the trusted Windows `pharma` self-hosted runner because the GitHub account currently cannot allocate hosted runners. Only `main`, schedules, manual dispatches, and merged-PR events execute on it. Fork pull requests never execute on the self-hosted runner; `content-qc` is manual-only, and daily content is checked before its review PR is created. The dedicated runner is `jaimeyan-content-win-jaime393-x1` at `C:\Users\JaimeYan\actions-runner-content`, auto-started at logon by `github-actions-content-runner.bat`. The machine must remain online for scheduled jobs.
 
 The runner reuses local resources instead of duplicating credentials into GitHub:
 
