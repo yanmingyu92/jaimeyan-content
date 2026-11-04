@@ -79,3 +79,8 @@ jobs:
 
       - name: Render, upload, and write back videoId
         run: npm run video:release -- "$SLUG" --public
+
+      - name: Deploy the video embed to the website
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: gh workflow run deploy-site

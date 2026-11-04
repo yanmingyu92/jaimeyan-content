@@ -84,3 +84,9 @@ jobs:
             gh release create "$TAG" --title "$TITLE" \
               --notes "Automated series release. Content CC BY 4.0 - cite the concept DOI 10.5281/zenodo.22233175."
           done
+
+      - name: Deploy published content to the website
+        if: steps.plan.outputs.due != '[]'
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: gh workflow run deploy-site
