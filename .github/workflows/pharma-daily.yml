@@ -51,28 +51,32 @@ jobs:
         env:
           KIMI_API: ${{ secrets.KIMI_API }}
           DEEPSEEK_KEY: ${{ secrets.DEEPSEEK_KEY }}
-        run: bash tools/pharma-daily/run-llm.sh kimi "Read tools/pharma-daily/prompts/grill.md and follow it exactly for the pack at tools/pharma-daily/out/pack/${RUN_DATE}.json. Write tools/pharma-daily/out/questions/${RUN_DATE}.json and nothing else."
+        run: |
+          bash tools/pharma-daily/run-llm.sh kimi "Read tools/pharma-daily/prompts/grill.md and follow it exactly for the pack at tools/pharma-daily/out/pack/${RUN_DATE}.json. Write tools/pharma-daily/out/questions/${RUN_DATE}.json and nothing else."
 
       - name: Retrieve evidence cards
         if: ${{ vars.PHARMA_AGENT == '1' }}
         env:
           KIMI_API: ${{ secrets.KIMI_API }}
           DEEPSEEK_KEY: ${{ secrets.DEEPSEEK_KEY }}
-        run: bash tools/pharma-daily/run-llm.sh kimi "Read tools/pharma-daily/prompts/retrieve.md and follow it exactly. Questions: tools/pharma-daily/out/questions/${RUN_DATE}.json; pack: tools/pharma-daily/out/pack/${RUN_DATE}.json. Kimi Datasource is not available in CI; use the deals DB and web search only. Write tools/pharma-daily/out/evidence/${RUN_DATE}.json and nothing else."
+        run: |
+          bash tools/pharma-daily/run-llm.sh kimi "Read tools/pharma-daily/prompts/retrieve.md and follow it exactly. Questions: tools/pharma-daily/out/questions/${RUN_DATE}.json; pack: tools/pharma-daily/out/pack/${RUN_DATE}.json. Kimi Datasource is not available in CI; use the deals DB and web search only. Write tools/pharma-daily/out/evidence/${RUN_DATE}.json and nothing else."
 
       - name: Redraft with questions and evidence
         if: ${{ vars.PHARMA_AGENT == '1' }}
         env:
           KIMI_API: ${{ secrets.KIMI_API }}
           DEEPSEEK_KEY: ${{ secrets.DEEPSEEK_KEY }}
-        run: bash tools/pharma-daily/run-llm.sh kimi "Read .agents/skills/pharma-daily/SKILL.md and follow its steps 5-9 for the pack at tools/pharma-daily/out/pack/${RUN_DATE}.json, the questions at tools/pharma-daily/out/questions/${RUN_DATE}.json, and the evidence cards at tools/pharma-daily/out/evidence/${RUN_DATE}.json (if either file is missing, proceed from the pack alone). Redraft content/posts/pharma-daily-${RUN_DATE}.md from templates/daily-template.md under the rules in tools/pharma-daily/EDITORIAL.md. Run the fact-check pass against the pack and evidence cards. Stop before the human review gate: no video, no git."
+        run: |
+          bash tools/pharma-daily/run-llm.sh kimi "Read .agents/skills/pharma-daily/SKILL.md and follow its steps 5-9 for the pack at tools/pharma-daily/out/pack/${RUN_DATE}.json, the questions at tools/pharma-daily/out/questions/${RUN_DATE}.json, and the evidence cards at tools/pharma-daily/out/evidence/${RUN_DATE}.json (if either file is missing, proceed from the pack alone). Redraft content/posts/pharma-daily-${RUN_DATE}.md from templates/daily-template.md under the rules in tools/pharma-daily/EDITORIAL.md. Run the fact-check pass against the pack and evidence cards. Stop before the human review gate: no video, no git."
 
       - name: Run adversarial fact-check
         if: ${{ vars.PHARMA_AGENT == '1' }}
         env:
           KIMI_API: ${{ secrets.KIMI_API }}
           DEEPSEEK_KEY: ${{ secrets.DEEPSEEK_KEY }}
-        run: bash tools/pharma-daily/run-llm.sh deepseek "Read tools/pharma-daily/prompts/critique.md and follow it exactly for the draft at content/posts/pharma-daily-${RUN_DATE}.md. Fix violations in place and write the report to tools/pharma-daily/out/review/${RUN_DATE}.md. No git."
+        run: |
+          bash tools/pharma-daily/run-llm.sh deepseek "Read tools/pharma-daily/prompts/critique.md and follow it exactly for the draft at content/posts/pharma-daily-${RUN_DATE}.md. Fix violations in place and write the report to tools/pharma-daily/out/review/${RUN_DATE}.md. No git."
 
       - name: Generate audio narration (best effort)
         continue-on-error: true

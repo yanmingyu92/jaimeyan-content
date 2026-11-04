@@ -19,8 +19,9 @@ for (const name of fs.readdirSync(path.join(SITE_ROOT, 'content', 'posts')).filt
 }
 if (!ids.size) throw new Error('No videoId values found on published posts.');
 
-const secretPath = path.join(TOOL_ROOT, '.google-client-secret.json');
-const tokenPath = path.join(TOOL_ROOT, '.google-token.json');
+const credentialRoot = process.env.VIDEO_TOOL_ROOT || TOOL_ROOT;
+const secretPath = path.join(credentialRoot, '.google-client-secret.json');
+const tokenPath = path.join(credentialRoot, '.google-token.json');
 if (!fs.existsSync(secretPath) || !fs.existsSync(tokenPath)) {
   console.error('YouTube OAuth files are missing. Run npm run video:auth first; never commit these files.');
   process.exit(1);
