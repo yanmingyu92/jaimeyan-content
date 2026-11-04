@@ -9,7 +9,6 @@ on:
 
 permissions:
   contents: write
-  workflows: write
 
 concurrency:
   group: weekly-drip
@@ -68,6 +67,7 @@ jobs:
             exit 1
           fi
           git commit -m "chore(drip): auto-release week of $(date -u +%F)"
+          git pull --no-rebase origin main
           git push
 
       - name: Tag and create GitHub Release
