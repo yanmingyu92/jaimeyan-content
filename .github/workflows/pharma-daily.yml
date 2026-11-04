@@ -131,6 +131,7 @@ jobs:
           # ran, so GitHub does not see this PR as reverting them.
           git merge --no-edit origin/main
           git push -u origin "$BRANCH"
-          gh pr create --base main --head "$BRANCH" \
-            --title "Pharma Daily - ${RUN_DATE}" --body-file pr_body.md || \
-            gh pr view "$BRANCH"
+          gh api -X POST "repos/${GITHUB_REPOSITORY}/pulls" \
+            -f title="Pharma Daily - ${RUN_DATE}" -f head="$BRANCH" -f base=main \
+            -F body=@pr_body.md || \
+          gh api "repos/${GITHUB_REPOSITORY}/pulls?head=${GITHUB_REPOSITORY_OWNER}:${BRANCH}&state=open" --jq '.[0].html_url'
