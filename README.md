@@ -21,19 +21,19 @@ npm run qc:assets
 cd tools/video && npm ci && uv sync
 ```
 
-The website build itself stays in the private site repository. A successful content merge triggers its Vercel deploy hook; the site build clones this repository and synchronizes the published content.
+The website build itself stays in the private site repository. A successful content merge triggers a production redeploy; the site build clones this repository and synchronizes the published content.
 
 ## Automation and secrets
 
-Workflows use GitHub-hosted Ubuntu runners. They never use a self-hosted runner on this public repository.
+Publishing workflows use the trusted Windows `pharma` self-hosted runner because the GitHub account currently cannot allocate hosted runners. Only `main`, schedules, manual dispatches, and merged-PR events execute on it. Fork pull requests never execute on the self-hosted runner; `content-qc` is manual-only, and daily content is checked before its review PR is created. The machine must remain online for scheduled jobs.
 
-Required secrets are configured in repository Settings > Secrets and variables > Actions:
+The runner reuses local resources instead of duplicating credentials into GitHub:
 
-- `VERCEL_DEPLOY_HOOK_URL`: production deploy hook for the private site.
-- `PORTFOLIO_READ_TOKEN`: fine-grained token with read-only Contents access to `yanmingyu92/portfolio`, used only to import due private drafts.
-- `YOUTUBE_CLIENT_SECRET_JSON`, `YOUTUBE_TOKEN_JSON`: YouTube upload and visibility management.
-- `DEV_TO_API_KEY`: dev.to weekly publishing.
-- Optional `KIMI_API` and `DEEPSEEK_KEY`: LLM editorial passes. Set variable `PHARMA_AGENT=1` only when these are configured.
+- `PRIVATE_SITE_ROOT` points to the private checkout for due drafts.
+- `VIDEO_TOOL_ROOT` points to the private `tools/video/` OAuth directory.
+- `deploy-site` uses `VERCEL_DEPLOY_HOOK_URL` when configured, otherwise the existing local Vercel CLI session to redeploy private `main`.
+- `DEV_TO_API_KEY` is still required for actual dev.to publication; without it the workflow performs a safe dry run.
+- Optional `KIMI_API` and `DEEPSEEK_KEY` enable the LLM editorial pass. Set `PHARMA_AGENT=1` only when these are configured.
 
 Never commit OAuth JSON, `.env` files, access tokens, private drafts, or local rendering caches. Existing secrets cannot be read back through GitHub; rotate them through the UI when needed.
 

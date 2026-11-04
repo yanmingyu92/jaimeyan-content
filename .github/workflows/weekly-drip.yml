@@ -16,21 +16,15 @@ concurrency:
 
 jobs:
   drip:
-    runs-on: ubuntu-latest
+    runs-on: [self-hosted, pharma]
+    defaults:
+      run:
+        shell: "C:/Users/JaimeYan/AppData/Local/Programs/Git/bin/bash.exe --noprofile --norc -eo pipefail {0}"
     timeout-minutes: 20
+    env:
+      PRIVATE_SITE_ROOT: C:/Users/JaimeYan/OneDrive - Kardigan/personal_testing/clinivista_docker/jaimeyan-site
     steps:
       - uses: actions/checkout@v6
-
-      - name: Read private drafts
-        uses: actions/checkout@v6
-        with:
-          repository: yanmingyu92/portfolio
-          ref: main
-          token: ${{ secrets.PORTFOLIO_READ_TOKEN }}
-          path: private
-          fetch-depth: 1
-          sparse-checkout: content/posts
-          persist-credentials: false
 
       - uses: actions/setup-node@v6
         with:
@@ -42,7 +36,7 @@ jobs:
       - name: Plan due releases from private drafts
         id: plan
         env:
-          DRIP_PRIVATE_POSTS_DIR: ${{ github.workspace }}/private/content/posts
+          DRIP_PRIVATE_POSTS_DIR: ${{ env.PRIVATE_SITE_ROOT }}/content/posts
         run: echo "due=$(node scripts/drip-next.mjs)" >> "$GITHUB_OUTPUT"
 
       - name: Nothing due
@@ -56,9 +50,9 @@ jobs:
         run: |
           SLUGS=$(printf '%s' "$DUE_JSON" | jq -r '.[].slug' | tr -d '\r')
           for s in $SLUGS; do
-            test -f "private/content/posts/$s.md"
+            test -f "$PRIVATE_SITE_ROOT/content/posts/$s.md"
             if [ ! -f "content/posts/$s.md" ]; then
-              cp "private/content/posts/$s.md" "content/posts/$s.md"
+              cp "$PRIVATE_SITE_ROOT/content/posts/$s.md" "content/posts/$s.md"
             fi
             echo "== releasing $s =="
             node scripts/drip-release.mjs "$s"

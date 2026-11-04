@@ -39,8 +39,9 @@ console.log('Title:', meta.title);
 console.log('Tags:', meta.tags.join(', '));
 console.log('Chapters:\n' + meta.chaptersHtml.split('\n').map((l) => '  ' + l).join('\n'));
 
-const SECRET_PATH = path.join(TOOL_ROOT, '.google-client-secret.json');
-const TOKEN_PATH = path.join(TOOL_ROOT, '.google-token.json');
+const CREDENTIAL_ROOT = process.env.VIDEO_TOOL_ROOT || TOOL_ROOT;
+const SECRET_PATH = path.join(CREDENTIAL_ROOT, '.google-client-secret.json');
+const TOKEN_PATH = path.join(CREDENTIAL_ROOT, '.google-token.json');
 
 if (dryRun || !fs.existsSync(SECRET_PATH) || !fs.existsSync(TOKEN_PATH)) {
   const out = writeManualChecklist(

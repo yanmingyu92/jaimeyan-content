@@ -16,7 +16,10 @@ concurrency:
 
 jobs:
   brief:
-    runs-on: ubuntu-latest
+    runs-on: [self-hosted, pharma]
+    defaults:
+      run:
+        shell: "C:/Users/JaimeYan/AppData/Local/Programs/Git/bin/bash.exe --noprofile --norc -eo pipefail {0}"
     timeout-minutes: 45
     steps:
       - uses: actions/checkout@v6
