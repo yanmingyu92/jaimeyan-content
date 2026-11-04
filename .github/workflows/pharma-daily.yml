@@ -107,19 +107,30 @@ jobs:
           EOF
 
       - name: Open review PR
-        uses: peter-evans/create-pull-request@v8
-        with:
-          branch: pharma-daily/${{ env.RUN_DATE }}
-          delete-branch: true
-          commit-message: "feat(pharma-daily): daily brief ${{ env.RUN_DATE }}"
-          title: "Pharma Daily - ${{ env.RUN_DATE }}"
-          body-path: pr_body.md
-          add-paths: |
-            content/posts
-            public/figures
-            public/audio
-            tools/pharma-daily/data/pharma.db
-            tools/pharma-daily/out/pack
-            tools/pharma-daily/out/questions
-            tools/pharma-daily/out/evidence
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          BRANCH="pharma-daily/${RUN_DATE}"
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git checkout -B "$BRANCH"
+          git add -- content/posts public/figures public/audio \
+            tools/pharma-daily/data/pharma.db tools/pharma-daily/out/pack \
+            tools/pharma-daily/out/questions tools/pharma-daily/out/evidence \
             tools/pharma-daily/out/review
+          if git diff --staged --quiet; then
+            echo "No daily changes to publish."
+            exit 0
+          fi
+          git commit -m "feat(pharma-daily): daily brief ${RUN_DATE}"
+          git fetch origin main
+          if git ls-remote --exit-code --heads origin "$BRANCH"; then
+            git pull --no-rebase origin "$BRANCH"
+          fi
+          # Include any workflow/config changes that landed while the pipeline
+          # ran, so GitHub does not see this PR as reverting them.
+          git merge --no-edit origin/main
+          git push -u origin "$BRANCH"
+          gh pr create --base main --head "$BRANCH" \
+            --title "Pharma Daily - ${RUN_DATE}" --body-file pr_body.md || \
+            gh pr view "$BRANCH"
