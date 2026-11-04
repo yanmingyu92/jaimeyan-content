@@ -5,6 +5,7 @@ description: "One pipeline, five first-hand sources: 3 deals, 0 FDA approvals an
 tags: ["pharma", "biotech", "daily-brief", "data-pipeline"]
 kind: note
 canonicalPath: /blog/pharma-daily-2026-10-05.html
+videoId: fEcND0h4Zv4
 audioPath: /audio/pharma-daily-2026-10-05.mp3
 ---
 
