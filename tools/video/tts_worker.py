@@ -12,6 +12,7 @@ import edge_tts
 
 MAX_ATTEMPTS = 3
 BACKOFF_SEC = 5
+TIMEOUT_SEC = 30
 
 
 async def synth(seg: dict) -> None:
@@ -34,7 +35,7 @@ async def synth_with_retry(seg: dict) -> None:
     last = None
     for attempt in range(1, MAX_ATTEMPTS + 1):
         try:
-            await synth(seg)
+            await asyncio.wait_for(synth(seg), timeout=TIMEOUT_SEC)
             return
         except Exception as e:  # noqa: BLE001 - report and retry any TTS failure
             last = e

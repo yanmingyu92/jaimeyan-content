@@ -1,5 +1,7 @@
 import path from 'node:path';
 import fs from 'node:fs';
+import ffmpeg from 'ffmpeg-static';
+import ffprobe from 'ffprobe-static';
 import { run, sha1, ensureDir } from './util.mjs';
 import { TOOL_ROOT } from './util.mjs';
 
@@ -21,7 +23,16 @@ export async function ensureTts(slides, settings, cacheDir) {
   if (jobs.length) {
     const jobFile = path.join(ttsDir, `job-${sha1(JSON.stringify(jobs.map((j) => j.mp3))).slice(0, 12)}.json`);
     fs.writeFileSync(jobFile, JSON.stringify({ segments: jobs }), 'utf8');
-    await run('uv', ['run', '--project', PY_PROJECT, 'python', path.join(TOOL_ROOT, 'tts_worker.py'), jobFile]);
+    try {
+      await run('uv', ['run', '--project', PY_PROJECT, 'python', path.join(TOOL_ROOT, 'tts_worker.py'), jobFile]);
+    } catch (error) {
+      if (process.platform !== 'win32') throw error;
+      console.warn('edge-tts failed; falling back to offline Windows SAPI');
+      await run('powershell.exe', [
+        '-NoProfile', '-ExecutionPolicy', 'Bypass', '-File', path.join(TOOL_ROOT, 'tts_worker_offline.ps1'),
+        jobFile, ffmpeg, ffprobe.path,
+      ]);
+    }
   }
   return result;
 }

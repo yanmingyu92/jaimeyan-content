@@ -49,7 +49,9 @@ export async function assembleVideo({ timeline, ttsMap, script, outDir, outMp4 }
   const rawAudio = path.join(outDir, 'narration-raw.mp3');
   await run(FFMPEG, ['-y', '-f', 'concat', '-safe', '0', '-i', alist, '-codec:a', 'copy', rawAudio]);
   const narration = path.join(outDir, 'narration.m4a');
-  await run(FFMPEG, ['-y', '-i', rawAudio, '-af', 'loudnorm=I=-16:TP=-1.5:LRA=11', '-ar', '44100', '-ac', '2', '-codec:a', 'aac', '-b:a', '192k', narration]);
+  // loudnorm can emit NaN/Inf on mixed MP3 inputs (notably offline SAPI
+  // segments), aborting the whole encode. Keep a stable, clipping-safe level.
+  await run(FFMPEG, ['-y', '-i', rawAudio, '-af', 'volume=0.9', '-ar', '44100', '-ac', '2', '-codec:a', 'aac', '-b:a', '192k', narration]);
 
   // ---- video frame playlist ----
   // Silence assets come in fixed durations, so the assembled narration runs

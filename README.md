@@ -46,7 +46,7 @@ npm run video:publish-existing            # read-only visibility audit
 npm run video:publish-existing -- --confirm  # make published posts' private videos public
 ```
 
-The visibility utility never re-uploads a video and does not change unlisted videos.
+The visibility utility never re-uploads a video and does not change unlisted videos. Narration uses edge-tts with a 30s timeout; on Windows it automatically falls back to offline SAPI (`tools/video/tts_worker_offline.ps1`) and bundled ffmpeg, with UTF-8/no-BOM timing JSON.
 
 ## Rights
 
