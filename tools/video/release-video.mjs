@@ -70,16 +70,17 @@ console.log('\n[4/5] blog QC');
 const qc = run('node', [path.join(SITE_ROOT, 'scripts', 'blog-qc.mjs'), '--all', postFile]);
 if (qc.status !== 0) { console.error('QC failed — videoId written but NOT committed. Fix and commit manually.'); process.exit(1); }
 
-// 5. commit + push
-console.log('\n[5/5] commit + push (Vercel deploys the embed)');
+// 5. commit + push (the following workflow step deploys the embed)
+console.log('\n[5/5] commit + push');
 const add = run('git', ['add', postFile]);
 const staged = spawnSync('git', ['diff', '--cached', '--name-only'], { cwd: SITE_ROOT, encoding: 'utf8' });
 if (add.status !== 0 || !staged.stdout.trim()) {
 	console.log('Nothing to commit (videoId already committed) — done.');
 } else {
 	const commit = run('git', ['commit', '-m', `feat(video): embed companion video for ${slug}`, '-m', `YouTube ${videoId}; via release-video.mjs (build + upload + write-back + QC).`]);
-	const push = run('git', ['push', 'origin', 'main']);
-	if (commit.status !== 0 || push.status !== 0) { console.error('git step failed — resolve and push manually.'); process.exit(1); }
+	const pull = commit.status === 0 ? run('git', ['pull', '--no-rebase', 'origin', 'main']) : null;
+	const push = pull && pull.status === 0 ? run('git', ['push', 'origin', 'main']) : null;
+	if (commit.status !== 0 || !pull || pull.status !== 0 || !push || push.status !== 0) { console.error('git step failed — resolve and push manually.'); process.exit(1); }
 }
 
 console.log(`\nDone. https://youtu.be/${videoId}  → embedded on /blog/${slug}.html`);
