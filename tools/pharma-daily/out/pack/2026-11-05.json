@@ -1,0 +1,901 @@
+{
+  "date": "2026-11-05",
+  "window": {
+    "start": "2026-11-04",
+    "end": "2026-11-05"
+  },
+  "deals": [
+    {
+      "company": "Zenas BioPharma, Inc.",
+      "ticker": "ZBIO",
+      "licensor": "InnoCare Pharma",
+      "licensee": "Zenas",
+      "type": "license",
+      "upfront_usd": 35000000.0,
+      "total_usd": 647100000.0,
+      "therapeutic_area": "neurology",
+      "modality": "monoclonal antibody",
+      "phase": "Phase 2",
+      "target": "CD19",
+      "percentile_total": 67.7,
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1953926/000110465926123035/tm2628936d1_ex99-1.htm",
+      "source_title": "Zenas BioPharma, Inc. 8-K mentioning license agreement"
+    },
+    {
+      "company": "OPKO HEALTH, INC.",
+      "ticker": "OPK",
+      "licensor": "Labcorp",
+      "licensee": "OPKO",
+      "type": "license",
+      "upfront_usd": null,
+      "total_usd": 722000000.0,
+      "therapeutic_area": "oncology",
+      "modality": "bispecific antibody",
+      "phase": "Phase 1",
+      "target": null,
+      "percentile_total": 71.0,
+      "source_url": "https://www.sec.gov/Archives/edgar/data/944809/000119312526447357/opk-ex99_1.htm",
+      "source_title": "OPKO HEALTH, INC. 8-K mentioning license agreement"
+    },
+    {
+      "company": "Summit Therapeutics Inc.",
+      "ticker": "SMMT",
+      "licensor": null,
+      "licensee": null,
+      "type": "collaboration",
+      "upfront_usd": null,
+      "total_usd": 2000000000.0,
+      "therapeutic_area": "oncology",
+      "modality": "ADC",
+      "phase": "Phase 3",
+      "target": "VEGF",
+      "percentile_total": 90.3,
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1599298/000159929826000088/a2026_prx1105xq32026earn.htm",
+      "source_title": "Summit Therapeutics Inc. 8-K mentioning collaboration agreement"
+    },
+    {
+      "company": "Monte Rosa Therapeutics, Inc.",
+      "ticker": "GLUE",
+      "licensor": null,
+      "licensee": null,
+      "type": "license",
+      "upfront_usd": null,
+      "total_usd": 582600000.0,
+      "therapeutic_area": "oncology",
+      "modality": "small molecule",
+      "phase": "Phase 1",
+      "target": "NEK7",
+      "percentile_total": 61.3,
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1826457/000119312526448527/glue-ex99_1.htm",
+      "source_title": "Monte Rosa Therapeutics, Inc. 8-K mentioning license agreement"
+    },
+    {
+      "company": "Climb Bio, Inc.",
+      "ticker": "CLYM",
+      "licensor": null,
+      "licensee": null,
+      "type": "license",
+      "upfront_usd": null,
+      "total_usd": 227600000.0,
+      "therapeutic_area": "immunology",
+      "modality": "monoclonal antibody",
+      "phase": "Phase 1",
+      "target": "APRIL",
+      "percentile_total": 45.2,
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1768446/000119312526448556/clym-ex99_1.htm",
+      "source_title": "Climb Bio, Inc. 8-K mentioning license agreement"
+    },
+    {
+      "company": "Aclaris Therapeutics, Inc.",
+      "ticker": "ACRS",
+      "licensor": null,
+      "licensee": null,
+      "type": "license",
+      "upfront_usd": null,
+      "total_usd": 204600000.0,
+      "therapeutic_area": "immunology",
+      "modality": "bispecific antibody",
+      "phase": "Phase 2b",
+      "target": "ITK",
+      "percentile_total": 41.9,
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1557746/000110465926123039/acrs-ex99d1.htm",
+      "source_title": "Aclaris Therapeutics, Inc. 8-K mentioning license agreement"
+    },
+    {
+      "company": "Nuvectis Pharma, Inc.",
+      "ticker": "NVCT",
+      "licensor": null,
+      "licensee": null,
+      "type": "license",
+      "upfront_usd": 30100000.0,
+      "total_usd": 140000000.0,
+      "therapeutic_area": "oncology",
+      "modality": "small molecule",
+      "phase": "Phase 1b",
+      "target": null,
+      "percentile_total": 29.0,
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1875558/000110465926122360/tm2628939d1_ex99-1.htm",
+      "source_title": "Nuvectis Pharma, Inc. 8-K mentioning license agreement"
+    },
+    {
+      "company": "Korro Bio, Inc.",
+      "ticker": "KRRO",
+      "licensor": null,
+      "licensee": null,
+      "type": "collaboration",
+      "upfront_usd": null,
+      "total_usd": 124800000.0,
+      "therapeutic_area": "neurology",
+      "modality": "RNA therapeutic",
+      "phase": "Phase 1/2",
+      "target": "AMPK",
+      "percentile_total": 22.6,
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1703647/000119312526448532/krro-ex99_1.htm",
+      "source_title": "Korro Bio, Inc. 8-K mentioning collaboration agreement"
+    },
+    {
+      "company": "Harmony Biosciences Holdings, Inc.",
+      "ticker": "HRMY",
+      "licensor": null,
+      "licensee": null,
+      "type": "license",
+      "upfront_usd": null,
+      "total_usd": 1040000000.0,
+      "therapeutic_area": "rare disease",
+      "modality": null,
+      "phase": "Phase 1b",
+      "target": "AET",
+      "percentile_total": 77.4,
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1802665/000110465926122377/hrmy-ex99d1.htm",
+      "source_title": "Harmony Biosciences Holdings, Inc. 8-K mentioning license agreement"
+    },
+    {
+      "company": "C4 Therapeutics, Inc.",
+      "ticker": "CCCC",
+      "licensor": null,
+      "licensee": null,
+      "type": "collaboration",
+      "upfront_usd": null,
+      "total_usd": 11200000.0,
+      "therapeutic_area": "oncology",
+      "modality": "bispecific antibody",
+      "phase": "Phase 2",
+      "target": null,
+      "percentile_total": 9.7,
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1662579/000162828026070560/exhibit991q32026earnings.htm",
+      "source_title": "C4 Therapeutics, Inc. 8-K mentioning collaboration agreement"
+    },
+    {
+      "company": "NewAmsterdam Pharma Co N.V.",
+      "ticker": "NAMS",
+      "licensor": null,
+      "licensee": null,
+      "type": "license",
+      "upfront_usd": null,
+      "total_usd": 643100000.0,
+      "therapeutic_area": "neurology",
+      "modality": null,
+      "phase": "Phase 2b",
+      "target": null,
+      "percentile_total": 64.5,
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1936258/000119312526446219/nams-ex99_1.htm",
+      "source_title": "NewAmsterdam Pharma Co N.V. 8-K mentioning license agreement"
+    },
+    {
+      "company": "Arcus Biosciences, Inc.",
+      "ticker": null,
+      "licensor": null,
+      "licensee": null,
+      "type": "collaboration",
+      "upfront_usd": null,
+      "total_usd": 288000000.0,
+      "therapeutic_area": "oncology",
+      "modality": "monoclonal antibody",
+      "phase": "Phase 3",
+      "target": null,
+      "percentile_total": 54.8,
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1724521/000172452126000056/a2026q38kexhibit991.htm",
+      "source_title": "Arcus Biosciences, Inc. 8-K mentioning collaboration agreement"
+    },
+    {
+      "company": "Dogwood Therapeutics, Inc.",
+      "ticker": "DWTX",
+      "licensor": null,
+      "licensee": null,
+      "type": "license",
+      "upfront_usd": null,
+      "total_usd": 5000000.0,
+      "therapeutic_area": "oncology",
+      "modality": null,
+      "phase": "Phase 2b",
+      "target": null,
+      "percentile_total": 3.2,
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1818844/000110465926123095/dwtx-ex99d1.htm",
+      "source_title": "Dogwood Therapeutics, Inc. 8-K mentioning license agreement"
+    },
+    {
+      "company": "Korro Bio, Inc.",
+      "ticker": null,
+      "licensor": "Korro",
+      "licensee": "Novo Nordisk",
+      "type": "license",
+      "upfront_usd": 10000000.0,
+      "total_usd": null,
+      "therapeutic_area": null,
+      "modality": null,
+      "phase": null,
+      "target": null,
+      "percentile_total": null,
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1703647/000119312526448532/krro-20261103.htm",
+      "source_title": "Korro Bio, Inc. 8-K mentioning license agreement"
+    },
+    {
+      "company": "",
+      "ticker": null,
+      "licensor": null,
+      "licensee": null,
+      "type": "other",
+      "upfront_usd": null,
+      "total_usd": 7000000000.0,
+      "therapeutic_area": "oncology",
+      "modality": "ADC",
+      "phase": null,
+      "target": null,
+      "percentile_total": null,
+      "source_url": "https://endpoints.news/boehringer-ingelheim-strikes-7b-backloaded-adc-tce-cancer-deal-with-chinas-sino/",
+      "source_title": "Boehringer Ingelheim strikes $7B backloaded ADC, TCE cancer deal with China's Sino"
+    },
+    {
+      "company": "",
+      "ticker": null,
+      "licensor": null,
+      "licensee": null,
+      "type": "license",
+      "upfront_usd": null,
+      "total_usd": 1470000000.0,
+      "therapeutic_area": "immunology",
+      "modality": null,
+      "phase": null,
+      "target": "IBD",
+      "percentile_total": 87.1,
+      "source_url": "https://endpoints.news/abbvie-bets-up-to-1-47b-on-nxeras-gut-targeting-ibd-program/",
+      "source_title": "AbbVie bets up to $1.47B on Nxera's gut-targeting IBD program"
+    },
+    {
+      "company": "T-Therapeutics",
+      "ticker": null,
+      "licensor": null,
+      "licensee": null,
+      "type": "other",
+      "upfront_usd": null,
+      "total_usd": 133000000.0,
+      "therapeutic_area": "oncology",
+      "modality": null,
+      "phase": null,
+      "target": null,
+      "percentile_total": null,
+      "source_url": "https://endpoints.news/t-therapeutics-secures-133m-for-cancer-autoimmune-tcrs/",
+      "source_title": "T-Therapeutics secures $133M for cancer, autoimmune TCRs"
+    },
+    {
+      "company": "",
+      "ticker": null,
+      "licensor": null,
+      "licensee": null,
+      "type": "financing",
+      "upfront_usd": null,
+      "total_usd": 90000000.0,
+      "therapeutic_area": "oncology",
+      "modality": "monoclonal antibody",
+      "phase": null,
+      "target": null,
+      "percentile_total": null,
+      "source_url": "https://endpoints.news/alethio-clinches-90m-to-advance-antibody-for-essential-thrombocythemia/",
+      "source_title": "Alethio clinches $90M to advance antibody for essential thrombocythemia"
+    },
+    {
+      "company": "Ellipsis Health / Kouper Health",
+      "ticker": null,
+      "licensor": "Kouper Health",
+      "licensee": "Ellipsis Health",
+      "type": "acquisition",
+      "upfront_usd": null,
+      "total_usd": null,
+      "therapeutic_area": null,
+      "modality": null,
+      "phase": null,
+      "target": null,
+      "percentile_total": null,
+      "source_url": "https://endpoints.news/ellipsis-health-buys-kouper-health-to-act-on-ai-voice-calls/",
+      "source_title": "Ellipsis Health buys Kouper Health to act on AI voice calls"
+    },
+    {
+      "company": "Avalo Therapeutics, Inc.",
+      "ticker": null,
+      "licensor": null,
+      "licensee": null,
+      "type": "license",
+      "upfront_usd": null,
+      "total_usd": null,
+      "therapeutic_area": null,
+      "modality": null,
+      "phase": null,
+      "target": null,
+      "percentile_total": null,
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1534120/000110465926123079/tm2628583d1_ex10-1.htm",
+      "source_title": "Avalo Therapeutics, Inc. 8-K mentioning license agreement"
+    },
+    {
+      "company": "FATE THERAPEUTICS INC",
+      "ticker": null,
+      "licensor": null,
+      "licensee": null,
+      "type": "collaboration",
+      "upfront_usd": null,
+      "total_usd": null,
+      "therapeutic_area": null,
+      "modality": null,
+      "phase": null,
+      "target": null,
+      "percentile_total": null,
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1434316/000119312526448530/fate-ex99_1.htm",
+      "source_title": "FATE THERAPEUTICS INC 8-K mentioning collaboration agreement"
+    },
+    {
+      "company": "",
+      "ticker": null,
+      "licensor": null,
+      "licensee": null,
+      "type": "license",
+      "upfront_usd": null,
+      "total_usd": null,
+      "therapeutic_area": "immunology",
+      "modality": null,
+      "phase": null,
+      "target": null,
+      "percentile_total": null,
+      "source_url": "https://endpoints.news/caldera-evommune-sign-china-licensing-deals-for-autoimmune-drugs/",
+      "source_title": "Caldera, Evommune sign China licensing deals for autoimmune drugs"
+    },
+    {
+      "company": "",
+      "ticker": null,
+      "licensor": null,
+      "licensee": null,
+      "type": "license",
+      "upfront_usd": null,
+      "total_usd": null,
+      "therapeutic_area": "metabolic",
+      "modality": null,
+      "phase": null,
+      "target": null,
+      "percentile_total": null,
+      "source_url": "https://endpoints.news/aasld26-merck-unwraps-mash-biopsy-data-for-drug-it-got-from-south-koreas-hanmi/",
+      "source_title": "#AASLD26: Merck unwraps biopsy data for MASH drug it got from South Korea's Hanmi"
+    }
+  ],
+  "approvals": [],
+  "readouts": [
+    {
+      "nct": "NCT06417814",
+      "phase": "Phase 3",
+      "sponsor": "AstraZeneca",
+      "title": "A Study to Investigate the Efficacy and Safety of Dato-DXd With or Without Osimertinib Compared With Platinum Based Doublet Chemotherapy in Participants With EGFR-Mutated Locally Advanced or Metastatic Non-Small Cell Lung Cancer",
+      "primary_completion": "2027-01-11",
+      "enrollment": 768,
+      "score": 34.4,
+      "url": "https://clinicaltrials.gov/study/NCT06417814"
+    },
+    {
+      "nct": "NCT04241185",
+      "phase": "Phase 3",
+      "sponsor": "Merck Sharp & Dohme LLC",
+      "title": "Efficacy and Safety of Pembrolizumab (MK-3475) in Combination With Chemoradiotherapy (CRT) Versus CRT Alone in Muscle-invasive Bladder Cancer (MIBC) (MK-3475-992/KEYNOTE-992)",
+      "primary_completion": "2027-01-31",
+      "enrollment": 520,
+      "score": 32.65,
+      "url": "https://clinicaltrials.gov/study/NCT04241185"
+    },
+    {
+      "nct": "NCT05780567",
+      "phase": "Phase 3",
+      "sponsor": "Chia Tai Tianqing Pharmaceutical Group Co., Ltd.",
+      "title": "Clinical Study on Adjuvant Therapy of TQB3616 Combined With Endocrine Therapy Compared With Placebo Combined With Endocrine Therapy in Patients With Breast Cancer",
+      "primary_completion": "2026-12",
+      "enrollment": 1946,
+      "score": 25.72,
+      "url": "https://clinicaltrials.gov/study/NCT05780567"
+    },
+    {
+      "nct": "NCT06615102",
+      "phase": "Phase 3",
+      "sponsor": "Universität Münster",
+      "title": "Reducing Cardiac-surgery Associated Acute Kidney Injury Occurence by Administering Angiotensin II",
+      "primary_completion": "2027-01",
+      "enrollment": 1022,
+      "score": 23.79,
+      "url": "https://clinicaltrials.gov/study/NCT06615102"
+    },
+    {
+      "nct": "NCT07146386",
+      "phase": "Phase 3",
+      "sponsor": "Shanghai Huilun Pharmaceutical Co., Ltd.",
+      "title": "A Phase III Clinical Study of H077 Sustained-Release Tablets Compared With Silodosin Capsules in the Treatment of Benign Prostatic Hyperplasia",
+      "primary_completion": "2027-01",
+      "enrollment": 728,
+      "score": 22.78,
+      "url": "https://clinicaltrials.gov/study/NCT07146386"
+    },
+    {
+      "nct": "NCT06641089",
+      "phase": "Phase 3",
+      "sponsor": "MoonLake Immunotherapeutics AG",
+      "title": "Evaluation of Sonelokimab in Patients With Active Psoriatic Arthritis and Anti-TNFα Inadequate Response",
+      "primary_completion": "2027-01-04",
+      "enrollment": 600,
+      "score": 22.2,
+      "url": "https://clinicaltrials.gov/study/NCT06641089"
+    },
+    {
+      "nct": "NCT05696353",
+      "phase": "Phase 3",
+      "sponsor": "Ginger Yang",
+      "title": "Teen Driving Translation Study (NIH)",
+      "primary_completion": "2026-12-31",
+      "enrollment": 588,
+      "score": 22.14,
+      "url": "https://clinicaltrials.gov/study/NCT05696353"
+    },
+    {
+      "nct": "NCT06887127",
+      "phase": "Phase 3",
+      "sponsor": "Hangzhou Highlightll Pharmaceutical Co., Ltd",
+      "title": "A Long-term Extension Clinical Study of TLL-018 in Patients With Rheumatoid Arthritis",
+      "primary_completion": "2026-12-31",
+      "enrollment": 350,
+      "score": 20.58,
+      "url": "https://clinicaltrials.gov/study/NCT06887127"
+    },
+    {
+      "nct": "NCT07052214",
+      "phase": "Phase 3",
+      "sponsor": "Telix Pharmaceuticals (Innovations) Pty Limited",
+      "title": "PSMA PET Combined With MRI for the Detection of PCa",
+      "primary_completion": "2027-01",
+      "enrollment": 338,
+      "score": 20.48,
+      "url": "https://clinicaltrials.gov/study/NCT07052214"
+    },
+    {
+      "nct": "NCT07487727",
+      "phase": "Phase 3",
+      "sponsor": "Kind Pharmaceuticals LLC",
+      "title": "A Study of AND017 to Evaluate Efficacy and Safety in Patients With Anemia Due to Non-Dialysis-Dependent Chronic Kidney Disease (NDD-CKD)",
+      "primary_completion": "2026-12-01",
+      "enrollment": 240,
+      "score": 19.45,
+      "url": "https://clinicaltrials.gov/study/NCT07487727"
+    },
+    {
+      "nct": "NCT06859957",
+      "phase": "Phase 3",
+      "sponsor": "Bart Koes",
+      "title": "Melatonin for Patients With Chronic Low Back Pain",
+      "primary_completion": "2026-12",
+      "enrollment": 222,
+      "score": 19.22,
+      "url": "https://clinicaltrials.gov/study/NCT06859957"
+    },
+    {
+      "nct": "NCT05281471",
+      "phase": "Phase 3",
+      "sponsor": "Genelux Corporation",
+      "title": "Efficacy & Safety of Olvi-Vec and Platinum-doublet + Bevacizumab Compared to Physician's Choice of Chemotherapy and Bevacizumab in Platinum-Resistant/Refractory Ovarian Cancer (PRROC) (OnPrime, GOG-3076)",
+      "primary_completion": "2026-12",
+      "enrollment": 186,
+      "score": 18.69,
+      "url": "https://clinicaltrials.gov/study/NCT05281471"
+    }
+  ],
+  "market": [
+    {
+      "ticker": "ZBIO",
+      "change_1d_pct": -7.2,
+      "as_of": "2026-11-05"
+    },
+    {
+      "ticker": "OPK",
+      "change_1d_pct": -4.24,
+      "as_of": "2026-11-05"
+    },
+    {
+      "ticker": "SMMT",
+      "change_1d_pct": -11.75,
+      "as_of": "2026-11-05"
+    },
+    {
+      "ticker": "GLUE",
+      "change_1d_pct": -5.55,
+      "as_of": "2026-11-05"
+    },
+    {
+      "ticker": "CLYM",
+      "change_1d_pct": -5.09,
+      "as_of": "2026-11-05"
+    },
+    {
+      "ticker": "ACRS",
+      "change_1d_pct": -1.63,
+      "as_of": "2026-11-05"
+    },
+    {
+      "ticker": "NVCT",
+      "change_1d_pct": -5.31,
+      "as_of": "2026-11-05"
+    },
+    {
+      "ticker": "KRRO",
+      "change_1d_pct": -6.74,
+      "as_of": "2026-11-05"
+    },
+    {
+      "ticker": "HRMY",
+      "change_1d_pct": -5.17,
+      "as_of": "2026-11-05"
+    },
+    {
+      "ticker": "CCCC",
+      "change_1d_pct": -6.25,
+      "as_of": "2026-11-05"
+    },
+    {
+      "ticker": "NAMS",
+      "change_1d_pct": -8.5,
+      "as_of": "2026-11-05"
+    },
+    {
+      "ticker": "DWTX",
+      "change_1d_pct": -2.91,
+      "as_of": "2026-11-05"
+    }
+  ],
+  "comps": {
+    "n_historical": 31,
+    "median_total_usd": 250000000.0,
+    "thin_sample": false
+  },
+  "insights": [
+    {
+      "move": "structure-over-headline",
+      "text": "Nuvectis Pharma, Inc.: upfront is 21.5% of the headline total — above the classic 5–10% band; the buyer paid real cash up front.",
+      "numbers": {
+        "company": "Nuvectis Pharma, Inc.",
+        "upfront_usd": 30100000.0,
+        "total_usd": 140000000.0,
+        "share": 0.215
+      },
+      "confidence": "computed"
+    },
+    {
+      "move": "market-verdict",
+      "text": "ZBIO moved -7.2% on the day (on a deal ticker, as of 2026-11-05).",
+      "numbers": {
+        "ticker": "ZBIO",
+        "change_1d_pct": -7.2,
+        "as_of": "2026-11-05",
+        "deal_linked": true
+      },
+      "confidence": "computed"
+    },
+    {
+      "move": "market-verdict",
+      "text": "OPK moved -4.2% on the day (on a deal ticker, as of 2026-11-05).",
+      "numbers": {
+        "ticker": "OPK",
+        "change_1d_pct": -4.24,
+        "as_of": "2026-11-05",
+        "deal_linked": true
+      },
+      "confidence": "computed"
+    },
+    {
+      "move": "market-verdict",
+      "text": "SMMT moved -11.8% on the day (on a deal ticker, as of 2026-11-05).",
+      "numbers": {
+        "ticker": "SMMT",
+        "change_1d_pct": -11.75,
+        "as_of": "2026-11-05",
+        "deal_linked": true
+      },
+      "confidence": "computed"
+    },
+    {
+      "move": "market-verdict",
+      "text": "GLUE moved -5.5% on the day (on a deal ticker, as of 2026-11-05).",
+      "numbers": {
+        "ticker": "GLUE",
+        "change_1d_pct": -5.55,
+        "as_of": "2026-11-05",
+        "deal_linked": true
+      },
+      "confidence": "computed"
+    },
+    {
+      "move": "market-verdict",
+      "text": "CLYM moved -5.1% on the day (on a deal ticker, as of 2026-11-05).",
+      "numbers": {
+        "ticker": "CLYM",
+        "change_1d_pct": -5.09,
+        "as_of": "2026-11-05",
+        "deal_linked": true
+      },
+      "confidence": "computed"
+    },
+    {
+      "move": "market-verdict",
+      "text": "NVCT moved -5.3% on the day (on a deal ticker, as of 2026-11-05).",
+      "numbers": {
+        "ticker": "NVCT",
+        "change_1d_pct": -5.31,
+        "as_of": "2026-11-05",
+        "deal_linked": true
+      },
+      "confidence": "computed"
+    },
+    {
+      "move": "market-verdict",
+      "text": "KRRO moved -6.7% on the day (on a deal ticker, as of 2026-11-05).",
+      "numbers": {
+        "ticker": "KRRO",
+        "change_1d_pct": -6.74,
+        "as_of": "2026-11-05",
+        "deal_linked": true
+      },
+      "confidence": "computed"
+    },
+    {
+      "move": "market-verdict",
+      "text": "HRMY moved -5.2% on the day (on a deal ticker, as of 2026-11-05).",
+      "numbers": {
+        "ticker": "HRMY",
+        "change_1d_pct": -5.17,
+        "as_of": "2026-11-05",
+        "deal_linked": true
+      },
+      "confidence": "computed"
+    },
+    {
+      "move": "market-verdict",
+      "text": "CCCC moved -6.2% on the day (on a deal ticker, as of 2026-11-05).",
+      "numbers": {
+        "ticker": "CCCC",
+        "change_1d_pct": -6.25,
+        "as_of": "2026-11-05",
+        "deal_linked": true
+      },
+      "confidence": "computed"
+    },
+    {
+      "move": "market-verdict",
+      "text": "NAMS moved -8.5% on the day (on a deal ticker, as of 2026-11-05).",
+      "numbers": {
+        "ticker": "NAMS",
+        "change_1d_pct": -8.5,
+        "as_of": "2026-11-05",
+        "deal_linked": true
+      },
+      "confidence": "computed"
+    },
+    {
+      "move": "absence-as-signal",
+      "text": "Zero FDA approvals in a weekday window — quiet days cluster before PDUFA batches; watch the next 5 sessions for a catch-up.",
+      "numbers": {
+        "approvals": 0
+      },
+      "confidence": "computed"
+    }
+  ],
+  "figures": [
+    {
+      "path": "out\\figures\\2026-11-05\\deal-sizes.png",
+      "takeaway": "Largest disclosed total $2B — vs 31 accumulated comps"
+    },
+    {
+      "path": "out\\figures\\2026-11-05\\market-reaction.png",
+      "takeaway": "ACRS led deal tickers at -1.6%; 0 of 12 rose"
+    }
+  ],
+  "sources": [
+    {
+      "title": "Zenas BioPharma, Inc. 8-K mentioning license agreement",
+      "url": "https://www.sec.gov/Archives/edgar/data/1953926/000110465926123035/tm2628936d1_ex99-1.htm",
+      "outlet": "sec-edgar"
+    },
+    {
+      "title": "OPKO HEALTH, INC. 8-K mentioning license agreement",
+      "url": "https://www.sec.gov/Archives/edgar/data/944809/000119312526447357/opk-ex99_1.htm",
+      "outlet": "sec-edgar"
+    },
+    {
+      "title": "Summit Therapeutics Inc. 8-K mentioning collaboration agreement",
+      "url": "https://www.sec.gov/Archives/edgar/data/1599298/000159929826000088/a2026_prx1105xq32026earn.htm",
+      "outlet": "sec-edgar"
+    },
+    {
+      "title": "Monte Rosa Therapeutics, Inc. 8-K mentioning license agreement",
+      "url": "https://www.sec.gov/Archives/edgar/data/1826457/000119312526448527/glue-ex99_1.htm",
+      "outlet": "sec-edgar"
+    },
+    {
+      "title": "Climb Bio, Inc. 8-K mentioning license agreement",
+      "url": "https://www.sec.gov/Archives/edgar/data/1768446/000119312526448556/clym-ex99_1.htm",
+      "outlet": "sec-edgar"
+    },
+    {
+      "title": "Aclaris Therapeutics, Inc. 8-K mentioning license agreement",
+      "url": "https://www.sec.gov/Archives/edgar/data/1557746/000110465926123039/acrs-ex99d1.htm",
+      "outlet": "sec-edgar"
+    },
+    {
+      "title": "Nuvectis Pharma, Inc. 8-K mentioning license agreement",
+      "url": "https://www.sec.gov/Archives/edgar/data/1875558/000110465926122360/tm2628939d1_ex99-1.htm",
+      "outlet": "sec-edgar"
+    },
+    {
+      "title": "Korro Bio, Inc. 8-K mentioning collaboration agreement",
+      "url": "https://www.sec.gov/Archives/edgar/data/1703647/000119312526448532/krro-ex99_1.htm",
+      "outlet": "sec-edgar"
+    },
+    {
+      "title": "Harmony Biosciences Holdings, Inc. 8-K mentioning license agreement",
+      "url": "https://www.sec.gov/Archives/edgar/data/1802665/000110465926122377/hrmy-ex99d1.htm",
+      "outlet": "sec-edgar"
+    },
+    {
+      "title": "C4 Therapeutics, Inc. 8-K mentioning collaboration agreement",
+      "url": "https://www.sec.gov/Archives/edgar/data/1662579/000162828026070560/exhibit991q32026earnings.htm",
+      "outlet": "sec-edgar"
+    },
+    {
+      "title": "NewAmsterdam Pharma Co N.V. 8-K mentioning license agreement",
+      "url": "https://www.sec.gov/Archives/edgar/data/1936258/000119312526446219/nams-ex99_1.htm",
+      "outlet": "sec-edgar"
+    },
+    {
+      "title": "Arcus Biosciences, Inc. 8-K mentioning collaboration agreement",
+      "url": "https://www.sec.gov/Archives/edgar/data/1724521/000172452126000056/a2026q38kexhibit991.htm",
+      "outlet": "sec-edgar"
+    },
+    {
+      "title": "Dogwood Therapeutics, Inc. 8-K mentioning license agreement",
+      "url": "https://www.sec.gov/Archives/edgar/data/1818844/000110465926123095/dwtx-ex99d1.htm",
+      "outlet": "sec-edgar"
+    },
+    {
+      "title": "Korro Bio, Inc. 8-K mentioning license agreement",
+      "url": "https://www.sec.gov/Archives/edgar/data/1703647/000119312526448532/krro-20261103.htm",
+      "outlet": "sec-edgar"
+    },
+    {
+      "title": "Boehringer Ingelheim strikes $7B backloaded ADC, TCE cancer deal with China's Sino",
+      "url": "https://endpoints.news/boehringer-ingelheim-strikes-7b-backloaded-adc-tce-cancer-deal-with-chinas-sino/",
+      "outlet": "endpoints"
+    },
+    {
+      "title": "AbbVie bets up to $1.47B on Nxera's gut-targeting IBD program",
+      "url": "https://endpoints.news/abbvie-bets-up-to-1-47b-on-nxeras-gut-targeting-ibd-program/",
+      "outlet": "endpoints"
+    },
+    {
+      "title": "T-Therapeutics secures $133M for cancer, autoimmune TCRs",
+      "url": "https://endpoints.news/t-therapeutics-secures-133m-for-cancer-autoimmune-tcrs/",
+      "outlet": "endpoints"
+    },
+    {
+      "title": "Alethio clinches $90M to advance antibody for essential thrombocythemia",
+      "url": "https://endpoints.news/alethio-clinches-90m-to-advance-antibody-for-essential-thrombocythemia/",
+      "outlet": "endpoints"
+    },
+    {
+      "title": "Ellipsis Health buys Kouper Health to act on AI voice calls",
+      "url": "https://endpoints.news/ellipsis-health-buys-kouper-health-to-act-on-ai-voice-calls/",
+      "outlet": "endpoints"
+    },
+    {
+      "title": "Avalo Therapeutics, Inc. 8-K mentioning license agreement",
+      "url": "https://www.sec.gov/Archives/edgar/data/1534120/000110465926123079/tm2628583d1_ex10-1.htm",
+      "outlet": "sec-edgar"
+    },
+    {
+      "title": "FATE THERAPEUTICS INC 8-K mentioning collaboration agreement",
+      "url": "https://www.sec.gov/Archives/edgar/data/1434316/000119312526448530/fate-ex99_1.htm",
+      "outlet": "sec-edgar"
+    },
+    {
+      "title": "Caldera, Evommune sign China licensing deals for autoimmune drugs",
+      "url": "https://endpoints.news/caldera-evommune-sign-china-licensing-deals-for-autoimmune-drugs/",
+      "outlet": "endpoints"
+    },
+    {
+      "title": "#AASLD26: Merck unwraps biopsy data for MASH drug it got from South Korea's Hanmi",
+      "url": "https://endpoints.news/aasld26-merck-unwraps-mash-biopsy-data-for-drug-it-got-from-south-koreas-hanmi/",
+      "outlet": "endpoints"
+    },
+    {
+      "title": "A Study to Investigate the Efficacy and Safety of Dato-DXd With or Without Osimertinib Compared With Platinum Based Doublet Chemotherapy in ",
+      "url": "https://clinicaltrials.gov/study/NCT06417814",
+      "outlet": "ctgov"
+    },
+    {
+      "title": "Efficacy and Safety of Pembrolizumab (MK-3475) in Combination With Chemoradiotherapy (CRT) Versus CRT Alone in Muscle-invasive Bladder Cance",
+      "url": "https://clinicaltrials.gov/study/NCT04241185",
+      "outlet": "ctgov"
+    },
+    {
+      "title": "Clinical Study on Adjuvant Therapy of TQB3616 Combined With Endocrine Therapy Compared With Placebo Combined With Endocrine Therapy in Patie",
+      "url": "https://clinicaltrials.gov/study/NCT05780567",
+      "outlet": "ctgov"
+    },
+    {
+      "title": "Reducing Cardiac-surgery Associated Acute Kidney Injury Occurence by Administering Angiotensin II",
+      "url": "https://clinicaltrials.gov/study/NCT06615102",
+      "outlet": "ctgov"
+    },
+    {
+      "title": "A Phase III Clinical Study of H077 Sustained-Release Tablets Compared With Silodosin Capsules in the Treatment of Benign Prostatic Hyperplas",
+      "url": "https://clinicaltrials.gov/study/NCT07146386",
+      "outlet": "ctgov"
+    },
+    {
+      "title": "Evaluation of Sonelokimab in Patients With Active Psoriatic Arthritis and Anti-TNFα Inadequate Response",
+      "url": "https://clinicaltrials.gov/study/NCT06641089",
+      "outlet": "ctgov"
+    },
+    {
+      "title": "Teen Driving Translation Study (NIH)",
+      "url": "https://clinicaltrials.gov/study/NCT05696353",
+      "outlet": "ctgov"
+    },
+    {
+      "title": "A Long-term Extension Clinical Study of TLL-018 in Patients With Rheumatoid Arthritis",
+      "url": "https://clinicaltrials.gov/study/NCT06887127",
+      "outlet": "ctgov"
+    },
+    {
+      "title": "PSMA PET Combined With MRI for the Detection of PCa",
+      "url": "https://clinicaltrials.gov/study/NCT07052214",
+      "outlet": "ctgov"
+    },
+    {
+      "title": "A Study of AND017 to Evaluate Efficacy and Safety in Patients With Anemia Due to Non-Dialysis-Dependent Chronic Kidney Disease (NDD-CKD)",
+      "url": "https://clinicaltrials.gov/study/NCT07487727",
+      "outlet": "ctgov"
+    },
+    {
+      "title": "Melatonin for Patients With Chronic Low Back Pain",
+      "url": "https://clinicaltrials.gov/study/NCT06859957",
+      "outlet": "ctgov"
+    },
+    {
+      "title": "Efficacy & Safety of Olvi-Vec and Platinum-doublet + Bevacizumab Compared to Physician's Choice of Chemotherapy and Bevacizumab in Platinum-",
+      "url": "https://clinicaltrials.gov/study/NCT05281471",
+      "outlet": "ctgov"
+    }
+  ],
+  "provenance": {
+    "fetched_at": "2026-11-05T20:37:14.910844+00:00",
+    "sources_ok": [
+      "sec-edgar",
+      "openfda",
+      "ctgov",
+      "fda-press",
+      "ema-news",
+      "fiercepharma",
+      "fiercebiotech",
+      "biopharmadive",
+      "endpoints",
+      "prnewswire"
+    ],
+    "sources_failed": []
+  }
+}
