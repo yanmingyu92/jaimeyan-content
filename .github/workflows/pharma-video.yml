@@ -25,10 +25,7 @@ jobs:
       github.event_name == 'workflow_dispatch' ||
       (github.event.pull_request.merged == true &&
        startsWith(github.event.pull_request.head.ref, 'pharma-daily/'))
-    runs-on: [self-hosted, pharma]
-    defaults:
-      run:
-        shell: "C:/Users/JaimeYan/AppData/Local/Programs/Git/bin/bash.exe --noprofile --norc -eo pipefail {0}"
+    runs-on: ubuntu-latest
     timeout-minutes: 45
     steps:
       - uses: actions/checkout@v6
@@ -48,8 +45,7 @@ jobs:
         with:
           node-version: 22
 
-      # The trusted Windows runner already has system Chrome; build-video.mjs
-      # auto-detects it. Avoid a network-dependent browser download here.
+      # ubuntu-latest ships Google Chrome; build-video.mjs auto-detects it.
       - uses: astral-sh/setup-uv@v8.3.2
         with:
           enable-cache: true
@@ -61,13 +57,17 @@ jobs:
           npm ci
           uv sync --locked
 
-      - name: Use existing local YouTube OAuth files
+      - name: Restore YouTube OAuth files
+        env:
+          YT_CLIENT: ${{ secrets.YOUTUBE_CLIENT_SECRET_JSON }}
+          YT_TOKEN: ${{ secrets.YOUTUBE_TOKEN_JSON }}
         run: |
-          echo "VIDEO_TOOL_ROOT=C:/Users/JaimeYan/OneDrive - Kardigan/personal_testing/clinivista_docker/jaimeyan-site/tools/video" >> "$GITHUB_ENV"
-          if [ ! -s "$VIDEO_TOOL_ROOT/.google-client-secret.json" ] || [ ! -s "$VIDEO_TOOL_ROOT/.google-token.json" ]; then
-            echo "::error::Run npm run video:auth in the private site checkout first."
+          if [ -z "$YT_CLIENT" ] || [ -z "$YT_TOKEN" ]; then
+            echo "::error::Set the YOUTUBE_CLIENT_SECRET_JSON and YOUTUBE_TOKEN_JSON repo secrets."
             exit 1
           fi
+          printf '%s' "$YT_CLIENT" > tools/video/.google-client-secret.json
+          printf '%s' "$YT_TOKEN" > tools/video/.google-token.json
 
       - name: Configure git identity for write-back
         run: |

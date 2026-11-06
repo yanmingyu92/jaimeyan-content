@@ -16,15 +16,22 @@ concurrency:
 
 jobs:
   drip:
-    runs-on: [self-hosted, pharma]
-    defaults:
-      run:
-        shell: "C:/Users/JaimeYan/AppData/Local/Programs/Git/bin/bash.exe --noprofile --norc -eo pipefail {0}"
+    runs-on: ubuntu-latest
     timeout-minutes: 20
     env:
-      PRIVATE_SITE_ROOT: C:/Users/JaimeYan/OneDrive - Kardigan/personal_testing/clinivista_docker/jaimeyan-site
+      PRIVATE_SITE_ROOT: ${{ github.workspace }}/.private-site
     steps:
       - uses: actions/checkout@v6
+
+      # Read-only checkout of the private site's drafts. PRIVATE_SITE_TOKEN is a
+      # fine-grained PAT owned by yanmingyu92 with contents:read on portfolio.
+      - uses: actions/checkout@v6
+        with:
+          repository: yanmingyu92/portfolio
+          token: ${{ secrets.PRIVATE_SITE_TOKEN }}
+          path: .private-site
+          sparse-checkout: content/posts
+          persist-credentials: false
 
       - uses: actions/setup-node@v6
         with:
