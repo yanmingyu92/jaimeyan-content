@@ -15,22 +15,15 @@ permissions:
 
 jobs:
   deploy:
-    runs-on: [self-hosted, pharma]
-    defaults:
-      run:
-        shell: "C:/Users/JaimeYan/AppData/Local/Programs/Git/bin/bash.exe --noprofile --norc -eo pipefail {0}"
+    runs-on: ubuntu-latest
     timeout-minutes: 10
     steps:
       - name: Trigger the private site's Vercel production build
         env:
           VERCEL_DEPLOY_HOOK_URL: ${{ secrets.VERCEL_DEPLOY_HOOK_URL }}
         run: |
-          if [ -n "$VERCEL_DEPLOY_HOOK_URL" ]; then
-            curl --fail --silent --show-error --retry 3 --request POST "$VERCEL_DEPLOY_HOOK_URL"
-            exit 0
+          if [ -z "$VERCEL_DEPLOY_HOOK_URL" ]; then
+            echo "::error::Set the VERCEL_DEPLOY_HOOK_URL repo secret (Vercel > portfolio > Settings > Git > Deploy Hooks)."
+            exit 1
           fi
-          # Trusted-runner fallback: reuse the existing Vercel CLI session and
-          # redeploy private main, whose build clones the latest public content.
-          VERCEL="C:/Users/JaimeYan/OneDrive - Kardigan/personal_testing/clinivista_docker/jaimeyan-site/tmp/vercel-cli/node_modules/.bin/vercel"
-          PROD_URL=$("$VERCEL" api "/v9/projects/portfolio?teamId=team_bIKPWjEXwImRjk6Jdpsj3yAe" --raw | node -e "let s='';process.stdin.on('data',d=>s+=d).on('end',()=>console.log(JSON.parse(s).targets.production.url))")
-          "$VERCEL" redeploy "$PROD_URL" --environment production --no-wait
+          curl --fail --silent --show-error --retry 3 --request POST "$VERCEL_DEPLOY_HOOK_URL"
